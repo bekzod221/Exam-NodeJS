@@ -1,0 +1,435 @@
+<div class="cart-page">
+    <div class="container">
+        <div class="cart-header">
+            <h1>Shopping Cart</h1>
+            <p>Review your selected vehicles</p>
+        </div>
+
+        <div class="cart-content">
+            <!-- Cart Items -->
+            <div class="cart-items" id="cartItems">
+                <div class="loading-cart">
+                    <div class="loading-spinner"></div>
+                    <p>Loading your cart...</p>
+                </div>
+            </div>
+
+            <!-- Cart Summary -->
+            <div class="cart-summary">
+                <div class="summary-card">
+                    <h3>Order Summary</h3>
+                    
+                    <div class="summary-row">
+                        <span>Items:</span>
+                        <span id="totalItems">0</span>
+                    </div>
+                    
+                    <div class="summary-row">
+                        <span>Subtotal:</span>
+                        <span id="subtotal">$0</span>
+                    </div>
+                    
+                    <div class="summary-row total">
+                        <span>Total:</span>
+                        <span id="totalPrice">$0</span>
+                    </div>
+
+                    <div class="cart-actions">
+                        <button class="btn btn-primary checkout-btn" id="checkoutBtn" disabled>
+                            <span class="btn-text">Proceed to Checkout</span>
+                            <span class="btn-loader" style="display: none;">⏳</span>
+                        </button>
+                        
+                        <button class="btn btn-outline clear-cart-btn" id="clearCartBtn">
+                            Clear Cart
+                        </button>
+                    </div>
+
+                    <div class="cart-info">
+                        <p>🛡️ Secure checkout with SSL encryption</p>
+                        <p>🚚 Free delivery on orders over $50,000</p>
+                        <p>↩️ 30-day return policy</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Empty Cart State -->
+        <div class="empty-cart" id="emptyCart" style="display: none;">
+            <div class="empty-cart-content">
+                <div class="empty-cart-icon">🛒</div>
+                <h2>Your cart is empty</h2>
+                <p>Looks like you haven't added any vehicles to your cart yet.</p>
+                <a href="/models" class="btn btn-primary">Browse Vehicles</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Checkout Modal -->
+<div class="modal" id="checkoutModal">
+    <div class="modal-content checkout-modal">
+        <div class="modal-header">
+            <h3>Complete Your Order</h3>
+            <button class="modal-close" id="closeCheckoutModal">×</button>
+        </div>
+        
+        <form id="checkoutForm" class="checkout-form">
+            <div class="form-section">
+                <h4>Contact Information</h4>
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="checkoutEmail">Email Address</label>
+                        <input type="email" id="checkoutEmail" name="email" required />
+                    </div>
+                    <div class="form-group">
+                        <label for="checkoutPhone">Phone Number</label>
+                        <input type="tel" id="checkoutPhone" name="phone" required />
+                    </div>
+                </div>
+            </div>
+
+            <div class="form-section">
+                <h4>Shipping Address</h4>
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="checkoutStreet">Street Address</label>
+                        <input type="text" id="checkoutStreet" name="street" required />
+                    </div>
+                    <div class="form-group">
+                        <label for="checkoutCity">City</label>
+                        <input type="text" id="checkoutCity" name="city" required />
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="checkoutState">State/Province</label>
+                        <input type="text" id="checkoutState" name="state" required />
+                    </div>
+                    <div class="form-group">
+                        <label for="checkoutZip">ZIP/Postal Code</label>
+                        <input type="text" id="checkoutZip" name="zipCode" required />
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="checkoutCountry">Country</label>
+                    <input type="text" id="checkoutCountry" name="country" required />
+                </div>
+            </div>
+
+            <div class="form-section">
+                <h4>Payment Method</h4>
+                <div class="payment-methods">
+                    <label class="payment-method">
+                        <input type="radio" name="paymentMethod" value="credit_card" checked />
+                        <span class="method-icon">💳</span>
+                        <span class="method-text">Credit Card</span>
+                    </label>
+                    <label class="payment-method">
+                        <input type="radio" name="paymentMethod" value="bank_transfer" />
+                        <span class="method-icon">🏦</span>
+                        <span class="method-text">Bank Transfer</span>
+                    </label>
+                    <label class="payment-method">
+                        <input type="radio" name="paymentMethod" value="cash" />
+                        <span class="method-icon">💰</span>
+                        <span class="method-text">Cash on Delivery</span>
+                    </label>
+                </div>
+            </div>
+
+            <div class="form-section">
+                <h4>Additional Notes</h4>
+                <div class="form-group">
+                    <textarea id="checkoutNotes" name="notes" placeholder="Any special instructions or notes..."></textarea>
+                </div>
+            </div>
+
+            <div class="checkout-summary">
+                <h4>Order Summary</h4>
+                <div id="checkoutItems"></div>
+                <div class="checkout-total">
+                    <span>Total:</span>
+                    <span id="checkoutTotal">$0</span>
+                </div>
+            </div>
+
+            <div class="form-actions">
+                <button type="button" class="btn btn-outline" id="cancelCheckout">Cancel</button>
+                <button type="submit" class="btn btn-primary">
+                    <span class="btn-text">Place Order</span>
+                    <span class="btn-loader" style="display: none;">⏳</span>
+                </button>
+            </div>
+        </form>
+    </div>
+</div>
+
+<script>
+let cartData = null;
+
+// Load cart on page load
+document.addEventListener('DOMContentLoaded', loadCart);
+
+async function loadCart() {
+    try {
+        const response = await fetch('/api/cart');
+        const result = await response.json();
+        
+        if (result.success) {
+            cartData = result.data;
+            renderCart();
+        } else {
+            showNotification('Failed to load cart', 'error');
+        }
+    } catch (error) {
+        console.error('Error loading cart:', error);
+        showNotification('Failed to load cart', 'error');
+    }
+}
+
+function renderCart() {
+    const cartItems = document.getElementById('cartItems');
+    const emptyCart = document.getElementById('emptyCart');
+    const checkoutBtn = document.getElementById('checkoutBtn');
+    
+    if (!cartData || cartData.items.length === 0) {
+        cartItems.style.display = 'none';
+        emptyCart.style.display = 'block';
+        checkoutBtn.disabled = true;
+        return;
+    }
+    
+    cartItems.style.display = 'block';
+    emptyCart.style.display = 'none';
+    checkoutBtn.disabled = false;
+    
+    // Render cart items
+    cartItems.innerHTML = cartData.items.map(item => `
+        <div class="cart-item" data-car-id="${item.car._id}">
+            <div class="item-image">
+                <img src="${item.car.images.exterior || '/assets/images/cars/default.jpg'}" alt="${item.car.brand} ${item.car.model}" />
+            </div>
+            
+            <div class="item-details">
+                <h4>${item.car.brand} ${item.car.model} ${item.car.year}</h4>
+                <p class="item-category">${item.car.category.name}</p>
+                <p class="item-price">$${item.car.price.toLocaleString()}</p>
+            </div>
+            
+            <div class="item-quantity">
+                <button class="quantity-btn" onclick="updateQuantity('${item.car._id}', ${item.quantity - 1})">-</button>
+                <span class="quantity">${item.quantity}</span>
+                <button class="quantity-btn" onclick="updateQuantity('${item.car._id}', ${item.quantity + 1})">+</button>
+            </div>
+            
+            <div class="item-total">
+                $${(item.car.price * item.quantity).toLocaleString()}
+            </div>
+            
+            <button class="remove-btn" onclick="removeFromCart('${item.car._id}')">
+                <span class="remove-icon">🗑️</span>
+            </button>
+        </div>
+    `).join('');
+    
+    // Update summary
+    updateCartSummary();
+}
+
+function updateCartSummary() {
+    const totalItems = cartData.items.reduce((sum, item) => sum + item.quantity, 0);
+    const totalPrice = cartData.items.reduce((sum, item) => sum + (item.car.price * item.quantity), 0);
+    
+    document.getElementById('totalItems').textContent = totalItems;
+    document.getElementById('subtotal').textContent = `$${totalPrice.toLocaleString()}`;
+    document.getElementById('totalPrice').textContent = `$${totalPrice.toLocaleString()}`;
+    
+    // Update cart count in header
+    const cartCount = document.getElementById('cartCount');
+    if (cartCount) {
+        cartCount.textContent = totalItems;
+    }
+}
+
+async function updateQuantity(carId, newQuantity) {
+    if (newQuantity < 1) return;
+    
+    try {
+        const response = await fetch('/api/cart/update', {
+            method: 'PUT',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ carId, quantity: newQuantity })
+        });
+        
+        const result = await response.json();
+        
+        if (result.success) {
+            cartData = result.data;
+            renderCart();
+        } else {
+            showNotification(result.message, 'error');
+        }
+    } catch (error) {
+        console.error('Error updating quantity:', error);
+        showNotification('Failed to update quantity', 'error');
+    }
+}
+
+async function removeFromCart(carId) {
+    try {
+        const response = await fetch(`/api/cart/remove/${carId}`, {
+            method: 'DELETE'
+        });
+        
+        const result = await response.json();
+        
+        if (result.success) {
+            cartData = result.data;
+            renderCart();
+            showNotification('Item removed from cart', 'success');
+        } else {
+            showNotification(result.message, 'error');
+        }
+    } catch (error) {
+        console.error('Error removing item:', error);
+        showNotification('Failed to remove item', 'error');
+    }
+}
+
+async function clearCart() {
+    if (!confirm('Are you sure you want to clear your cart?')) return;
+    
+    try {
+        const response = await fetch('/api/cart/clear', {
+            method: 'DELETE'
+        });
+        
+        const result = await response.json();
+        
+        if (result.success) {
+            cartData = result.data;
+            renderCart();
+            showNotification('Cart cleared', 'success');
+        } else {
+            showNotification(result.message, 'error');
+        }
+    } catch (error) {
+        console.error('Error clearing cart:', error);
+        showNotification('Failed to clear cart', 'error');
+    }
+}
+
+// Checkout functionality
+document.getElementById('checkoutBtn').addEventListener('click', () => {
+    document.getElementById('checkoutModal').style.display = 'flex';
+    renderCheckoutSummary();
+});
+
+document.getElementById('closeCheckoutModal').addEventListener('click', () => {
+    document.getElementById('checkoutModal').style.display = 'none';
+});
+
+document.getElementById('cancelCheckout').addEventListener('click', () => {
+    document.getElementById('checkoutModal').style.display = 'none';
+});
+
+document.getElementById('clearCartBtn').addEventListener('click', clearCart);
+
+function renderCheckoutSummary() {
+    const checkoutItems = document.getElementById('checkoutItems');
+    const checkoutTotal = document.getElementById('checkoutTotal');
+    
+    const totalPrice = cartData.items.reduce((sum, item) => sum + (item.car.price * item.quantity), 0);
+    
+    checkoutItems.innerHTML = cartData.items.map(item => `
+        <div class="checkout-item">
+            <span>${item.car.brand} ${item.car.model} ${item.car.year} × ${item.quantity}</span>
+            <span>$${(item.car.price * item.quantity).toLocaleString()}</span>
+        </div>
+    `).join('');
+    
+    checkoutTotal.textContent = `$${totalPrice.toLocaleString()}`;
+}
+
+document.getElementById('checkoutForm').addEventListener('submit', async (e) => {
+    e.preventDefault();
+    
+    const submitBtn = e.target.querySelector('button[type="submit"]');
+    const btnText = submitBtn.querySelector('.btn-text');
+    const btnLoader = submitBtn.querySelector('.btn-loader');
+    
+    // Show loading
+    btnText.style.display = 'none';
+    btnLoader.style.display = 'inline';
+    submitBtn.disabled = true;
+    
+    const formData = new FormData(e.target);
+    const checkoutData = {
+        contactInfo: {
+            email: formData.get('email'),
+            phone: formData.get('phone')
+        },
+        shippingAddress: {
+            street: formData.get('street'),
+            city: formData.get('city'),
+            state: formData.get('state'),
+            zipCode: formData.get('zipCode'),
+            country: formData.get('country')
+        },
+        paymentMethod: formData.get('paymentMethod'),
+        notes: formData.get('notes')
+    };
+    
+    try {
+        const response = await fetch('/api/orders/checkout', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify(checkoutData)
+        });
+        
+        const result = await response.json();
+        
+        if (result.success) {
+            showNotification('Order placed successfully!', 'success');
+            document.getElementById('checkoutModal').style.display = 'none';
+            
+            // Redirect to order confirmation
+            setTimeout(() => {
+                window.location.href = `/orders/${result.data._id}`;
+            }, 1500);
+        } else {
+            showNotification(result.message, 'error');
+        }
+    } catch (error) {
+        console.error('Error placing order:', error);
+        showNotification('Failed to place order', 'error');
+    } finally {
+        // Reset button
+        btnText.style.display = 'inline';
+        btnLoader.style.display = 'none';
+        submitBtn.disabled = false;
+    }
+});
+
+// Notification system
+function showNotification(message, type = 'info') {
+    const notification = document.createElement('div');
+    notification.className = `notification notification-${type}`;
+    notification.innerHTML = `
+        <span class="notification-icon">${type === 'success' ? '✅' : type === 'error' ? '❌' : 'ℹ️'}</span>
+        <span class="notification-message">${message}</span>
+    `;
+    
+    document.body.appendChild(notification);
+    
+    // Animate in
+    setTimeout(() => notification.classList.add('show'), 100);
+    
+    // Remove after 4 seconds
+    setTimeout(() => {
+        notification.classList.remove('show');
+        setTimeout(() => notification.remove(), 300);
+    }, 4000);
+}
+</script>

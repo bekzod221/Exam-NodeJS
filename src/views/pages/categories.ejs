@@ -1,0 +1,75 @@
+<div class="categories-page">
+    <div class="container">
+        <div class="categories-header">
+            <h1>Vehicle Categories</h1>
+            <p>Explore our premium collection by category</p>
+        </div>
+
+        <div class="categories-grid">
+            <% if (categories && categories.length > 0) { %>
+                <% categories.forEach(category => { %>
+                    <div class="category-card">
+                        <div class="category-image">
+                            <img src="<%= category.image || '/assets/images/cars/default.jpg' %>" 
+                                 alt="<%= category.name %>" />
+                            <div class="category-overlay">
+                                <a href="/categories/<%= category._id %>" class="category-link">
+                                    <span class="view-icon">👁️</span>
+                                    <span class="view-text">View Vehicles</span>
+                                </a>
+                            </div>
+                        </div>
+                        
+                        <div class="category-content">
+                            <h3 class="category-name"><%= category.name %></h3>
+                            <p class="category-description">
+                                <%= category.description || 'Premium vehicles in this category' %>
+                            </p>
+                            
+                            <div class="category-stats">
+                                <div class="stat-item">
+                                    <span class="stat-icon">🚗</span>
+                                    <span class="stat-value"><%= category.carCount || 0 %></span>
+                                    <span class="stat-label">Vehicles</span>
+                                </div>
+                            </div>
+                            
+                            <a href="/categories/<%= category._id %>" class="btn btn-primary category-btn">
+                                Browse <%= category.name %>
+                            </a>
+                        </div>
+                    </div>
+                <% }); %>
+            <% } else { %>
+                <div class="empty-categories">
+                    <div class="empty-icon">📂</div>
+                    <h2>No Categories Available</h2>
+                    <p>Categories will be added soon. Please check back later.</p>
+                </div>
+            <% } %>
+        </div>
+
+        <div class="categories-info">
+            <div class="info-card">
+                <h3>Why Choose by Category?</h3>
+                <div class="info-grid">
+                    <div class="info-item">
+                        <span class="info-icon">🎯</span>
+                        <h4>Targeted Search</h4>
+                        <p>Find exactly what you're looking for with our organized categories</p>
+                    </div>
+                    <div class="info-item">
+                        <span class="info-icon">⚡</span>
+                        <h4>Quick Navigation</h4>
+                        <p>Browse vehicles by type, style, or purpose efficiently</p>
+                    </div>
+                    <div class="info-item">
+                        <span class="info-icon">💎</span>
+                        <h4>Premium Selection</h4>
+                        <p>Each category features carefully curated premium vehicles</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

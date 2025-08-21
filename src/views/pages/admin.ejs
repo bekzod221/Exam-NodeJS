@@ -1,0 +1,660 @@
+<div class="admin-panel">
+    <div class="admin-sidebar">
+        <div class="admin-header">
+            <h3>admin/panel</h3>
+            <div class="admin-user-info">
+                <span class="admin-name"><%= admin.name %></span>
+                <span class="admin-email"><%= admin.email %></span>
+            </div>
+        </div>
+        <nav class="admin-nav">
+            <a href="/admin" class="admin-nav-item active" data-tab="dashboard">
+                <span class="nav-icon">🏠</span>
+                Asosiy
+            </a>
+            <a href="#" class="admin-nav-item" data-tab="cars">
+                <span class="nav-icon">🚗</span>
+                Mashinalar
+            </a>
+            <a href="#" class="admin-nav-item" data-tab="users">
+                <span class="nav-icon">👥</span>
+                Foydalanuvchilar
+            </a>
+            <a href="#" class="admin-nav-item" data-tab="admins">
+                <span class="nav-icon">👨‍💼</span>
+                Adminlar
+            </a>
+            <a href="#" class="admin-nav-item" data-tab="orders">
+                <span class="nav-icon">📋</span>
+                Buyurtmalar
+            </a>
+        </nav>
+        <div class="admin-footer">
+            <button class="theme-toggle" id="themeToggle">
+                <span class="theme-icon">☀️</span>
+            </button>
+            <button class="admin-logout" id="adminLogout">
+                <span class="logout-icon">🚪</span>
+                Chiqish
+            </button>
+        </div>
+    </div>
+    
+    <div class="admin-main">
+        <!-- Dashboard Tab -->
+        <div class="admin-tab active" id="dashboard">
+            <div class="admin-content">
+                <div class="admin-header-section">
+                    <h1>Admin Panel</h1>
+                    <div class="admin-actions">
+                        <a href="/" class="btn btn-outline">Asosiyga qaytish</a>
+                        <button class="btn btn-primary" id="addCategoryBtn">+ Kategoriya qo'shish</button>
+                        <button class="btn btn-primary" id="addCarBtn">+ Mashina qo'shish</button>
+                    </div>
+                </div>
+                
+                <div class="dashboard-stats">
+                    <div class="stat-card">
+                        <div class="stat-icon">🚗</div>
+                        <div class="stat-content">
+                            <h3>Jami mashinalar</h3>
+                            <p class="stat-number"><%= cars.length %></p>
+                        </div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-icon">👥</div>
+                        <div class="stat-content">
+                            <h3>Foydalanuvchilar</h3>
+                            <p class="stat-number" id="userCount">-</p>
+                        </div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-icon">📋</div>
+                        <div class="stat-content">
+                            <h3>Buyurtmalar</h3>
+                            <p class="stat-number" id="orderCount">-</p>
+                        </div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-icon">💰</div>
+                        <div class="stat-content">
+                            <h3>Jami tushum</h3>
+                            <p class="stat-number" id="totalRevenue">-</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="recent-cars">
+                    <h3>So'nggi qo'shilgan mashinalar</h3>
+                    <div class="cars-table-container">
+                        <table class="cars-table">
+                            <thead>
+                                <tr>
+                                    <th>#</th>
+                                    <th>Markasi</th>
+                                    <th>Model</th>
+                                    <th>Narxi</th>
+                                    <th>Holati</th>
+                                    <th>Actions</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <% cars.slice(0, 5).forEach(function(car, index) { %>
+                                    <tr>
+                                        <td><%= index + 1 %></td>
+                                        <td><%= car.brand %></td>
+                                        <td><%= car.model %></td>
+                                        <td><%= car.price.toLocaleString() %> so'm</td>
+                                        <td>
+                                            <span class="status-badge <%= car.isAvailable ? 'available' : 'unavailable' %>">
+                                                <%= car.isAvailable ? 'Mavjud' : 'Mavjud emas' %>
+                                            </span>
+                                        </td>
+                                        <td>
+                                            <button class="action-btn edit-btn" data-car-id="<%= car._id %>">
+                                                <span class="action-icon">✏️</span>
+                                            </button>
+                                            <button class="action-btn delete-btn" data-car-id="<%= car._id %>">
+                                                <span class="action-icon">🗑️</span>
+                                            </button>
+                                        </td>
+                                    </tr>
+                                <% }) %>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Cars Tab -->
+        <div class="admin-tab" id="cars">
+            <div class="admin-content">
+                <div class="admin-header-section">
+                    <h1>Mashinalar boshqaruvi</h1>
+                    <div class="admin-actions">
+                        <button class="btn btn-primary" id="addCarBtn2">+ Mashina qo'shish</button>
+                        <button class="btn btn-outline" id="exportCarsBtn">Export</button>
+                    </div>
+                </div>
+                
+                <div class="cars-table-container">
+                    <table class="cars-table">
+                        <thead>
+                            <tr>
+                                <th>#</th>
+                                <th>Markasi</th>
+                                <th>Model</th>
+                                <th>Yili</th>
+                                <th>Narxi</th>
+                                <th>Holati</th>
+                                <th>Actions</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <% cars.forEach(function(car, index) { %>
+                                <tr>
+                                    <td><%= index + 1 %></td>
+                                    <td><%= car.brand %></td>
+                                    <td><%= car.model %></td>
+                                    <td><%= car.year %></td>
+                                    <td><%= car.price.toLocaleString() %> so'm</td>
+                                    <td>
+                                        <span class="status-badge <%= car.isAvailable ? 'available' : 'unavailable' %>">
+                                            <%= car.isAvailable ? 'Mavjud' : 'Mavjud emas' %>
+                                        </span>
+                                    </td>
+                                    <td>
+                                        <button class="action-btn edit-btn" data-car-id="<%= car._id %>">
+                                            <span class="action-icon">✏️</span>
+                                        </button>
+                                        <button class="action-btn delete-btn" data-car-id="<%= car._id %>">
+                                            <span class="action-icon">🗑️</span>
+                                        </button>
+                                    </td>
+                                </tr>
+                            <% }) %>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+
+        <!-- Users Tab -->
+        <div class="admin-tab" id="users">
+            <div class="admin-content">
+                <div class="admin-header-section">
+                    <h1>Foydalanuvchilar</h1>
+                    <div class="admin-actions">
+                        <button class="btn btn-outline" id="refreshUsersBtn">Yangilash</button>
+                    </div>
+                </div>
+                
+                <div class="users-table-container">
+                    <table class="users-table">
+                        <thead>
+                            <tr>
+                                <th>#</th>
+                                <th>Ism</th>
+                                <th>Email</th>
+                                <th>Telefon</th>
+                                <th>Holati</th>
+                                <th>Ro'yxatdan o'tgan</th>
+                                <th>Actions</th>
+                            </tr>
+                        </thead>
+                        <tbody id="usersTableBody">
+                            <tr>
+                                <td colspan="7" class="loading">Yuklanmoqda...</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+
+        <!-- Admins Tab -->
+        <div class="admin-tab" id="admins">
+            <div class="admin-content">
+                <div class="admin-header-section">
+                    <h1>Admin foydalanuvchilar</h1>
+                    <div class="admin-actions">
+                        <button class="btn btn-primary" id="addAdminBtn">+ Admin qo'shish</button>
+                    </div>
+                </div>
+                
+                <div class="admins-table-container">
+                    <table class="admins-table">
+                        <thead>
+                            <tr>
+                                <th>#</th>
+                                <th>Ism</th>
+                                <th>Email</th>
+                                <th>Telefon</th>
+                                <th>Oxirgi kirish</th>
+                                <th>Actions</th>
+                            </tr>
+                        </thead>
+                        <tbody id="adminsTableBody">
+                            <tr>
+                                <td colspan="6" class="loading">Yuklanmoqda...</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+
+        <!-- Orders Tab -->
+        <div class="admin-tab" id="orders">
+            <div class="admin-content">
+                <div class="admin-header-section">
+                    <h1>Buyurtmalar</h1>
+                    <div class="admin-actions">
+                        <button class="btn btn-outline" id="refreshOrdersBtn">Yangilash</button>
+                    </div>
+                </div>
+                
+                <div class="orders-table-container">
+                    <table class="orders-table">
+                        <thead>
+                            <tr>
+                                <th>#</th>
+                                <th>Foydalanuvchi</th>
+                                <th>Mashina</th>
+                                <th>Narxi</th>
+                                <th>Holati</th>
+                                <th>Sana</th>
+                                <th>Actions</th>
+                            </tr>
+                        </thead>
+                        <tbody id="ordersTableBody">
+                            <tr>
+                                <td colspan="7" class="loading">Yuklanmoqda...</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Add Car Modal -->
+<div class="modal" id="addCarModal">
+    <div class="modal-content">
+        <div class="modal-header">
+            <h3>Mashina qo'shish</h3>
+            <button class="modal-close" id="closeModal">×</button>
+        </div>
+        <div class="modal-body">
+            <form id="addCarForm" class="admin-form">
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="brand">Markasi</label>
+                        <input type="text" id="brand" name="brand" placeholder="Kiriting" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="model">Model</label>
+                        <input type="text" id="model" name="model" placeholder="Kiriting" required>
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="year">Yili</label>
+                        <input type="number" id="year" name="year" placeholder="Kiriting" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="price">Narxi (so'm)</label>
+                        <input type="number" id="price" name="price" placeholder="Kiriting" required>
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="engine">Motor</label>
+                        <input type="text" id="engine" name="engine" placeholder="Kiriting" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="color">Rangi</label>
+                        <input type="text" id="color" name="color" placeholder="Kiriting" required>
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="distance">Masofa (km)</label>
+                        <input type="number" id="distance" name="distance" placeholder="Kiriting" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="gearbox">Gearbox</label>
+                        <input type="text" id="gearbox" name="gearbox" placeholder="Kiriting" required>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="tinting">Tanirovkasi</label>
+                    <select id="tinting" name="tinting">
+                        <option value="Yo'q">Yo'q</option>
+                        <option value="Ha">Ha</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="description">Tavsif</label>
+                    <textarea id="description" name="description" placeholder="Mazmuni kiriting" rows="3"></textarea>
+                </div>
+                <div class="form-actions">
+                    <button type="submit" class="btn btn-primary">Saqlash</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+<!-- Add Admin Modal -->
+<div class="modal" id="addAdminModal">
+    <div class="modal-content">
+        <div class="modal-header">
+            <h3>Admin qo'shish</h3>
+            <button class="modal-close" id="closeAdminModal">×</button>
+        </div>
+        <div class="modal-body">
+            <form id="addAdminForm" class="admin-form">
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="adminName">To'liq ism</label>
+                        <input type="text" id="adminName" name="name" placeholder="Ismingizni kiriting" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="adminEmail">Email</label>
+                        <input type="email" id="adminEmail" name="email" placeholder="Emailingizni kiriting" required>
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="adminPhone">Telefon</label>
+                        <input type="tel" id="adminPhone" name="phone" placeholder="+998 XX XXX XX XX">
+                    </div>
+                    <div class="form-group">
+                        <label for="adminPassword">Parol</label>
+                        <input type="password" id="adminPassword" name="password" placeholder="Parolingizni kiriting" required>
+                    </div>
+                </div>
+                <div class="form-actions">
+                    <button type="submit" class="btn btn-primary">Admin qo'shish</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+<script>
+// Tab switching
+document.querySelectorAll('.admin-nav-item').forEach(item => {
+    item.addEventListener('click', (e) => {
+        e.preventDefault();
+        
+        // Remove active class from all tabs and nav items
+        document.querySelectorAll('.admin-nav-item').forEach(nav => nav.classList.remove('active'));
+        document.querySelectorAll('.admin-tab').forEach(tab => tab.classList.remove('active'));
+        
+        // Add active class to clicked item
+        item.classList.add('active');
+        
+        // Show corresponding tab
+        const tabId = item.dataset.tab;
+        document.getElementById(tabId).classList.add('active');
+        
+        // Load tab data if needed
+        if (tabId === 'users') loadUsers();
+        if (tabId === 'admins') loadAdmins();
+        if (tabId === 'orders') loadOrders();
+    });
+});
+
+// Load dashboard stats
+async function loadDashboardStats() {
+    try {
+        const [usersResponse, ordersResponse] = await Promise.all([
+            fetch('/api/admin/stats/users'),
+            fetch('/api/admin/stats/orders')
+        ]);
+        
+        if (usersResponse.ok) {
+            const userStats = await usersResponse.json();
+            document.getElementById('userCount').textContent = userStats.count;
+        }
+        
+        if (ordersResponse.ok) {
+            const orderStats = await ordersResponse.json();
+            document.getElementById('orderCount').textContent = orderStats.count;
+            document.getElementById('totalRevenue').textContent = orderStats.totalRevenue.toLocaleString() + ' so\'m';
+        }
+    } catch (error) {
+        console.error('Error loading stats:', error);
+    }
+}
+
+// Load users
+async function loadUsers() {
+    try {
+        const response = await fetch('/api/admin/users');
+        if (response.ok) {
+            const users = await response.json();
+            renderUsersTable(users);
+        }
+    } catch (error) {
+        console.error('Error loading users:', error);
+    }
+}
+
+// Load admins
+async function loadAdmins() {
+    try {
+        const response = await fetch('/api/admin/admins');
+        if (response.ok) {
+            const admins = await response.json();
+            renderAdminsTable(admins);
+        }
+    } catch (error) {
+        console.error('Error loading admins:', error);
+    }
+}
+
+// Load orders
+async function loadOrders() {
+    try {
+        const response = await fetch('/api/admin/orders');
+        if (response.ok) {
+            const orders = await response.json();
+            renderOrdersTable(orders);
+        }
+    } catch (error) {
+        console.error('Error loading orders:', error);
+    }
+}
+
+// Render users table
+function renderUsersTable(users) {
+    const tbody = document.getElementById('usersTableBody');
+    tbody.innerHTML = users.map((user, index) => `
+        <tr>
+            <td>${index + 1}</td>
+            <td>${user.name}</td>
+            <td>${user.email}</td>
+            <td>${user.phone || '-'}</td>
+            <td>
+                <span class="status-badge ${user.isVerified ? 'verified' : 'unverified'}">
+                    ${user.isVerified ? 'Tasdiqlangan' : 'Tasdiqlanmagan'}
+                </span>
+            </td>
+            <td>${new Date(user.createdAt).toLocaleDateString()}</td>
+            <td>
+                <button class="action-btn edit-btn" data-user-id="${user._id}">
+                    <span class="action-icon">✏️</span>
+                </button>
+            </td>
+        </tr>
+    `).join('');
+}
+
+// Render admins table
+function renderAdminsTable(admins) {
+    const tbody = document.getElementById('adminsTableBody');
+    tbody.innerHTML = admins.map((admin, index) => `
+        <tr>
+            <td>${index + 1}</td>
+            <td>${admin.name}</td>
+            <td>${admin.email}</td>
+            <td>${admin.phone || '-'}</td>
+            <td>${admin.lastLogin ? new Date(admin.lastLogin).toLocaleDateString() : '-'}</td>
+            <td>
+                <button class="action-btn delete-btn" data-admin-id="${admin._id}">
+                    <span class="action-icon">🗑️</span>
+                </button>
+            </td>
+        </tr>
+    `).join('');
+}
+
+// Render orders table
+function renderOrdersTable(orders) {
+    const tbody = document.getElementById('ordersTableBody');
+    tbody.innerHTML = orders.map((order, index) => `
+        <tr>
+            <td>${index + 1}</td>
+            <td>${order.userId.name}</td>
+            <td>${order.carId.brand} ${order.carId.model}</td>
+            <td>${order.totalPrice.toLocaleString()} so'm</td>
+            <td>
+                <span class="status-badge ${order.status}">${order.status}</span>
+            </td>
+            <td>${new Date(order.createdAt).toLocaleDateString()}</td>
+            <td>
+                <button class="action-btn edit-btn" data-order-id="${order._id}">
+                    <span class="action-icon">✏️</span>
+                </button>
+            </td>
+        </tr>
+    `).join('');
+}
+
+// Modal functionality
+const addCarBtn = document.getElementById('addCarBtn');
+const addCarBtn2 = document.getElementById('addCarBtn2');
+const addCarModal = document.getElementById('addCarModal');
+const closeModal = document.getElementById('closeModal');
+const addAdminBtn = document.getElementById('addAdminBtn');
+const addAdminModal = document.getElementById('addAdminModal');
+const closeAdminModal = document.getElementById('closeAdminModal');
+
+addCarBtn.addEventListener('click', () => addCarModal.style.display = 'block');
+addCarBtn2.addEventListener('click', () => addCarModal.style.display = 'block');
+addAdminBtn.addEventListener('click', () => addAdminModal.style.display = 'block');
+
+closeModal.addEventListener('click', () => addCarModal.style.display = 'none');
+closeAdminModal.addEventListener('click', () => addAdminModal.style.display = 'none');
+
+// Close modals when clicking outside
+window.addEventListener('click', (e) => {
+    if (e.target === addCarModal) addCarModal.style.display = 'none';
+    if (e.target === addAdminModal) addAdminModal.style.display = 'none';
+});
+
+// Add car form submission
+document.getElementById('addCarForm').addEventListener('submit', async (e) => {
+    e.preventDefault();
+    
+    const formData = new FormData(e.target);
+    const carData = Object.fromEntries(formData.entries());
+    
+    try {
+        const response = await fetch('/api/admin/cars', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify(carData)
+        });
+        
+        if (response.ok) {
+            showToast('Mashina muvaffaqiyatli qo\'shildi', 'success');
+            addCarModal.style.display = 'none';
+            e.target.reset();
+            // Reload the page to show new car
+            setTimeout(() => location.reload(), 1000);
+        } else {
+            const error = await response.json();
+            showToast(error.message, 'error');
+        }
+    } catch (error) {
+        console.error('Error:', error);
+        showToast('Xatolik yuz berdi', 'error');
+    }
+});
+
+// Add admin form submission
+document.getElementById('addAdminForm').addEventListener('submit', async (e) => {
+    e.preventDefault();
+    
+    const formData = new FormData(e.target);
+    const adminData = Object.fromEntries(formData.entries());
+    
+    try {
+        const response = await fetch('/api/auth/admin/add', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify(adminData)
+        });
+        
+        if (response.ok) {
+            showToast('Admin muvaffaqiyatli qo\'shildi', 'success');
+            addAdminModal.style.display = 'none';
+            e.target.reset();
+            // Reload admins tab
+            loadAdmins();
+        } else {
+            const error = await response.json();
+            showToast(error.message, 'error');
+        }
+    } catch (error) {
+        console.error('Error:', error);
+        showToast('Xatolik yuz berdi', 'error');
+    }
+});
+
+// Admin logout
+document.getElementById('adminLogout').addEventListener('click', async () => {
+    try {
+        const response = await fetch('/api/auth/admin/logout', { method: 'POST' });
+        if (response.ok) {
+            window.location.href = '/admin-login';
+        }
+    } catch (error) {
+        console.error('Logout error:', error);
+    }
+});
+
+// Theme toggle
+document.getElementById('themeToggle').addEventListener('click', () => {
+    document.body.classList.toggle('dark-theme');
+    const icon = document.querySelector('.theme-icon');
+    if (document.body.classList.contains('dark-theme')) {
+        icon.textContent = '🌙';
+    } else {
+        icon.textContent = '☀️';
+    }
+});
+
+// Toast notification function
+function showToast(message, type = 'info') {
+    const toast = document.createElement('div');
+    toast.className = `toast toast-${type}`;
+    toast.textContent = message;
+    
+    document.body.appendChild(toast);
+    
+    setTimeout(() => {
+        toast.remove();
+    }, 3000);
+}
+
+// Load initial data
+loadDashboardStats();
+</script> 
+</script> 

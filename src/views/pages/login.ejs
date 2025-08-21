@@ -1,0 +1,358 @@
+<div class="auth-container">
+    <!-- Left Side - Branding -->
+    <div class="auth-hero">
+        <div class="hero-content">
+            <div class="brand-logo">
+                <span class="logo-icon">🚗</span>
+                <h1 class="brand-title">AutoLux</h1>
+            </div>
+            <h2 class="hero-subtitle">Premium Car Experience</h2>
+            <p class="hero-description">
+                Discover luxury vehicles and experience automotive excellence with our curated collection of premium cars.
+            </p>
+            <div class="hero-features">
+                <div class="feature-item">
+                    <span class="feature-icon">✨</span>
+                    <span>Premium Selection</span>
+                </div>
+                <div class="feature-item">
+                    <span class="feature-icon">🔒</span>
+                    <span>Secure Transactions</span>
+                </div>
+                <div class="feature-item">
+                    <span class="feature-icon">🚀</span>
+                    <span>Fast Delivery</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Right Side - Authentication -->
+    <div class="auth-form-container">
+        <div class="auth-form-wrapper">
+            <div class="auth-header">
+                <h2>Welcome Back</h2>
+                <p>Sign in to your account to continue</p>
+            </div>
+
+            <!-- Login Method Tabs -->
+            <div class="auth-tabs">
+                <button class="tab-btn active" data-tab="password">
+                    <span class="tab-icon">🔐</span>
+                    Password
+                </button>
+                <button class="tab-btn" data-tab="otp">
+                    <span class="tab-icon">📱</span>
+                    OTP Code
+                </button>
+            </div>
+
+            <!-- Password Login Form -->
+            <form id="passwordForm" class="auth-form active">
+                <div class="form-group">
+                    <label for="loginEmail">Email Address</label>
+                    <div class="input-wrapper">
+                        <span class="input-icon">📧</span>
+                        <input type="email" id="loginEmail" name="email" placeholder="Enter your email" required />
+                    </div>
+                </div>
+                
+                <div class="form-group">
+                    <label for="loginPassword">Password</label>
+                    <div class="input-wrapper">
+                        <span class="input-icon">🔒</span>
+                        <input type="password" id="loginPassword" name="password" placeholder="Enter your password" required />
+                        <button type="button" class="toggle-password" onclick="togglePassword('loginPassword')">
+                            <span class="eye-icon">👁️</span>
+                        </button>
+                    </div>
+                </div>
+
+                <button type="submit" class="submit-btn">
+                    <span class="btn-text">Sign In</span>
+                    <span class="btn-loader" style="display: none;">⏳</span>
+                </button>
+            </form>
+
+            <!-- OTP Login Form -->
+            <form id="otpForm" class="auth-form">
+                <div class="form-group">
+                    <label for="otpEmail">Email Address</label>
+                    <div class="input-wrapper">
+                        <span class="input-icon">📧</span>
+                        <input type="email" id="otpEmail" name="email" placeholder="Enter your email" required />
+                    </div>
+                </div>
+
+                <button type="submit" class="submit-btn otp-send-btn">
+                    <span class="btn-text">Send OTP Code</span>
+                    <span class="btn-loader" style="display: none;">⏳</span>
+                </button>
+
+                <div id="otpVerification" class="otp-verification" style="display: none;">
+                    <div class="form-group">
+                        <label for="otpCode">Enter 6-digit Code</label>
+                        <div class="otp-input-group">
+                            <input type="text" id="otpCode" maxlength="6" placeholder="000000" />
+                            <div class="otp-timer">
+                                <span id="otpTimer">10:00</span>
+                            </div>
+                        </div>
+                        <small class="form-help">We've sent a code to your email</small>
+                    </div>
+
+                    <button type="button" class="submit-btn verify-otp-btn">
+                        <span class="btn-text">Verify & Sign In</span>
+                        <span class="btn-loader" style="display: none;">⏳</span>
+                    </button>
+
+                    <button type="button" class="resend-btn" id="resendOtp">
+                        <span class="btn-text">Resend Code</span>
+                    </button>
+                </div>
+            </form>
+
+            <div class="auth-footer">
+                <p>Don't have an account? <a href="/register" class="link-primary">Create one</a></p>
+                <a href="/" class="back-home">← Back to Home</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+let currentEmail = '';
+let otpTimer = null;
+let canResend = false;
+
+// Tab switching
+document.querySelectorAll('.tab-btn').forEach(btn => {
+    btn.addEventListener('click', () => {
+        const targetTab = btn.dataset.tab;
+        
+        // Update tab buttons
+        document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+        
+        // Update forms
+        document.querySelectorAll('.auth-form').forEach(form => form.classList.remove('active'));
+        if (targetTab === 'password') {
+            document.getElementById('passwordForm').classList.add('active');
+        } else {
+            document.getElementById('otpForm').classList.add('active');
+        }
+    });
+});
+
+// Password visibility toggle
+function togglePassword(inputId) {
+    const input = document.getElementById(inputId);
+    const eyeIcon = input.parentElement.querySelector('.eye-icon');
+    
+    if (input.type === 'password') {
+        input.type = 'text';
+        eyeIcon.textContent = '🙈';
+    } else {
+        input.type = 'password';
+        eyeIcon.textContent = '👁️';
+    }
+}
+
+// OTP Timer
+function startOtpTimer() {
+    let timeLeft = 600; // 10 minutes
+    const timerElement = document.getElementById('otpTimer');
+    const resendBtn = document.getElementById('resendOtp');
+    
+    canResend = false;
+    resendBtn.classList.add('disabled');
+    
+    otpTimer = setInterval(() => {
+        const minutes = Math.floor(timeLeft / 60);
+        const seconds = timeLeft % 60;
+        timerElement.textContent = `${minutes}:${seconds.toString().padStart(2, '0')}`;
+        
+        if (timeLeft <= 0) {
+            clearInterval(otpTimer);
+            timerElement.textContent = 'Expired';
+            canResend = true;
+            resendBtn.classList.remove('disabled');
+        }
+        timeLeft--;
+    }, 1000);
+}
+
+// Password login
+document.getElementById('passwordForm').addEventListener('submit', async (e) => {
+    e.preventDefault();
+    
+    const submitBtn = e.target.querySelector('.submit-btn');
+    const btnText = submitBtn.querySelector('.btn-text');
+    const btnLoader = submitBtn.querySelector('.btn-loader');
+    
+    // Show loading
+    btnText.style.display = 'none';
+    btnLoader.style.display = 'inline';
+    submitBtn.disabled = true;
+    
+    const email = document.getElementById('loginEmail').value;
+    const password = document.getElementById('loginPassword').value;
+    
+    try {
+        const response = await fetch('/api/auth/login', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ email, password })
+        });
+        
+        const data = await response.json();
+        
+        if (data.success) {
+            showNotification(data.message, 'success');
+            setTimeout(() => window.location.href = '/', 1500);
+        } else {
+            showNotification(data.message, 'error');
+        }
+    } catch (error) {
+        console.error('Login error:', error);
+        showNotification('Connection error. Please try again.', 'error');
+    } finally {
+        // Reset button
+        btnText.style.display = 'inline';
+        btnLoader.style.display = 'none';
+        submitBtn.disabled = false;
+    }
+});
+
+// OTP form submission
+document.getElementById('otpForm').addEventListener('submit', async (e) => {
+    e.preventDefault();
+    
+    const submitBtn = e.target.querySelector('.submit-btn');
+    const btnText = submitBtn.querySelector('.btn-text');
+    const btnLoader = submitBtn.querySelector('.btn-loader');
+    
+    // Show loading
+    btnText.style.display = 'none';
+    btnLoader.style.display = 'inline';
+    submitBtn.disabled = true;
+    
+    const email = document.getElementById('otpEmail').value;
+    currentEmail = email;
+    
+    try {
+        const response = await fetch('/api/auth/send-code', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ email })
+        });
+        
+        const data = await response.json();
+        
+        if (data.success) {
+            showNotification('OTP code sent to your email!', 'success');
+            document.getElementById('otpVerification').style.display = 'block';
+            submitBtn.style.display = 'none';
+            startOtpTimer();
+        } else {
+            showNotification(data.message, 'error');
+        }
+    } catch (error) {
+        console.error('OTP send error:', error);
+        showNotification('Failed to send OTP. Please try again.', 'error');
+    } finally {
+        // Reset button
+        btnText.style.display = 'inline';
+        btnLoader.style.display = 'none';
+        submitBtn.disabled = false;
+    }
+});
+
+// Verify OTP
+document.querySelector('.verify-otp-btn').addEventListener('click', async () => {
+    const verifyBtn = document.querySelector('.verify-otp-btn');
+    const btnText = verifyBtn.querySelector('.btn-text');
+    const btnLoader = verifyBtn.querySelector('.btn-loader');
+    
+    // Show loading
+    btnText.style.display = 'none';
+    btnLoader.style.display = 'inline';
+    verifyBtn.disabled = true;
+    
+    const code = document.getElementById('otpCode').value;
+    
+    try {
+        const response = await fetch('/api/auth/verify-code', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ email: currentEmail, code })
+        });
+        
+        const data = await response.json();
+        
+        if (data.success) {
+            showNotification('Successfully verified!', 'success');
+            setTimeout(() => window.location.href = '/', 1500);
+        } else {
+            showNotification(data.message, 'error');
+        }
+    } catch (error) {
+        console.error('OTP verify error:', error);
+        showNotification('Verification failed. Please try again.', 'error');
+    } finally {
+        // Reset button
+        btnText.style.display = 'inline';
+        btnLoader.style.display = 'none';
+        verifyBtn.disabled = false;
+    }
+});
+
+// Resend OTP
+document.getElementById('resendOtp').addEventListener('click', async () => {
+    if (!canResend) return;
+    
+    const resendBtn = document.getElementById('resendOtp');
+    resendBtn.classList.add('disabled');
+    
+    try {
+        const response = await fetch('/api/auth/send-code', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ email: currentEmail })
+        });
+        
+        const data = await response.json();
+        
+        if (data.success) {
+            showNotification('New OTP code sent!', 'success');
+            startOtpTimer();
+        } else {
+            showNotification(data.message, 'error');
+        }
+    } catch (error) {
+        console.error('Resend error:', error);
+        showNotification('Failed to resend. Please try again.', 'error');
+    }
+});
+
+// Notification system
+function showNotification(message, type = 'info') {
+    const notification = document.createElement('div');
+    notification.className = `notification notification-${type}`;
+    notification.innerHTML = `
+        <span class="notification-icon">${type === 'success' ? '✅' : type === 'error' ? '❌' : 'ℹ️'}</span>
+        <span class="notification-message">${message}</span>
+    `;
+    
+    document.body.appendChild(notification);
+    
+    // Animate in
+    setTimeout(() => notification.classList.add('show'), 100);
+    
+    // Remove after 4 seconds
+    setTimeout(() => {
+        notification.classList.remove('show');
+        setTimeout(() => notification.remove(), 300);
+    }, 4000);
+}
+</script>

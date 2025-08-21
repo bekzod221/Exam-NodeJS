@@ -1,0 +1,187 @@
+<div class="category-detail-page">
+    <div class="container">
+        <div class="category-detail-header">
+            <div class="breadcrumb-nav">
+                <a href="/">Home</a>
+                <span class="separator">/</span>
+                <a href="/categories">Categories</a>
+                <span class="separator">/</span>
+                <span class="current"><%= category.name %></span>
+            </div>
+            
+            <div class="category-header-info">
+                <div class="category-title-section">
+                    <h1><%= category.name %></h1>
+                    <p class="category-description">
+                        <%= category.description || 'Premium vehicles in this category' %>
+                    </p>
+                </div>
+                
+                <div class="category-stats-section">
+                    <div class="stat-card">
+                        <span class="stat-number"><%= cars.length %></span>
+                        <span class="stat-label">Available Vehicles</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="category-content">
+            <% if (cars && cars.length > 0) { %>
+                <div class="vehicles-grid">
+                    <% cars.forEach(car => { %>
+                        <div class="vehicle-card">
+                            <div class="vehicle-image">
+                                <img src="<%= car.images.exterior || car.images.modelType || '/assets/images/cars/default.jpg' %>" 
+                                     alt="<%= car.brand %> <%= car.model %>" />
+                                
+                                <% if (user) { %>
+                                    <div class="vehicle-actions">
+                                        <button class="action-btn add-to-cart-btn" onclick="addToCart('<%= car._id %>')" title="Add to Cart">
+                                            <span class="action-icon">🛒</span>
+                                        </button>
+                                        <button class="action-btn bookmark-btn" onclick="toggleBookmark('<%= car._id %>')" title="Add to Favorites">
+                                            <span class="action-icon">❤️</span>
+                                        </button>
+                                    </div>
+                                <% } %>
+                                
+                                <div class="vehicle-status">
+                                    <% if (car.isAvailable) { %>
+                                        <span class="status-badge available">Available</span>
+                                    <% } else { %>
+                                        <span class="status-badge unavailable">Sold</span>
+                                    <% } %>
+                                </div>
+                            </div>
+                            
+                            <div class="vehicle-info">
+                                <h3 class="vehicle-title">
+                                    <a href="/models/<%= car.brand.toLowerCase() %>/<%= car._id %>">
+                                        <%= car.brand %> <%= car.model %> <%= car.year %>
+                                    </a>
+                                </h3>
+                                
+                                <div class="vehicle-specs">
+                                    <div class="spec-item">
+                                        <span class="spec-icon">⚙️</span>
+                                        <span class="spec-text"><%= car.engine %></span>
+                                    </div>
+                                    <div class="spec-item">
+                                        <span class="spec-icon">🎨</span>
+                                        <span class="spec-text"><%= car.color %></span>
+                                    </div>
+                                    <div class="spec-item">
+                                        <span class="spec-icon">📏</span>
+                                        <span class="spec-text"><%= car.distance.toLocaleString() %> km</span>
+                                    </div>
+                                </div>
+                                
+                                <div class="vehicle-price">
+                                    <span class="price-currency">$</span>
+                                    <span class="price-amount"><%= car.price.toLocaleString() %></span>
+                                </div>
+                                
+                                <div class="vehicle-actions-bottom">
+                                    <a href="/models/<%= car.brand.toLowerCase() %>/<%= car._id %>" class="btn btn-outline view-details-btn">
+                                        View Details
+                                    </a>
+                                    <% if (user && car.isAvailable) { %>
+                                        <button class="btn btn-primary quick-add-btn" onclick="addToCart('<%= car._id %>')">
+                                            Add to Cart
+                                        </button>
+                                    <% } %>
+                                </div>
+                            </div>
+                        </div>
+                    <% }); %>
+                </div>
+            <% } else { %>
+                <div class="empty-vehicles">
+                    <div class="empty-icon">🚗</div>
+                    <h2>No Vehicles Available</h2>
+                    <p>There are currently no vehicles in this category. Please check back later or browse other categories.</p>
+                    <a href="/categories" class="btn btn-primary">Browse All Categories</a>
+                </div>
+            <% } %>
+        </div>
+    </div>
+</div>
+
+<script>
+// Add to Cart functionality
+async function addToCart(carId) {
+    try {
+        const response = await fetch('/api/cart/add', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ carId, quantity: 1 })
+        });
+        
+        const result = await response.json();
+        
+        if (result.success) {
+            showNotification('Vehicle added to cart successfully!', 'success');
+            
+            // Update cart count in header
+            const cartCount = document.getElementById('cartCount');
+            if (cartCount) {
+                const currentCount = parseInt(cartCount.textContent) || 0;
+                cartCount.textContent = currentCount + 1;
+            }
+        } else {
+            showNotification(result.message, 'error');
+        }
+    } catch (error) {
+        console.error('Error adding to cart:', error);
+        showNotification('Failed to add vehicle to cart', 'error');
+    }
+}
+
+// Toggle Bookmark functionality
+async function toggleBookmark(carId) {
+    try {
+        const response = await fetch('/api/bookmarks/toggle', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ carId })
+        });
+        
+        const result = await response.json();
+        
+        if (result.success) {
+            if (result.data.isBookmarked) {
+                showNotification('Added to favorites!', 'success');
+            } else {
+                showNotification('Removed from favorites', 'info');
+            }
+        } else {
+            showNotification(result.message, 'error');
+        }
+    } catch (error) {
+        console.error('Error toggling bookmark:', error);
+        showNotification('Failed to update favorites', 'error');
+    }
+}
+
+// Notification system
+function showNotification(message, type = 'info') {
+    const notification = document.createElement('div');
+    notification.className = `notification notification-${type}`;
+    notification.innerHTML = `
+        <span class="notification-icon">${type === 'success' ? '✅' : type === 'error' ? '❌' : 'ℹ️'}</span>
+        <span class="notification-message">${message}</span>
+    `;
+    
+    document.body.appendChild(notification);
+    
+    // Animate in
+    setTimeout(() => notification.classList.add('show'), 100);
+    
+    // Remove after 4 seconds
+    setTimeout(() => {
+        notification.classList.remove('show');
+        setTimeout(() => notification.remove(), 300);
+    }, 4000);
+}
+</script>

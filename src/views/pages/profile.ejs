@@ -1,0 +1,259 @@
+<section class="profile">
+    <div class="profile-container">
+        <h2>Shaxsiy kabinet</h2>
+        
+        <!-- Profile Info -->
+        <div class="profile-card">
+            <div class="profile-header">
+                <div class="profile-avatar">
+                    <img id="profileImage" src="<%= user.profileImage || '/assets/images/default-avatar.png' %>" alt="Profil rasmi">
+                    <div class="avatar-upload">
+                        <input type="file" id="imageUpload" accept="image/*" style="display: none;">
+                        <button type="button" id="uploadBtn" class="btn btn-outline">Rasm o'zgartirish</button>
+                    </div>
+                </div>
+                <div class="profile-info">
+                    <h3><%= user.name %></h3>
+                    <p class="email"><%= user.email %></p>
+                    <span class="badge <%= user.role === 'admin' ? 'badge-admin' : 'badge-user' %>">
+                        <%= user.role === 'admin' ? 'Administrator' : 'Foydalanuvchi' %>
+                    </span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Edit Profile Form -->
+        <div class="profile-edit">
+            <h3>Ma'lumotlarni tahrirlash</h3>
+            <form id="profileForm" class="profile-form">
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="name">Ism</label>
+                        <input type="text" id="name" name="name" value="<%= user.name %>" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Telefon raqam</label>
+                        <input type="tel" id="phone" name="phone" value="<%= user.phone || '' %>" placeholder="+998 90 123 45 67">
+                    </div>
+                </div>
+                
+                <div class="form-group">
+                    <label for="email">Email (o'zgartirib bo'lmaydi)</label>
+                    <input type="email" id="email" value="<%= user.email %>" disabled>
+                </div>
+
+                <div class="form-actions">
+                    <button type="submit" class="btn btn-primary">Saqlash</button>
+                    <button type="button" id="changePasswordBtn" class="btn btn-outline">Parolni o'zgartirish</button>
+                </div>
+            </form>
+        </div>
+
+        <!-- Change Password Modal -->
+        <div id="passwordModal" class="modal" style="display: none;">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3>Parolni o'zgartirish</h3>
+                    <button type="button" id="closeModal" class="close-btn">&times;</button>
+                </div>
+                <form id="passwordForm" class="modal-form">
+                    <div class="form-group">
+                        <label for="currentPassword">Joriy parol</label>
+                        <input type="password" id="currentPassword" name="currentPassword" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="newPassword">Yangi parol</label>
+                        <input type="password" id="newPassword" name="newPassword" required minlength="6">
+                    </div>
+                    <div class="form-group">
+                        <label for="confirmPassword">Yangi parolni tasdiqlang</label>
+                        <input type="password" id="confirmPassword" name="confirmPassword" required>
+                    </div>
+                    <div class="modal-actions">
+                        <button type="submit" class="btn btn-primary">O'zgartirish</button>
+                        <button type="button" id="cancelPassword" class="btn btn-outline">Bekor qilish</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <!-- Account Actions -->
+        <div class="account-actions">
+            <h3>Hisob harakatlari</h3>
+            <div class="action-buttons">
+                <button id="logoutBtn" class="btn btn-danger">Chiqish</button>
+                <% if (user.role === 'admin') { %>
+                    <a href="/admin" class="btn btn-secondary">Admin panel</a>
+                <% } %>
+            </div>
+        </div>
+    </div>
+</section>
+
+<script>
+// Profile form submission
+document.getElementById('profileForm').addEventListener('submit', async (e) => {
+    e.preventDefault();
+    
+    const formData = new FormData(e.target);
+    const data = Object.fromEntries(formData);
+    
+    try {
+        const response = await fetch('/api/profile/update', {
+            method: 'PUT',
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify(data)
+        });
+        
+        const result = await response.json();
+        
+        if (result.success) {
+            showToast('Ma\'lumotlar muvaffaqiyatli yangilandi', 'success');
+            // Update display
+            document.querySelector('.profile-info h3').textContent = data.name;
+        } else {
+            showToast(result.message, 'error');
+        }
+    } catch (error) {
+        console.error('Error:', error);
+        showToast('Xatolik yuz berdi', 'error');
+    }
+});
+
+// Image upload
+document.getElementById('uploadBtn').addEventListener('click', () => {
+    document.getElementById('imageUpload').click();
+});
+
+document.getElementById('imageUpload').addEventListener('change', async (e) => {
+    const file = e.target.files[0];
+    if (!file) return;
+    
+    // Validate file type
+    if (!file.type.startsWith('image/')) {
+        showToast('Faqat rasm fayllari ruxsat etilgan', 'error');
+        return;
+    }
+    
+    // Validate file size (max 5MB)
+    if (file.size > 5 * 1024 * 1024) {
+        showToast('Rasm hajmi 5MB dan oshmasligi kerak', 'error');
+        return;
+    }
+    
+    const formData = new FormData();
+    formData.append('profileImage', file);
+    
+    try {
+        const response = await fetch('/api/profile/upload-image', {
+            method: 'POST',
+            body: formData
+        });
+        
+        const result = await response.json();
+        
+        if (result.success) {
+            document.getElementById('profileImage').src = result.imageUrl;
+            showToast('Profil rasmi yangilandi', 'success');
+        } else {
+            showToast(result.message, 'error');
+        }
+    } catch (error) {
+        console.error('Error:', error);
+        showToast('Rasm yuklashda xatolik', 'error');
+    }
+});
+
+// Password change modal
+document.getElementById('changePasswordBtn').addEventListener('click', () => {
+    document.getElementById('passwordModal').style.display = 'flex';
+});
+
+document.getElementById('closeModal').addEventListener('click', () => {
+    document.getElementById('passwordModal').style.display = 'none';
+});
+
+document.getElementById('cancelPassword').addEventListener('click', () => {
+    document.getElementById('passwordModal').style.display = 'none';
+});
+
+// Password form submission
+document.getElementById('passwordForm').addEventListener('submit', async (e) => {
+    e.preventDefault();
+    
+    const formData = new FormData(e.target);
+    const data = Object.fromEntries(formData);
+    
+    // Validate password confirmation
+    if (data.newPassword !== data.confirmPassword) {
+        showToast('Yangi parollar mos kelmaydi', 'error');
+        return;
+    }
+    
+    try {
+        const response = await fetch('/api/profile/change-password', {
+            method: 'PUT',
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify({
+                currentPassword: data.currentPassword,
+                newPassword: data.newPassword
+            })
+        });
+        
+        const result = await response.json();
+        
+        if (result.success) {
+            showToast('Parol muvaffaqiyatli o\'zgartirildi', 'success');
+            document.getElementById('passwordModal').style.display = 'none';
+            document.getElementById('passwordForm').reset();
+        } else {
+            showToast(result.message, 'error');
+        }
+    } catch (error) {
+        console.error('Error:', error);
+        showToast('Xatolik yuz berdi', 'error');
+    }
+});
+
+// Logout
+document.getElementById('logoutBtn').addEventListener('click', async () => {
+    if (confirm('Haqiqatan ham chiqmoqchimisiz?')) {
+        try {
+            const response = await fetch('/api/auth/logout', {
+                method: 'POST'
+            });
+            
+            if (response.ok) {
+                window.location.href = '/';
+            }
+        } catch (error) {
+            console.error('Logout error:', error);
+        }
+    }
+});
+
+// Toast notification function
+function showToast(message, type = 'info') {
+    const toast = document.createElement('div');
+    toast.className = `toast toast-${type}`;
+    toast.textContent = message;
+    
+    document.body.appendChild(toast);
+    
+    setTimeout(() => {
+        toast.remove();
+    }, 3000);
+}
+
+// Close modal when clicking outside
+window.addEventListener('click', (e) => {
+    const modal = document.getElementById('passwordModal');
+    if (e.target === modal) {
+        modal.style.display = 'none';
+    }
+});
+</script>

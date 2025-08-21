@@ -1,0 +1,271 @@
+<div class="car-detail-page">
+    <div class="container">
+        <div class="car-detail-header">
+            <div class="breadcrumb-nav">
+                <a href="/">Home</a>
+                <span class="separator">/</span>
+                <a href="/models">Models</a>
+                <span class="separator">/</span>
+                <span class="current"><%= car.brand %> <%= car.model %></span>
+            </div>
+            
+            <div class="car-header-info">
+                <div class="car-title-section">
+                    <h1 class="car-title"><%= car.brand %> <%= car.model %> <%= car.year %></h1>
+                    <p class="car-category"><%= car.category ? car.category.name : 'Luxury Vehicle' %></p>
+                </div>
+                
+                <div class="car-price-section">
+                    <div class="price-display">
+                        <span class="price-currency">$</span>
+                        <span class="price-amount"><%= car.price.toLocaleString() %></span>
+                    </div>
+                    <p class="price-note">Final price includes all taxes and fees</p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="car-detail-content">
+            <div class="car-image-section">
+                <div class="car-image-container">
+                    <img src="<%= currentView === 'exterior' ? (car.images.exterior || '/assets/images/cars/default.jpg') : (car.images.interior || '/assets/images/cars/default.jpg') %>" 
+                         alt="<%= car.brand %> <%= car.model %>" 
+                         class="car-main-image">
+                </div>
+                
+                <div class="view-selector">
+                    <label class="view-option">
+                        <input type="radio" name="view" value="exterior" 
+                               <%= currentView === 'exterior' ? 'checked' : '' %>>
+                        <span class="view-label">Exterior</span>
+                    </label>
+                    <label class="view-option">
+                        <input type="radio" name="view" value="interior" 
+                               <%= currentView === 'interior' ? 'checked' : '' %>>
+                        <span class="view-label">Interior</span>
+                    </label>
+                </div>
+            </div>
+            
+            <div class="car-info-section">
+                <div class="car-specifications">
+                    <h3>Technical Specifications</h3>
+                    <div class="specs-grid">
+                        <div class="spec-item">
+                            <span class="spec-label">Brand:</span>
+                            <span class="spec-value"><%= car.brand %></span>
+                        </div>
+                        <div class="spec-item">
+                            <span class="spec-label">Model:</span>
+                            <span class="spec-value"><%= car.model %></span>
+                        </div>
+                        <div class="spec-item">
+                            <span class="spec-label">Year:</span>
+                            <span class="spec-value"><%= car.year %></span>
+                        </div>
+                        <div class="spec-item">
+                            <span class="spec-label">Engine:</span>
+                            <span class="spec-value"><%= car.engine %></span>
+                        </div>
+                        <div class="spec-item">
+                            <span class="spec-label">Color:</span>
+                            <span class="spec-value"><%= car.color %></span>
+                        </div>
+                        <div class="spec-item">
+                            <span class="spec-label">Mileage:</span>
+                            <span class="spec-value"><%= car.distance.toLocaleString() %> km</span>
+                        </div>
+                        <div class="spec-item">
+                            <span class="spec-label">Transmission:</span>
+                            <span class="spec-value"><%= car.gearbox %></span>
+                        </div>
+                        <div class="spec-item">
+                            <span class="spec-label">Tinting:</span>
+                            <span class="spec-value"><%= car.tinting %></span>
+                        </div>
+                    </div>
+                </div>
+                
+                <% if (currentView === 'exterior') { %>
+                    <div class="car-description">
+                        <h4>Description</h4>
+                        <p><%= car.description || 'This premium vehicle offers exceptional performance, comfort, and style. Experience luxury driving at its finest.' %></p>
+                    </div>
+                <% } else { %>
+                    <div class="car-description">
+                        <h4>Note</h4>
+                        <p>The image may not exactly match the selected configuration. The actual color of the vehicle may differ from what is presented on this site.</p>
+                    </div>
+                <% } %>
+                
+                <div class="car-actions">
+                    <div class="action-buttons">
+                        <% if (user) { %>
+                            <button class="btn btn-primary add-to-cart-btn" onclick="addToCart('<%= car._id %>')">
+                                <span class="btn-icon">🛒</span>
+                                <span class="btn-text">Add to Cart</span>
+                                <span class="btn-loader" style="display: none;">⏳</span>
+                            </button>
+                            
+                            <button class="btn btn-outline bookmark-btn" onclick="toggleBookmark('<%= car._id %>')">
+                                <span class="btn-icon">❤️</span>
+                                <span class="btn-text">Add to Favorites</span>
+                            </button>
+                        <% } else { %>
+                            <a href="/login" class="btn btn-primary">
+                                <span class="btn-icon">🔐</span>
+                                <span class="btn-text">Sign In to Purchase</span>
+                            </a>
+                        <% } %>
+                    </div>
+                    
+                    <div class="availability-status">
+                        <% if (car.isAvailable) { %>
+                            <div class="status available">
+                                <span class="status-icon">✅</span>
+                                <span class="status-text">Available for Purchase</span>
+                            </div>
+                        <% } else { %>
+                            <div class="status unavailable">
+                                <span class="status-icon">❌</span>
+                                <span class="status-text">Currently Unavailable</span>
+                            </div>
+                        <% } %>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+document.querySelectorAll('input[name="view"]').forEach(radio => {
+    radio.addEventListener('change', (e) => {
+        const view = e.target.value;
+        const carId = '<%= car._id %>';
+        const brand = '<%= car.brand.toLowerCase() %>';
+        
+        // Update URL without page reload
+        const newUrl = `/models/${brand}/${carId}?view=${view}`;
+        window.history.pushState({}, '', newUrl);
+        
+        // Update image and content
+        const carImage = document.querySelector('.car-main-image');
+        if (view === 'exterior') {
+            carImage.src = '<%= car.images.exterior || "/assets/images/cars/default.jpg" %>';
+        } else {
+            carImage.src = '<%= car.images.interior || "/assets/images/cars/default.jpg" %>';
+        }
+        
+        // Update description section
+        const descriptionSection = document.querySelector('.car-description');
+        
+        if (view === 'exterior') {
+            descriptionSection.innerHTML = `
+                <h4>Description</h4>
+                <p><%= car.description || 'This premium vehicle offers exceptional performance, comfort, and style. Experience luxury driving at its finest.' %></p>
+            `;
+        } else {
+            descriptionSection.innerHTML = `
+                <h4>Note</h4>
+                <p>The image may not exactly match the selected configuration. The actual color of the vehicle may differ from what is presented on this site.</p>
+            `;
+        }
+    });
+});
+
+// Add to Cart functionality
+async function addToCart(carId) {
+    const addToCartBtn = document.querySelector('.add-to-cart-btn');
+    const btnText = addToCartBtn.querySelector('.btn-text');
+    const btnLoader = addToCartBtn.querySelector('.btn-loader');
+    
+    // Show loading
+    btnText.style.display = 'none';
+    btnLoader.style.display = 'inline';
+    addToCartBtn.disabled = true;
+    
+    try {
+        const response = await fetch('/api/cart/add', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ carId, quantity: 1 })
+        });
+        
+        const result = await response.json();
+        
+        if (result.success) {
+            showNotification('Vehicle added to cart successfully!', 'success');
+            
+            // Update cart count in header
+            const cartCount = document.getElementById('cartCount');
+            if (cartCount) {
+                const currentCount = parseInt(cartCount.textContent) || 0;
+                cartCount.textContent = currentCount + 1;
+            }
+        } else {
+            showNotification(result.message, 'error');
+        }
+    } catch (error) {
+        console.error('Error adding to cart:', error);
+        showNotification('Failed to add vehicle to cart', 'error');
+    } finally {
+        // Reset button
+        btnText.style.display = 'inline';
+        btnLoader.style.display = 'none';
+        addToCartBtn.disabled = false;
+    }
+}
+
+// Toggle Bookmark functionality
+async function toggleBookmark(carId) {
+    const bookmarkBtn = document.querySelector('.bookmark-btn');
+    const btnText = bookmarkBtn.querySelector('.btn-text');
+    
+    try {
+        const response = await fetch('/api/bookmarks/toggle', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ carId })
+        });
+        
+        const result = await response.json();
+        
+        if (result.success) {
+            if (result.data.isBookmarked) {
+                btnText.textContent = 'Remove from Favorites';
+                showNotification('Added to favorites!', 'success');
+            } else {
+                btnText.textContent = 'Add to Favorites';
+                showNotification('Removed from favorites', 'info');
+            }
+        } else {
+            showNotification(result.message, 'error');
+        }
+    } catch (error) {
+        console.error('Error toggling bookmark:', error);
+        showNotification('Failed to update favorites', 'error');
+    }
+}
+
+// Notification system
+function showNotification(message, type = 'info') {
+    const notification = document.createElement('div');
+    notification.className = `notification notification-${type}`;
+    notification.innerHTML = `
+        <span class="notification-icon">${type === 'success' ? '✅' : type === 'error' ? '❌' : 'ℹ️'}</span>
+        <span class="notification-message">${message}</span>
+    `;
+    
+    document.body.appendChild(notification);
+    
+    // Animate in
+    setTimeout(() => notification.classList.add('show'), 100);
+    
+    // Remove after 4 seconds
+    setTimeout(() => {
+        notification.classList.remove('show');
+        setTimeout(() => notification.remove(), 300);
+    }, 4000);
+}
+</script> 

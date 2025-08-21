@@ -1,0 +1,298 @@
+<div class="auth-container">
+    <!-- Left Side - Branding -->
+    <div class="auth-hero">
+        <div class="hero-content">
+            <div class="brand-logo">
+                <span class="logo-icon">🚗</span>
+                <h1 class="brand-title">AutoLux</h1>
+            </div>
+            <h2 class="hero-subtitle">Join the Premium Experience</h2>
+            <p class="hero-description">
+                Create your account and unlock access to our exclusive collection of luxury vehicles and premium automotive services.
+            </p>
+            <div class="hero-features">
+                <div class="feature-item">
+                    <span class="feature-icon">🎯</span>
+                    <span>Personalized Experience</span>
+                </div>
+                <div class="feature-item">
+                    <span class="feature-icon">💎</span>
+                    <span>Exclusive Deals</span>
+                </div>
+                <div class="feature-item">
+                    <span class="feature-icon">🛡️</span>
+                    <span>Secure Account</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Right Side - Registration -->
+    <div class="auth-form-container">
+        <div class="auth-form-wrapper">
+            <div class="auth-header">
+                <h2>Create Account</h2>
+                <p>Join AutoLux and start your premium car journey</p>
+            </div>
+
+            <form id="registerForm" class="auth-form active">
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="name">Full Name</label>
+                        <div class="input-wrapper">
+                            <span class="input-icon">👤</span>
+                            <input type="text" id="name" name="name" placeholder="Enter your full name" required />
+                        </div>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="phone">Phone Number</label>
+                        <div class="input-wrapper">
+                            <span class="input-icon">📞</span>
+                            <input type="tel" id="phone" name="phone" placeholder="+1 (555) 123-4567" />
+                        </div>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email Address</label>
+                    <div class="input-wrapper">
+                        <span class="input-icon">📧</span>
+                        <input type="email" id="email" name="email" placeholder="Enter your email address" required />
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="password">Password</label>
+                    <div class="input-wrapper">
+                        <span class="input-icon">🔒</span>
+                        <input type="password" id="password" name="password" placeholder="Create a strong password" required />
+                        <button type="button" class="toggle-password" onclick="togglePassword('password')">
+                            <span class="eye-icon">👁️</span>
+                        </button>
+                    </div>
+                    <div class="password-strength" id="passwordStrength">
+                        <div class="strength-bar">
+                            <div class="strength-fill" id="strengthFill"></div>
+                        </div>
+                        <span class="strength-text" id="strengthText">Password strength</span>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="confirmPassword">Confirm Password</label>
+                    <div class="input-wrapper">
+                        <span class="input-icon">🔒</span>
+                        <input type="password" id="confirmPassword" name="confirmPassword" placeholder="Confirm your password" required />
+                        <button type="button" class="toggle-password" onclick="togglePassword('confirmPassword')">
+                            <span class="eye-icon">👁️</span>
+                        </button>
+                    </div>
+                    <div class="password-match" id="passwordMatch">
+                        <span class="match-icon">⚪</span>
+                        <span class="match-text">Passwords must match</span>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label class="checkbox-label">
+                        <input type="checkbox" id="termsCheck" required />
+                        <span class="checkmark"></span>
+                        I agree to the <a href="#" class="link-primary">Terms of Service</a> and <a href="#" class="link-primary">Privacy Policy</a>
+                    </label>
+                </div>
+
+                <button type="submit" class="submit-btn">
+                    <span class="btn-text">Create Account</span>
+                    <span class="btn-loader" style="display: none;">⏳</span>
+                </button>
+            </form>
+
+            <div class="auth-footer">
+                <p>Already have an account? <a href="/login" class="link-primary">Sign in</a></p>
+                <a href="/" class="back-home">← Back to Home</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+// Password visibility toggle
+function togglePassword(inputId) {
+    const input = document.getElementById(inputId);
+    const eyeIcon = input.parentElement.querySelector('.eye-icon');
+    
+    if (input.type === 'password') {
+        input.type = 'text';
+        eyeIcon.textContent = '🙈';
+    } else {
+        input.type = 'password';
+        eyeIcon.textContent = '👁️';
+    }
+}
+
+// Password strength checker
+function checkPasswordStrength(password) {
+    let strength = 0;
+    const feedback = [];
+    
+    if (password.length >= 8) strength += 1;
+    else feedback.push('At least 8 characters');
+    
+    if (/[a-z]/.test(password)) strength += 1;
+    else feedback.push('Lowercase letter');
+    
+    if (/[A-Z]/.test(password)) strength += 1;
+    else feedback.push('Uppercase letter');
+    
+    if (/[0-9]/.test(password)) strength += 1;
+    else feedback.push('Number');
+    
+    if (/[^A-Za-z0-9]/.test(password)) strength += 1;
+    else feedback.push('Special character');
+    
+    return { strength, feedback };
+}
+
+// Update password strength indicator
+document.getElementById('password').addEventListener('input', function() {
+    const password = this.value;
+    const strengthResult = checkPasswordStrength(password);
+    const strengthFill = document.getElementById('strengthFill');
+    const strengthText = document.getElementById('strengthText');
+    
+    const strengthPercent = (strengthResult.strength / 5) * 100;
+    strengthFill.style.width = strengthPercent + '%';
+    
+    if (strengthResult.strength === 0) {
+        strengthFill.className = 'strength-fill';
+        strengthText.textContent = 'Enter a password';
+    } else if (strengthResult.strength <= 2) {
+        strengthFill.className = 'strength-fill weak';
+        strengthText.textContent = 'Weak password';
+    } else if (strengthResult.strength <= 3) {
+        strengthFill.className = 'strength-fill fair';
+        strengthText.textContent = 'Fair password';
+    } else if (strengthResult.strength <= 4) {
+        strengthFill.className = 'strength-fill good';
+        strengthText.textContent = 'Good password';
+    } else {
+        strengthFill.className = 'strength-fill strong';
+        strengthText.textContent = 'Strong password';
+    }
+});
+
+// Check password match
+function checkPasswordMatch() {
+    const password = document.getElementById('password').value;
+    const confirmPassword = document.getElementById('confirmPassword').value;
+    const matchElement = document.getElementById('passwordMatch');
+    const matchIcon = matchElement.querySelector('.match-icon');
+    const matchText = matchElement.querySelector('.match-text');
+    
+    if (confirmPassword === '') {
+        matchIcon.textContent = '⚪';
+        matchText.textContent = 'Passwords must match';
+        matchElement.className = 'password-match';
+    } else if (password === confirmPassword) {
+        matchIcon.textContent = '✅';
+        matchText.textContent = 'Passwords match';
+        matchElement.className = 'password-match match';
+    } else {
+        matchIcon.textContent = '❌';
+        matchText.textContent = 'Passwords do not match';
+        matchElement.className = 'password-match no-match';
+    }
+}
+
+document.getElementById('confirmPassword').addEventListener('input', checkPasswordMatch);
+document.getElementById('password').addEventListener('input', checkPasswordMatch);
+
+// Form submission
+document.getElementById('registerForm').addEventListener('submit', async (e) => {
+    e.preventDefault();
+    
+    const submitBtn = e.target.querySelector('.submit-btn');
+    const btnText = submitBtn.querySelector('.btn-text');
+    const btnLoader = submitBtn.querySelector('.btn-loader');
+    
+    // Show loading
+    btnText.style.display = 'none';
+    btnLoader.style.display = 'inline';
+    submitBtn.disabled = true;
+    
+    const formData = new FormData(e.target);
+    const data = {
+        name: formData.get('name'),
+        email: formData.get('email'),
+        phone: formData.get('phone'),
+        password: formData.get('password'),
+        confirmPassword: formData.get('confirmPassword')
+    };
+    
+    // Validation
+    if (data.password !== data.confirmPassword) {
+        showNotification('Passwords do not match', 'error');
+        return;
+    }
+    
+    if (data.password.length < 6) {
+        showNotification('Password must be at least 6 characters long', 'error');
+        return;
+    }
+    
+    const strengthResult = checkPasswordStrength(data.password);
+    if (strengthResult.strength < 3) {
+        showNotification('Please choose a stronger password', 'error');
+        return;
+    }
+    
+    try {
+        const response = await fetch('/api/auth/register', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify(data)
+        });
+        
+        const result = await response.json();
+        
+        if (result.success) {
+            showNotification('Account created successfully! Please check your email for verification.', 'success');
+            setTimeout(() => {
+                window.location.href = '/login';
+            }, 3000);
+        } else {
+            showNotification(result.message, 'error');
+        }
+    } catch (error) {
+        console.error('Registration error:', error);
+        showNotification('Registration failed. Please try again.', 'error');
+    } finally {
+        // Reset button
+        btnText.style.display = 'inline';
+        btnLoader.style.display = 'none';
+        submitBtn.disabled = false;
+    }
+});
+
+// Notification system
+function showNotification(message, type = 'info') {
+    const notification = document.createElement('div');
+    notification.className = `notification notification-${type}`;
+    notification.innerHTML = `
+        <span class="notification-icon">${type === 'success' ? '✅' : type === 'error' ? '❌' : 'ℹ️'}</span>
+        <span class="notification-message">${message}</span>
+    `;
+    
+    document.body.appendChild(notification);
+    
+    // Animate in
+    setTimeout(() => notification.classList.add('show'), 100);
+    
+    // Remove after 4 seconds
+    setTimeout(() => {
+        notification.classList.remove('show');
+        setTimeout(() => notification.remove(), 300);
+    }, 4000);
+}
+</script>

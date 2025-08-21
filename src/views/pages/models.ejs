@@ -1,0 +1,55 @@
+<section class="container">
+    <div class="section-header">
+        <h2>Modellar turlari</h2>
+        <p><%= brand %> avtomobillari</p>
+    </div>
+    
+    <div class="models-grid">
+        <% models.forEach(function(model){ %>
+            <div class="model-card">
+                <div class="model-image-container">
+                    <img src="<%= model.image %>" alt="<%= model.name %>" class="model-img">
+                </div>
+                <div class="model-body">
+                    <h3 class="model-name"><%= model.name %></h3>
+                    <p class="model-price">Narxi: <%= model.price.toLocaleString() %> so'm</p>
+                    <div class="model-actions">
+                        <a href="/models/<%= brand %>/<%= model.id %>" class="btn btn-primary">Batafsil</a>
+                        <button class="btn btn-outline bookmark-btn" data-model-id="<%= model.id %>">
+                            <span class="bookmark-icon">❤</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        <% }) %>
+    </div>
+</section>
+
+<script>
+document.querySelectorAll('.bookmark-btn').forEach(btn => {
+    btn.addEventListener('click', async () => {
+        const modelId = btn.dataset.modelId;
+        try {
+            const response = await fetch('/api/bookmarks', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify({ modelId })
+            });
+            
+            if (response.ok) {
+                btn.classList.toggle('active');
+                const icon = btn.querySelector('.bookmark-icon');
+                if (btn.classList.contains('active')) {
+                    icon.textContent = '❤️';
+                } else {
+                    icon.textContent = '🤍';
+                }
+            }
+        } catch (error) {
+            console.error('Bookmark failed:', error);
+        }
+    });
+});
+</script> 

@@ -1,0 +1,1531 @@
+{
+  service: 'avto-salon',
+  email: 'adsasf@gmail.com',
+  userId: new ObjectId('68a4ca5bcc48560059e32815'),
+  level: 'error',
+  message: 'Failed to send verification email',
+  timestamp: '2025-08-20 00:02:52'
+}
+{
+  service: 'avto-salon',
+  error: 'Email yuborishda xatolik yuz berdi',
+  stack: 'Error: Email yuborishda xatolik yuz berdi\n' +
+    '    at file:///home/dior/Desktop/5-exam1/src/controller/enhanced-auth.controller.js:38:11\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)',
+  url: '/api/auth/register',
+  method: 'POST',
+  ip: '::1',
+  userAgent: 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36',
+  userId: null,
+  level: 'error',
+  message: 'Global Error Handler',
+  timestamp: '2025-08-20 00:02:52'
+}
+{
+  service: 'avto-salon',
+  error: "Bu email allaqachon ro'yxatdan o'tgan",
+  stack: "Error: Bu email allaqachon ro'yxatdan o'tgan\n" +
+    '    at file:///home/dior/Desktop/5-exam1/src/controller/enhanced-auth.controller.js:15:11\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)',
+  url: '/api/auth/register',
+  method: 'POST',
+  ip: '::1',
+  userAgent: 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36',
+  userId: null,
+  level: 'error',
+  message: 'Global Error Handler',
+  timestamp: '2025-08-20 00:02:53'
+}
+{
+  service: 'avto-salon',
+  error: "Bu email allaqachon ro'yxatdan o'tgan",
+  stack: "Error: Bu email allaqachon ro'yxatdan o'tgan\n" +
+    '    at file:///home/dior/Desktop/5-exam1/src/controller/enhanced-auth.controller.js:15:11\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)',
+  url: '/api/auth/register',
+  method: 'POST',
+  ip: '::1',
+  userAgent: 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36',
+  userId: null,
+  level: 'error',
+  message: 'Global Error Handler',
+  timestamp: '2025-08-20 01:42:01'
+}
+{
+  service: 'avto-salon',
+  error: 'Autentifikatsiya talab qilinadi',
+  stack: 'Error: Autentifikatsiya talab qilinadi\n' +
+    '    at file:///home/dior/Desktop/5-exam1/src/middleware/auth.middleware.js:11:11\n' +
+    '    at file:///home/dior/Desktop/5-exam1/src/utils/errorHandler.js:104:5\n' +
+    '    at Layer.handleRequest (/home/dior/Desktop/5-exam1/node_modules/router/lib/layer.js:152:17)\n' +
+    '    at trimPrefix (/home/dior/Desktop/5-exam1/node_modules/router/index.js:342:13)\n' +
+    '    at /home/dior/Desktop/5-exam1/node_modules/router/index.js:297:9\n' +
+    '    at processParams (/home/dior/Desktop/5-exam1/node_modules/router/index.js:582:12)\n' +
+    '    at next (/home/dior/Desktop/5-exam1/node_modules/router/index.js:291:5)\n' +
+    '    at Function.handle (/home/dior/Desktop/5-exam1/node_modules/router/index.js:186:3)\n' +
+    '    at router (/home/dior/Desktop/5-exam1/node_modules/router/index.js:60:12)\n' +
+    '    at Layer.handleRequest (/home/dior/Desktop/5-exam1/node_modules/router/lib/layer.js:152:17)',
+  url: '/api/auth/verify-code',
+  method: 'POST',
+  ip: '::1',
+  userAgent: 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36',
+  userId: null,
+  level: 'error',
+  message: 'Global Error Handler',
+  timestamp: '2025-08-20 01:42:52'
+}
+{
+  service: 'avto-salon',
+  error: 'Autentifikatsiya talab qilinadi',
+  stack: 'Error: Autentifikatsiya talab qilinadi\n' +
+    '    at file:///home/dior/Desktop/5-exam1/src/middleware/auth.middleware.js:11:11\n' +
+    '    at file:///home/dior/Desktop/5-exam1/src/utils/errorHandler.js:104:5\n' +
+    '    at Layer.handleRequest (/home/dior/Desktop/5-exam1/node_modules/router/lib/layer.js:152:17)\n' +
+    '    at trimPrefix (/home/dior/Desktop/5-exam1/node_modules/router/index.js:342:13)\n' +
+    '    at /home/dior/Desktop/5-exam1/node_modules/router/index.js:297:9\n' +
+    '    at processParams (/home/dior/Desktop/5-exam1/node_modules/router/index.js:582:12)\n' +
+    '    at next (/home/dior/Desktop/5-exam1/node_modules/router/index.js:291:5)\n' +
+    '    at Function.handle (/home/dior/Desktop/5-exam1/node_modules/router/index.js:186:3)\n' +
+    '    at router (/home/dior/Desktop/5-exam1/node_modules/router/index.js:60:12)\n' +
+    '    at Layer.handleRequest (/home/dior/Desktop/5-exam1/node_modules/router/lib/layer.js:152:17)',
+  url: '/api/auth/verify-code',
+  method: 'POST',
+  ip: '::1',
+  userAgent: 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36',
+  userId: null,
+  level: 'error',
+  message: 'Global Error Handler',
+  timestamp: '2025-08-20 01:42:59'
+}
+{
+  service: 'avto-salon',
+  error: 'Autentifikatsiya talab qilinadi',
+  stack: 'Error: Autentifikatsiya talab qilinadi\n' +
+    '    at file:///home/dior/Desktop/5-exam1/src/middleware/auth.middleware.js:11:11\n' +
+    '    at file:///home/dior/Desktop/5-exam1/src/utils/errorHandler.js:104:5\n' +
+    '    at Layer.handleRequest (/home/dior/Desktop/5-exam1/node_modules/router/lib/layer.js:152:17)\n' +
+    '    at trimPrefix (/home/dior/Desktop/5-exam1/node_modules/router/index.js:342:13)\n' +
+    '    at /home/dior/Desktop/5-exam1/node_modules/router/index.js:297:9\n' +
+    '    at processParams (/home/dior/Desktop/5-exam1/node_modules/router/index.js:582:12)\n' +
+    '    at next (/home/dior/Desktop/5-exam1/node_modules/router/index.js:291:5)\n' +
+    '    at Function.handle (/home/dior/Desktop/5-exam1/node_modules/router/index.js:186:3)\n' +
+    '    at router (/home/dior/Desktop/5-exam1/node_modules/router/index.js:60:12)\n' +
+    '    at Layer.handleRequest (/home/dior/Desktop/5-exam1/node_modules/router/lib/layer.js:152:17)',
+  url: '/api/auth/verify-code',
+  method: 'POST',
+  ip: '::1',
+  userAgent: 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36',
+  userId: null,
+  level: 'error',
+  message: 'Global Error Handler',
+  timestamp: '2025-08-20 01:43:00'
+}
+{
+  service: 'avto-salon',
+  error: 'Autentifikatsiya talab qilinadi',
+  stack: 'Error: Autentifikatsiya talab qilinadi\n' +
+    '    at file:///home/dior/Desktop/5-exam1/src/middleware/auth.middleware.js:11:11\n' +
+    '    at file:///home/dior/Desktop/5-exam1/src/utils/errorHandler.js:104:5\n' +
+    '    at Layer.handleRequest (/home/dior/Desktop/5-exam1/node_modules/router/lib/layer.js:152:17)\n' +
+    '    at trimPrefix (/home/dior/Desktop/5-exam1/node_modules/router/index.js:342:13)\n' +
+    '    at /home/dior/Desktop/5-exam1/node_modules/router/index.js:297:9\n' +
+    '    at processParams (/home/dior/Desktop/5-exam1/node_modules/router/index.js:582:12)\n' +
+    '    at next (/home/dior/Desktop/5-exam1/node_modules/router/index.js:291:5)\n' +
+    '    at Function.handle (/home/dior/Desktop/5-exam1/node_modules/router/index.js:186:3)\n' +
+    '    at router (/home/dior/Desktop/5-exam1/node_modules/router/index.js:60:12)\n' +
+    '    at Layer.handleRequest (/home/dior/Desktop/5-exam1/node_modules/router/lib/layer.js:152:17)',
+  url: '/api/auth/verify-code',
+  method: 'POST',
+  ip: '::1',
+  userAgent: 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36',
+  userId: null,
+  level: 'error',
+  message: 'Global Error Handler',
+  timestamp: '2025-08-20 01:43:01'
+}
+{
+  service: 'avto-salon',
+  error: 'Autentifikatsiya talab qilinadi',
+  stack: 'Error: Autentifikatsiya talab qilinadi\n' +
+    '    at file:///home/dior/Desktop/5-exam1/src/middleware/auth.middleware.js:11:11\n' +
+    '    at file:///home/dior/Desktop/5-exam1/src/utils/errorHandler.js:104:5\n' +
+    '    at Layer.handleRequest (/home/dior/Desktop/5-exam1/node_modules/router/lib/layer.js:152:17)\n' +
+    '    at trimPrefix (/home/dior/Desktop/5-exam1/node_modules/router/index.js:342:13)\n' +
+    '    at /home/dior/Desktop/5-exam1/node_modules/router/index.js:297:9\n' +
+    '    at processParams (/home/dior/Desktop/5-exam1/node_modules/router/index.js:582:12)\n' +
+    '    at next (/home/dior/Desktop/5-exam1/node_modules/router/index.js:291:5)\n' +
+    '    at Function.handle (/home/dior/Desktop/5-exam1/node_modules/router/index.js:186:3)\n' +
+    '    at router (/home/dior/Desktop/5-exam1/node_modules/router/index.js:60:12)\n' +
+    '    at Layer.handleRequest (/home/dior/Desktop/5-exam1/node_modules/router/lib/layer.js:152:17)',
+  url: '/api/auth/verify-code',
+  method: 'POST',
+  ip: '::1',
+  userAgent: 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36',
+  userId: null,
+  level: 'error',
+  message: 'Global Error Handler',
+  timestamp: '2025-08-20 01:43:01'
+}
+{
+  service: 'avto-salon',
+  error: 'Autentifikatsiya talab qilinadi',
+  stack: 'Error: Autentifikatsiya talab qilinadi\n' +
+    '    at file:///home/dior/Desktop/5-exam1/src/middleware/auth.middleware.js:11:11\n' +
+    '    at file:///home/dior/Desktop/5-exam1/src/utils/errorHandler.js:104:5\n' +
+    '    at Layer.handleRequest (/home/dior/Desktop/5-exam1/node_modules/router/lib/layer.js:152:17)\n' +
+    '    at trimPrefix (/home/dior/Desktop/5-exam1/node_modules/router/index.js:342:13)\n' +
+    '    at /home/dior/Desktop/5-exam1/node_modules/router/index.js:297:9\n' +
+    '    at processParams (/home/dior/Desktop/5-exam1/node_modules/router/index.js:582:12)\n' +
+    '    at next (/home/dior/Desktop/5-exam1/node_modules/router/index.js:291:5)\n' +
+    '    at Function.handle (/home/dior/Desktop/5-exam1/node_modules/router/index.js:186:3)\n' +
+    '    at router (/home/dior/Desktop/5-exam1/node_modules/router/index.js:60:12)\n' +
+    '    at Layer.handleRequest (/home/dior/Desktop/5-exam1/node_modules/router/lib/layer.js:152:17)',
+  url: '/api/auth/verify-code',
+  method: 'POST',
+  ip: '::1',
+  userAgent: 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36',
+  userId: null,
+  level: 'error',
+  message: 'Global Error Handler',
+  timestamp: '2025-08-20 01:43:01'
+}
+{
+  service: 'avto-salon',
+  error: 'Autentifikatsiya talab qilinadi',
+  stack: 'Error: Autentifikatsiya talab qilinadi\n' +
+    '    at file:///home/dior/Desktop/5-exam1/src/middleware/auth.middleware.js:11:11\n' +
+    '    at file:///home/dior/Desktop/5-exam1/src/utils/errorHandler.js:104:5\n' +
+    '    at Layer.handleRequest (/home/dior/Desktop/5-exam1/node_modules/router/lib/layer.js:152:17)\n' +
+    '    at trimPrefix (/home/dior/Desktop/5-exam1/node_modules/router/index.js:342:13)\n' +
+    '    at /home/dior/Desktop/5-exam1/node_modules/router/index.js:297:9\n' +
+    '    at processParams (/home/dior/Desktop/5-exam1/node_modules/router/index.js:582:12)\n' +
+    '    at next (/home/dior/Desktop/5-exam1/node_modules/router/index.js:291:5)\n' +
+    '    at Function.handle (/home/dior/Desktop/5-exam1/node_modules/router/index.js:186:3)\n' +
+    '    at router (/home/dior/Desktop/5-exam1/node_modules/router/index.js:60:12)\n' +
+    '    at Layer.handleRequest (/home/dior/Desktop/5-exam1/node_modules/router/lib/layer.js:152:17)',
+  url: '/api/auth/verify-code',
+  method: 'POST',
+  ip: '::1',
+  userAgent: 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36',
+  userId: null,
+  level: 'error',
+  message: 'Global Error Handler',
+  timestamp: '2025-08-20 01:43:01'
+}
+{
+  service: 'avto-salon',
+  error: 'Autentifikatsiya talab qilinadi',
+  stack: 'Error: Autentifikatsiya talab qilinadi\n' +
+    '    at file:///home/dior/Desktop/5-exam1/src/middleware/auth.middleware.js:11:11\n' +
+    '    at file:///home/dior/Desktop/5-exam1/src/utils/errorHandler.js:104:5\n' +
+    '    at Layer.handleRequest (/home/dior/Desktop/5-exam1/node_modules/router/lib/layer.js:152:17)\n' +
+    '    at trimPrefix (/home/dior/Desktop/5-exam1/node_modules/router/index.js:342:13)\n' +
+    '    at /home/dior/Desktop/5-exam1/node_modules/router/index.js:297:9\n' +
+    '    at processParams (/home/dior/Desktop/5-exam1/node_modules/router/index.js:582:12)\n' +
+    '    at next (/home/dior/Desktop/5-exam1/node_modules/router/index.js:291:5)\n' +
+    '    at Function.handle (/home/dior/Desktop/5-exam1/node_modules/router/index.js:186:3)\n' +
+    '    at router (/home/dior/Desktop/5-exam1/node_modules/router/index.js:60:12)\n' +
+    '    at Layer.handleRequest (/home/dior/Desktop/5-exam1/node_modules/router/lib/layer.js:152:17)',
+  url: '/api/auth/verify-code',
+  method: 'POST',
+  ip: '::1',
+  userAgent: 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36',
+  userId: null,
+  level: 'error',
+  message: 'Global Error Handler',
+  timestamp: '2025-08-20 01:43:02'
+}
+{
+  service: 'avto-salon',
+  error: 'Autentifikatsiya talab qilinadi',
+  stack: 'Error: Autentifikatsiya talab qilinadi\n' +
+    '    at file:///home/dior/Desktop/5-exam1/src/middleware/auth.middleware.js:11:11\n' +
+    '    at file:///home/dior/Desktop/5-exam1/src/utils/errorHandler.js:104:5\n' +
+    '    at Layer.handleRequest (/home/dior/Desktop/5-exam1/node_modules/router/lib/layer.js:152:17)\n' +
+    '    at trimPrefix (/home/dior/Desktop/5-exam1/node_modules/router/index.js:342:13)\n' +
+    '    at /home/dior/Desktop/5-exam1/node_modules/router/index.js:297:9\n' +
+    '    at processParams (/home/dior/Desktop/5-exam1/node_modules/router/index.js:582:12)\n' +
+    '    at next (/home/dior/Desktop/5-exam1/node_modules/router/index.js:291:5)\n' +
+    '    at Function.handle (/home/dior/Desktop/5-exam1/node_modules/router/index.js:186:3)\n' +
+    '    at router (/home/dior/Desktop/5-exam1/node_modules/router/index.js:60:12)\n' +
+    '    at Layer.handleRequest (/home/dior/Desktop/5-exam1/node_modules/router/lib/layer.js:152:17)',
+  url: '/api/auth/verify-code',
+  method: 'POST',
+  ip: '::1',
+  userAgent: 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36',
+  userId: null,
+  level: 'error',
+  message: 'Global Error Handler',
+  timestamp: '2025-08-20 01:43:02'
+}
+{
+  service: 'avto-salon',
+  error: 'Autentifikatsiya talab qilinadi',
+  stack: 'Error: Autentifikatsiya talab qilinadi\n' +
+    '    at file:///home/dior/Desktop/5-exam1/src/middleware/auth.middleware.js:11:11\n' +
+    '    at file:///home/dior/Desktop/5-exam1/src/utils/errorHandler.js:104:5\n' +
+    '    at Layer.handleRequest (/home/dior/Desktop/5-exam1/node_modules/router/lib/layer.js:152:17)\n' +
+    '    at trimPrefix (/home/dior/Desktop/5-exam1/node_modules/router/index.js:342:13)\n' +
+    '    at /home/dior/Desktop/5-exam1/node_modules/router/index.js:297:9\n' +
+    '    at processParams (/home/dior/Desktop/5-exam1/node_modules/router/index.js:582:12)\n' +
+    '    at next (/home/dior/Desktop/5-exam1/node_modules/router/index.js:291:5)\n' +
+    '    at Function.handle (/home/dior/Desktop/5-exam1/node_modules/router/index.js:186:3)\n' +
+    '    at router (/home/dior/Desktop/5-exam1/node_modules/router/index.js:60:12)\n' +
+    '    at Layer.handleRequest (/home/dior/Desktop/5-exam1/node_modules/router/lib/layer.js:152:17)',
+  url: '/api/auth/verify-code',
+  method: 'POST',
+  ip: '::1',
+  userAgent: 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36',
+  userId: null,
+  level: 'error',
+  message: 'Global Error Handler',
+  timestamp: '2025-08-20 01:43:02'
+}
+{
+  service: 'avto-salon',
+  error: 'Autentifikatsiya talab qilinadi',
+  stack: 'Error: Autentifikatsiya talab qilinadi\n' +
+    '    at file:///home/dior/Desktop/5-exam1/src/middleware/auth.middleware.js:11:11\n' +
+    '    at file:///home/dior/Desktop/5-exam1/src/utils/errorHandler.js:104:5\n' +
+    '    at Layer.handleRequest (/home/dior/Desktop/5-exam1/node_modules/router/lib/layer.js:152:17)\n' +
+    '    at trimPrefix (/home/dior/Desktop/5-exam1/node_modules/router/index.js:342:13)\n' +
+    '    at /home/dior/Desktop/5-exam1/node_modules/router/index.js:297:9\n' +
+    '    at processParams (/home/dior/Desktop/5-exam1/node_modules/router/index.js:582:12)\n' +
+    '    at next (/home/dior/Desktop/5-exam1/node_modules/router/index.js:291:5)\n' +
+    '    at Function.handle (/home/dior/Desktop/5-exam1/node_modules/router/index.js:186:3)\n' +
+    '    at router (/home/dior/Desktop/5-exam1/node_modules/router/index.js:60:12)\n' +
+    '    at Layer.handleRequest (/home/dior/Desktop/5-exam1/node_modules/router/lib/layer.js:152:17)',
+  url: '/api/auth/verify-code',
+  method: 'POST',
+  ip: '::1',
+  userAgent: 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36',
+  userId: null,
+  level: 'error',
+  message: 'Global Error Handler',
+  timestamp: '2025-08-20 01:43:02'
+}
+{
+  service: 'avto-salon',
+  error: 'Autentifikatsiya talab qilinadi',
+  stack: 'Error: Autentifikatsiya talab qilinadi\n' +
+    '    at file:///home/dior/Desktop/5-exam1/src/middleware/auth.middleware.js:11:11\n' +
+    '    at file:///home/dior/Desktop/5-exam1/src/utils/errorHandler.js:104:5\n' +
+    '    at Layer.handleRequest (/home/dior/Desktop/5-exam1/node_modules/router/lib/layer.js:152:17)\n' +
+    '    at trimPrefix (/home/dior/Desktop/5-exam1/node_modules/router/index.js:342:13)\n' +
+    '    at /home/dior/Desktop/5-exam1/node_modules/router/index.js:297:9\n' +
+    '    at processParams (/home/dior/Desktop/5-exam1/node_modules/router/index.js:582:12)\n' +
+    '    at next (/home/dior/Desktop/5-exam1/node_modules/router/index.js:291:5)\n' +
+    '    at Function.handle (/home/dior/Desktop/5-exam1/node_modules/router/index.js:186:3)\n' +
+    '    at router (/home/dior/Desktop/5-exam1/node_modules/router/index.js:60:12)\n' +
+    '    at Layer.handleRequest (/home/dior/Desktop/5-exam1/node_modules/router/lib/layer.js:152:17)',
+  url: '/api/auth/verify-code',
+  method: 'POST',
+  ip: '::1',
+  userAgent: 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36',
+  userId: null,
+  level: 'error',
+  message: 'Global Error Handler',
+  timestamp: '2025-08-20 01:43:02'
+}
+{
+  service: 'avto-salon',
+  error: 'Autentifikatsiya talab qilinadi',
+  stack: 'Error: Autentifikatsiya talab qilinadi\n' +
+    '    at file:///home/dior/Desktop/5-exam1/src/middleware/auth.middleware.js:11:11\n' +
+    '    at file:///home/dior/Desktop/5-exam1/src/utils/errorHandler.js:104:5\n' +
+    '    at Layer.handleRequest (/home/dior/Desktop/5-exam1/node_modules/router/lib/layer.js:152:17)\n' +
+    '    at trimPrefix (/home/dior/Desktop/5-exam1/node_modules/router/index.js:342:13)\n' +
+    '    at /home/dior/Desktop/5-exam1/node_modules/router/index.js:297:9\n' +
+    '    at processParams (/home/dior/Desktop/5-exam1/node_modules/router/index.js:582:12)\n' +
+    '    at next (/home/dior/Desktop/5-exam1/node_modules/router/index.js:291:5)\n' +
+    '    at Function.handle (/home/dior/Desktop/5-exam1/node_modules/router/index.js:186:3)\n' +
+    '    at router (/home/dior/Desktop/5-exam1/node_modules/router/index.js:60:12)\n' +
+    '    at Layer.handleRequest (/home/dior/Desktop/5-exam1/node_modules/router/lib/layer.js:152:17)',
+  url: '/api/auth/verify-code',
+  method: 'POST',
+  ip: '::1',
+  userAgent: 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36',
+  userId: null,
+  level: 'error',
+  message: 'Global Error Handler',
+  timestamp: '2025-08-20 01:43:03'
+}
+{
+  service: 'avto-salon',
+  error: 'Autentifikatsiya talab qilinadi',
+  stack: 'Error: Autentifikatsiya talab qilinadi\n' +
+    '    at file:///home/dior/Desktop/5-exam1/src/middleware/auth.middleware.js:11:11\n' +
+    '    at file:///home/dior/Desktop/5-exam1/src/utils/errorHandler.js:104:5\n' +
+    '    at Layer.handleRequest (/home/dior/Desktop/5-exam1/node_modules/router/lib/layer.js:152:17)\n' +
+    '    at trimPrefix (/home/dior/Desktop/5-exam1/node_modules/router/index.js:342:13)\n' +
+    '    at /home/dior/Desktop/5-exam1/node_modules/router/index.js:297:9\n' +
+    '    at processParams (/home/dior/Desktop/5-exam1/node_modules/router/index.js:582:12)\n' +
+    '    at next (/home/dior/Desktop/5-exam1/node_modules/router/index.js:291:5)\n' +
+    '    at Function.handle (/home/dior/Desktop/5-exam1/node_modules/router/index.js:186:3)\n' +
+    '    at router (/home/dior/Desktop/5-exam1/node_modules/router/index.js:60:12)\n' +
+    '    at Layer.handleRequest (/home/dior/Desktop/5-exam1/node_modules/router/lib/layer.js:152:17)',
+  url: '/api/auth/verify-code',
+  method: 'POST',
+  ip: '::1',
+  userAgent: 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36',
+  userId: null,
+  level: 'error',
+  message: 'Global Error Handler',
+  timestamp: '2025-08-20 01:43:03'
+}
+{
+  service: 'avto-salon',
+  error: 'Autentifikatsiya talab qilinadi',
+  stack: 'Error: Autentifikatsiya talab qilinadi\n' +
+    '    at file:///home/dior/Desktop/5-exam1/src/middleware/auth.middleware.js:11:11\n' +
+    '    at file:///home/dior/Desktop/5-exam1/src/utils/errorHandler.js:104:5\n' +
+    '    at Layer.handleRequest (/home/dior/Desktop/5-exam1/node_modules/router/lib/layer.js:152:17)\n' +
+    '    at trimPrefix (/home/dior/Desktop/5-exam1/node_modules/router/index.js:342:13)\n' +
+    '    at /home/dior/Desktop/5-exam1/node_modules/router/index.js:297:9\n' +
+    '    at processParams (/home/dior/Desktop/5-exam1/node_modules/router/index.js:582:12)\n' +
+    '    at next (/home/dior/Desktop/5-exam1/node_modules/router/index.js:291:5)\n' +
+    '    at Function.handle (/home/dior/Desktop/5-exam1/node_modules/router/index.js:186:3)\n' +
+    '    at router (/home/dior/Desktop/5-exam1/node_modules/router/index.js:60:12)\n' +
+    '    at Layer.handleRequest (/home/dior/Desktop/5-exam1/node_modules/router/lib/layer.js:152:17)',
+  url: '/api/auth/verify-code',
+  method: 'POST',
+  ip: '::1',
+  userAgent: 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36',
+  userId: null,
+  level: 'error',
+  message: 'Global Error Handler',
+  timestamp: '2025-08-20 01:43:03'
+}
+{
+  service: 'avto-salon',
+  error: 'Autentifikatsiya talab qilinadi',
+  stack: 'Error: Autentifikatsiya talab qilinadi\n' +
+    '    at file:///home/dior/Desktop/5-exam1/src/middleware/auth.middleware.js:11:11\n' +
+    '    at file:///home/dior/Desktop/5-exam1/src/utils/errorHandler.js:104:5\n' +
+    '    at Layer.handleRequest (/home/dior/Desktop/5-exam1/node_modules/router/lib/layer.js:152:17)\n' +
+    '    at trimPrefix (/home/dior/Desktop/5-exam1/node_modules/router/index.js:342:13)\n' +
+    '    at /home/dior/Desktop/5-exam1/node_modules/router/index.js:297:9\n' +
+    '    at processParams (/home/dior/Desktop/5-exam1/node_modules/router/index.js:582:12)\n' +
+    '    at next (/home/dior/Desktop/5-exam1/node_modules/router/index.js:291:5)\n' +
+    '    at Function.handle (/home/dior/Desktop/5-exam1/node_modules/router/index.js:186:3)\n' +
+    '    at router (/home/dior/Desktop/5-exam1/node_modules/router/index.js:60:12)\n' +
+    '    at Layer.handleRequest (/home/dior/Desktop/5-exam1/node_modules/router/lib/layer.js:152:17)',
+  url: '/api/auth/verify-code',
+  method: 'POST',
+  ip: '::1',
+  userAgent: 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36',
+  userId: null,
+  level: 'error',
+  message: 'Global Error Handler',
+  timestamp: '2025-08-20 01:43:03'
+}
+{
+  service: 'avto-salon',
+  error: 'Autentifikatsiya talab qilinadi',
+  stack: 'Error: Autentifikatsiya talab qilinadi\n' +
+    '    at file:///home/dior/Desktop/5-exam1/src/middleware/auth.middleware.js:11:11\n' +
+    '    at file:///home/dior/Desktop/5-exam1/src/utils/errorHandler.js:104:5\n' +
+    '    at Layer.handleRequest (/home/dior/Desktop/5-exam1/node_modules/router/lib/layer.js:152:17)\n' +
+    '    at trimPrefix (/home/dior/Desktop/5-exam1/node_modules/router/index.js:342:13)\n' +
+    '    at /home/dior/Desktop/5-exam1/node_modules/router/index.js:297:9\n' +
+    '    at processParams (/home/dior/Desktop/5-exam1/node_modules/router/index.js:582:12)\n' +
+    '    at next (/home/dior/Desktop/5-exam1/node_modules/router/index.js:291:5)\n' +
+    '    at Function.handle (/home/dior/Desktop/5-exam1/node_modules/router/index.js:186:3)\n' +
+    '    at router (/home/dior/Desktop/5-exam1/node_modules/router/index.js:60:12)\n' +
+    '    at Layer.handleRequest (/home/dior/Desktop/5-exam1/node_modules/router/lib/layer.js:152:17)',
+  url: '/api/auth/verify-code',
+  method: 'POST',
+  ip: '::1',
+  userAgent: 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36',
+  userId: null,
+  level: 'error',
+  message: 'Global Error Handler',
+  timestamp: '2025-08-20 01:43:03'
+}
+{
+  service: 'avto-salon',
+  error: 'Autentifikatsiya talab qilinadi',
+  stack: 'Error: Autentifikatsiya talab qilinadi\n' +
+    '    at file:///home/dior/Desktop/5-exam1/src/middleware/auth.middleware.js:11:11\n' +
+    '    at file:///home/dior/Desktop/5-exam1/src/utils/errorHandler.js:104:5\n' +
+    '    at Layer.handleRequest (/home/dior/Desktop/5-exam1/node_modules/router/lib/layer.js:152:17)\n' +
+    '    at trimPrefix (/home/dior/Desktop/5-exam1/node_modules/router/index.js:342:13)\n' +
+    '    at /home/dior/Desktop/5-exam1/node_modules/router/index.js:297:9\n' +
+    '    at processParams (/home/dior/Desktop/5-exam1/node_modules/router/index.js:582:12)\n' +
+    '    at next (/home/dior/Desktop/5-exam1/node_modules/router/index.js:291:5)\n' +
+    '    at Function.handle (/home/dior/Desktop/5-exam1/node_modules/router/index.js:186:3)\n' +
+    '    at router (/home/dior/Desktop/5-exam1/node_modules/router/index.js:60:12)\n' +
+    '    at Layer.handleRequest (/home/dior/Desktop/5-exam1/node_modules/router/lib/layer.js:152:17)',
+  url: '/api/auth/verify-code',
+  method: 'POST',
+  ip: '::1',
+  userAgent: 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36',
+  userId: null,
+  level: 'error',
+  message: 'Global Error Handler',
+  timestamp: '2025-08-20 01:43:04'
+}
+{
+  service: 'avto-salon',
+  error: 'Autentifikatsiya talab qilinadi',
+  stack: 'Error: Autentifikatsiya talab qilinadi\n' +
+    '    at file:///home/dior/Desktop/5-exam1/src/middleware/auth.middleware.js:11:11\n' +
+    '    at file:///home/dior/Desktop/5-exam1/src/utils/errorHandler.js:104:5\n' +
+    '    at Layer.handleRequest (/home/dior/Desktop/5-exam1/node_modules/router/lib/layer.js:152:17)\n' +
+    '    at trimPrefix (/home/dior/Desktop/5-exam1/node_modules/router/index.js:342:13)\n' +
+    '    at /home/dior/Desktop/5-exam1/node_modules/router/index.js:297:9\n' +
+    '    at processParams (/home/dior/Desktop/5-exam1/node_modules/router/index.js:582:12)\n' +
+    '    at next (/home/dior/Desktop/5-exam1/node_modules/router/index.js:291:5)\n' +
+    '    at Function.handle (/home/dior/Desktop/5-exam1/node_modules/router/index.js:186:3)\n' +
+    '    at router (/home/dior/Desktop/5-exam1/node_modules/router/index.js:60:12)\n' +
+    '    at Layer.handleRequest (/home/dior/Desktop/5-exam1/node_modules/router/lib/layer.js:152:17)',
+  url: '/api/auth/verify-code',
+  method: 'POST',
+  ip: '::1',
+  userAgent: 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36',
+  userId: null,
+  level: 'error',
+  message: 'Global Error Handler',
+  timestamp: '2025-08-20 01:43:04'
+}
+{
+  service: 'avto-salon',
+  error: 'Autentifikatsiya talab qilinadi',
+  stack: 'Error: Autentifikatsiya talab qilinadi\n' +
+    '    at file:///home/dior/Desktop/5-exam1/src/middleware/auth.middleware.js:11:11\n' +
+    '    at file:///home/dior/Desktop/5-exam1/src/utils/errorHandler.js:104:5\n' +
+    '    at Layer.handleRequest (/home/dior/Desktop/5-exam1/node_modules/router/lib/layer.js:152:17)\n' +
+    '    at trimPrefix (/home/dior/Desktop/5-exam1/node_modules/router/index.js:342:13)\n' +
+    '    at /home/dior/Desktop/5-exam1/node_modules/router/index.js:297:9\n' +
+    '    at processParams (/home/dior/Desktop/5-exam1/node_modules/router/index.js:582:12)\n' +
+    '    at next (/home/dior/Desktop/5-exam1/node_modules/router/index.js:291:5)\n' +
+    '    at Function.handle (/home/dior/Desktop/5-exam1/node_modules/router/index.js:186:3)\n' +
+    '    at router (/home/dior/Desktop/5-exam1/node_modules/router/index.js:60:12)\n' +
+    '    at Layer.handleRequest (/home/dior/Desktop/5-exam1/node_modules/router/lib/layer.js:152:17)',
+  url: '/api/auth/verify-code',
+  method: 'POST',
+  ip: '::1',
+  userAgent: 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36',
+  userId: null,
+  level: 'error',
+  message: 'Global Error Handler',
+  timestamp: '2025-08-20 01:43:04'
+}
+{
+  service: 'avto-salon',
+  error: 'Autentifikatsiya talab qilinadi',
+  stack: 'Error: Autentifikatsiya talab qilinadi\n' +
+    '    at file:///home/dior/Desktop/5-exam1/src/middleware/auth.middleware.js:11:11\n' +
+    '    at file:///home/dior/Desktop/5-exam1/src/utils/errorHandler.js:104:5\n' +
+    '    at Layer.handleRequest (/home/dior/Desktop/5-exam1/node_modules/router/lib/layer.js:152:17)\n' +
+    '    at trimPrefix (/home/dior/Desktop/5-exam1/node_modules/router/index.js:342:13)\n' +
+    '    at /home/dior/Desktop/5-exam1/node_modules/router/index.js:297:9\n' +
+    '    at processParams (/home/dior/Desktop/5-exam1/node_modules/router/index.js:582:12)\n' +
+    '    at next (/home/dior/Desktop/5-exam1/node_modules/router/index.js:291:5)\n' +
+    '    at Function.handle (/home/dior/Desktop/5-exam1/node_modules/router/index.js:186:3)\n' +
+    '    at router (/home/dior/Desktop/5-exam1/node_modules/router/index.js:60:12)\n' +
+    '    at Layer.handleRequest (/home/dior/Desktop/5-exam1/node_modules/router/lib/layer.js:152:17)',
+  url: '/api/auth/verify-code',
+  method: 'POST',
+  ip: '::1',
+  userAgent: 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36',
+  userId: null,
+  level: 'error',
+  message: 'Global Error Handler',
+  timestamp: '2025-08-20 01:43:04'
+}
+{
+  service: 'avto-salon',
+  error: 'Autentifikatsiya talab qilinadi',
+  stack: 'Error: Autentifikatsiya talab qilinadi\n' +
+    '    at file:///home/dior/Desktop/5-exam1/src/middleware/auth.middleware.js:11:11\n' +
+    '    at file:///home/dior/Desktop/5-exam1/src/utils/errorHandler.js:104:5\n' +
+    '    at Layer.handleRequest (/home/dior/Desktop/5-exam1/node_modules/router/lib/layer.js:152:17)\n' +
+    '    at trimPrefix (/home/dior/Desktop/5-exam1/node_modules/router/index.js:342:13)\n' +
+    '    at /home/dior/Desktop/5-exam1/node_modules/router/index.js:297:9\n' +
+    '    at processParams (/home/dior/Desktop/5-exam1/node_modules/router/index.js:582:12)\n' +
+    '    at next (/home/dior/Desktop/5-exam1/node_modules/router/index.js:291:5)\n' +
+    '    at Function.handle (/home/dior/Desktop/5-exam1/node_modules/router/index.js:186:3)\n' +
+    '    at router (/home/dior/Desktop/5-exam1/node_modules/router/index.js:60:12)\n' +
+    '    at Layer.handleRequest (/home/dior/Desktop/5-exam1/node_modules/router/lib/layer.js:152:17)',
+  url: '/api/auth/verify-code',
+  method: 'POST',
+  ip: '::1',
+  userAgent: 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36',
+  userId: null,
+  level: 'error',
+  message: 'Global Error Handler',
+  timestamp: '2025-08-20 01:43:04'
+}
+{
+  service: 'avto-salon',
+  error: 'Autentifikatsiya talab qilinadi',
+  stack: 'Error: Autentifikatsiya talab qilinadi\n' +
+    '    at file:///home/dior/Desktop/5-exam1/src/middleware/auth.middleware.js:11:11\n' +
+    '    at file:///home/dior/Desktop/5-exam1/src/utils/errorHandler.js:104:5\n' +
+    '    at Layer.handleRequest (/home/dior/Desktop/5-exam1/node_modules/router/lib/layer.js:152:17)\n' +
+    '    at trimPrefix (/home/dior/Desktop/5-exam1/node_modules/router/index.js:342:13)\n' +
+    '    at /home/dior/Desktop/5-exam1/node_modules/router/index.js:297:9\n' +
+    '    at processParams (/home/dior/Desktop/5-exam1/node_modules/router/index.js:582:12)\n' +
+    '    at next (/home/dior/Desktop/5-exam1/node_modules/router/index.js:291:5)\n' +
+    '    at Function.handle (/home/dior/Desktop/5-exam1/node_modules/router/index.js:186:3)\n' +
+    '    at router (/home/dior/Desktop/5-exam1/node_modules/router/index.js:60:12)\n' +
+    '    at Layer.handleRequest (/home/dior/Desktop/5-exam1/node_modules/router/lib/layer.js:152:17)',
+  url: '/api/auth/verify-code',
+  method: 'POST',
+  ip: '::1',
+  userAgent: 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36',
+  userId: null,
+  level: 'error',
+  message: 'Global Error Handler',
+  timestamp: '2025-08-20 01:43:05'
+}
+{
+  service: 'avto-salon',
+  error: 'Autentifikatsiya talab qilinadi',
+  stack: 'Error: Autentifikatsiya talab qilinadi\n' +
+    '    at file:///home/dior/Desktop/5-exam1/src/middleware/auth.middleware.js:11:11\n' +
+    '    at file:///home/dior/Desktop/5-exam1/src/utils/errorHandler.js:104:5\n' +
+    '    at Layer.handleRequest (/home/dior/Desktop/5-exam1/node_modules/router/lib/layer.js:152:17)\n' +
+    '    at trimPrefix (/home/dior/Desktop/5-exam1/node_modules/router/index.js:342:13)\n' +
+    '    at /home/dior/Desktop/5-exam1/node_modules/router/index.js:297:9\n' +
+    '    at processParams (/home/dior/Desktop/5-exam1/node_modules/router/index.js:582:12)\n' +
+    '    at next (/home/dior/Desktop/5-exam1/node_modules/router/index.js:291:5)\n' +
+    '    at Function.handle (/home/dior/Desktop/5-exam1/node_modules/router/index.js:186:3)\n' +
+    '    at router (/home/dior/Desktop/5-exam1/node_modules/router/index.js:60:12)\n' +
+    '    at Layer.handleRequest (/home/dior/Desktop/5-exam1/node_modules/router/lib/layer.js:152:17)',
+  url: '/api/auth/verify-code',
+  method: 'POST',
+  ip: '::1',
+  userAgent: 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36',
+  userId: null,
+  level: 'error',
+  message: 'Global Error Handler',
+  timestamp: '2025-08-20 01:43:05'
+}
+{
+  service: 'avto-salon',
+  error: 'Autentifikatsiya talab qilinadi',
+  stack: 'Error: Autentifikatsiya talab qilinadi\n' +
+    '    at file:///home/dior/Desktop/5-exam1/src/middleware/auth.middleware.js:11:11\n' +
+    '    at file:///home/dior/Desktop/5-exam1/src/utils/errorHandler.js:104:5\n' +
+    '    at Layer.handleRequest (/home/dior/Desktop/5-exam1/node_modules/router/lib/layer.js:152:17)\n' +
+    '    at trimPrefix (/home/dior/Desktop/5-exam1/node_modules/router/index.js:342:13)\n' +
+    '    at /home/dior/Desktop/5-exam1/node_modules/router/index.js:297:9\n' +
+    '    at processParams (/home/dior/Desktop/5-exam1/node_modules/router/index.js:582:12)\n' +
+    '    at next (/home/dior/Desktop/5-exam1/node_modules/router/index.js:291:5)\n' +
+    '    at Function.handle (/home/dior/Desktop/5-exam1/node_modules/router/index.js:186:3)\n' +
+    '    at router (/home/dior/Desktop/5-exam1/node_modules/router/index.js:60:12)\n' +
+    '    at Layer.handleRequest (/home/dior/Desktop/5-exam1/node_modules/router/lib/layer.js:152:17)',
+  url: '/api/auth/verify-code',
+  method: 'POST',
+  ip: '::1',
+  userAgent: 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36',
+  userId: null,
+  level: 'error',
+  message: 'Global Error Handler',
+  timestamp: '2025-08-20 01:43:05'
+}
+{
+  service: 'avto-salon',
+  error: 'Autentifikatsiya talab qilinadi',
+  stack: 'Error: Autentifikatsiya talab qilinadi\n' +
+    '    at file:///home/dior/Desktop/5-exam1/src/middleware/auth.middleware.js:11:11\n' +
+    '    at file:///home/dior/Desktop/5-exam1/src/utils/errorHandler.js:104:5\n' +
+    '    at Layer.handleRequest (/home/dior/Desktop/5-exam1/node_modules/router/lib/layer.js:152:17)\n' +
+    '    at trimPrefix (/home/dior/Desktop/5-exam1/node_modules/router/index.js:342:13)\n' +
+    '    at /home/dior/Desktop/5-exam1/node_modules/router/index.js:297:9\n' +
+    '    at processParams (/home/dior/Desktop/5-exam1/node_modules/router/index.js:582:12)\n' +
+    '    at next (/home/dior/Desktop/5-exam1/node_modules/router/index.js:291:5)\n' +
+    '    at Function.handle (/home/dior/Desktop/5-exam1/node_modules/router/index.js:186:3)\n' +
+    '    at router (/home/dior/Desktop/5-exam1/node_modules/router/index.js:60:12)\n' +
+    '    at Layer.handleRequest (/home/dior/Desktop/5-exam1/node_modules/router/lib/layer.js:152:17)',
+  url: '/api/auth/verify-code',
+  method: 'POST',
+  ip: '::1',
+  userAgent: 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36',
+  userId: null,
+  level: 'error',
+  message: 'Global Error Handler',
+  timestamp: '2025-08-20 01:43:05'
+}
+{
+  service: 'avto-salon',
+  error: 'Autentifikatsiya talab qilinadi',
+  stack: 'Error: Autentifikatsiya talab qilinadi\n' +
+    '    at file:///home/dior/Desktop/5-exam1/src/middleware/auth.middleware.js:11:11\n' +
+    '    at file:///home/dior/Desktop/5-exam1/src/utils/errorHandler.js:104:5\n' +
+    '    at Layer.handleRequest (/home/dior/Desktop/5-exam1/node_modules/router/lib/layer.js:152:17)\n' +
+    '    at trimPrefix (/home/dior/Desktop/5-exam1/node_modules/router/index.js:342:13)\n' +
+    '    at /home/dior/Desktop/5-exam1/node_modules/router/index.js:297:9\n' +
+    '    at processParams (/home/dior/Desktop/5-exam1/node_modules/router/index.js:582:12)\n' +
+    '    at next (/home/dior/Desktop/5-exam1/node_modules/router/index.js:291:5)\n' +
+    '    at Function.handle (/home/dior/Desktop/5-exam1/node_modules/router/index.js:186:3)\n' +
+    '    at router (/home/dior/Desktop/5-exam1/node_modules/router/index.js:60:12)\n' +
+    '    at Layer.handleRequest (/home/dior/Desktop/5-exam1/node_modules/router/lib/layer.js:152:17)',
+  url: '/api/auth/verify-code',
+  method: 'POST',
+  ip: '::1',
+  userAgent: 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36',
+  userId: null,
+  level: 'error',
+  message: 'Global Error Handler',
+  timestamp: '2025-08-20 01:43:05'
+}
+{
+  service: 'avto-salon',
+  error: 'Autentifikatsiya talab qilinadi',
+  stack: 'Error: Autentifikatsiya talab qilinadi\n' +
+    '    at file:///home/dior/Desktop/5-exam1/src/middleware/auth.middleware.js:11:11\n' +
+    '    at file:///home/dior/Desktop/5-exam1/src/utils/errorHandler.js:104:5\n' +
+    '    at Layer.handleRequest (/home/dior/Desktop/5-exam1/node_modules/router/lib/layer.js:152:17)\n' +
+    '    at trimPrefix (/home/dior/Desktop/5-exam1/node_modules/router/index.js:342:13)\n' +
+    '    at /home/dior/Desktop/5-exam1/node_modules/router/index.js:297:9\n' +
+    '    at processParams (/home/dior/Desktop/5-exam1/node_modules/router/index.js:582:12)\n' +
+    '    at next (/home/dior/Desktop/5-exam1/node_modules/router/index.js:291:5)\n' +
+    '    at Function.handle (/home/dior/Desktop/5-exam1/node_modules/router/index.js:186:3)\n' +
+    '    at router (/home/dior/Desktop/5-exam1/node_modules/router/index.js:60:12)\n' +
+    '    at Layer.handleRequest (/home/dior/Desktop/5-exam1/node_modules/router/lib/layer.js:152:17)',
+  url: '/api/auth/verify-code',
+  method: 'POST',
+  ip: '::1',
+  userAgent: 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36',
+  userId: null,
+  level: 'error',
+  message: 'Global Error Handler',
+  timestamp: '2025-08-20 01:43:05'
+}
+{
+  service: 'avto-salon',
+  error: 'Autentifikatsiya talab qilinadi',
+  stack: 'Error: Autentifikatsiya talab qilinadi\n' +
+    '    at file:///home/dior/Desktop/5-exam1/src/middleware/auth.middleware.js:11:11\n' +
+    '    at file:///home/dior/Desktop/5-exam1/src/utils/errorHandler.js:104:5\n' +
+    '    at Layer.handleRequest (/home/dior/Desktop/5-exam1/node_modules/router/lib/layer.js:152:17)\n' +
+    '    at trimPrefix (/home/dior/Desktop/5-exam1/node_modules/router/index.js:342:13)\n' +
+    '    at /home/dior/Desktop/5-exam1/node_modules/router/index.js:297:9\n' +
+    '    at processParams (/home/dior/Desktop/5-exam1/node_modules/router/index.js:582:12)\n' +
+    '    at next (/home/dior/Desktop/5-exam1/node_modules/router/index.js:291:5)\n' +
+    '    at Function.handle (/home/dior/Desktop/5-exam1/node_modules/router/index.js:186:3)\n' +
+    '    at router (/home/dior/Desktop/5-exam1/node_modules/router/index.js:60:12)\n' +
+    '    at Layer.handleRequest (/home/dior/Desktop/5-exam1/node_modules/router/lib/layer.js:152:17)',
+  url: '/api/auth/verify-code',
+  method: 'POST',
+  ip: '::1',
+  userAgent: 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36',
+  userId: null,
+  level: 'error',
+  message: 'Global Error Handler',
+  timestamp: '2025-08-20 01:43:06'
+}
+{
+  service: 'avto-salon',
+  error: 'Autentifikatsiya talab qilinadi',
+  stack: 'Error: Autentifikatsiya talab qilinadi\n' +
+    '    at file:///home/dior/Desktop/5-exam1/src/middleware/auth.middleware.js:11:11\n' +
+    '    at file:///home/dior/Desktop/5-exam1/src/utils/errorHandler.js:104:5\n' +
+    '    at Layer.handleRequest (/home/dior/Desktop/5-exam1/node_modules/router/lib/layer.js:152:17)\n' +
+    '    at trimPrefix (/home/dior/Desktop/5-exam1/node_modules/router/index.js:342:13)\n' +
+    '    at /home/dior/Desktop/5-exam1/node_modules/router/index.js:297:9\n' +
+    '    at processParams (/home/dior/Desktop/5-exam1/node_modules/router/index.js:582:12)\n' +
+    '    at next (/home/dior/Desktop/5-exam1/node_modules/router/index.js:291:5)\n' +
+    '    at Function.handle (/home/dior/Desktop/5-exam1/node_modules/router/index.js:186:3)\n' +
+    '    at router (/home/dior/Desktop/5-exam1/node_modules/router/index.js:60:12)\n' +
+    '    at Layer.handleRequest (/home/dior/Desktop/5-exam1/node_modules/router/lib/layer.js:152:17)',
+  url: '/api/auth/verify-code',
+  method: 'POST',
+  ip: '::1',
+  userAgent: 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36',
+  userId: null,
+  level: 'error',
+  message: 'Global Error Handler',
+  timestamp: '2025-08-20 01:43:06'
+}
+{
+  service: 'avto-salon',
+  error: 'Autentifikatsiya talab qilinadi',
+  stack: 'Error: Autentifikatsiya talab qilinadi\n' +
+    '    at file:///home/dior/Desktop/5-exam1/src/middleware/auth.middleware.js:11:11\n' +
+    '    at file:///home/dior/Desktop/5-exam1/src/utils/errorHandler.js:104:5\n' +
+    '    at Layer.handleRequest (/home/dior/Desktop/5-exam1/node_modules/router/lib/layer.js:152:17)\n' +
+    '    at trimPrefix (/home/dior/Desktop/5-exam1/node_modules/router/index.js:342:13)\n' +
+    '    at /home/dior/Desktop/5-exam1/node_modules/router/index.js:297:9\n' +
+    '    at processParams (/home/dior/Desktop/5-exam1/node_modules/router/index.js:582:12)\n' +
+    '    at next (/home/dior/Desktop/5-exam1/node_modules/router/index.js:291:5)\n' +
+    '    at Function.handle (/home/dior/Desktop/5-exam1/node_modules/router/index.js:186:3)\n' +
+    '    at router (/home/dior/Desktop/5-exam1/node_modules/router/index.js:60:12)\n' +
+    '    at Layer.handleRequest (/home/dior/Desktop/5-exam1/node_modules/router/lib/layer.js:152:17)',
+  url: '/api/auth/verify-code',
+  method: 'POST',
+  ip: '::1',
+  userAgent: 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36',
+  userId: null,
+  level: 'error',
+  message: 'Global Error Handler',
+  timestamp: '2025-08-20 01:43:06'
+}
+{
+  service: 'avto-salon',
+  error: 'Autentifikatsiya talab qilinadi',
+  stack: 'Error: Autentifikatsiya talab qilinadi\n' +
+    '    at file:///home/dior/Desktop/5-exam1/src/middleware/auth.middleware.js:11:11\n' +
+    '    at file:///home/dior/Desktop/5-exam1/src/utils/errorHandler.js:104:5\n' +
+    '    at Layer.handleRequest (/home/dior/Desktop/5-exam1/node_modules/router/lib/layer.js:152:17)\n' +
+    '    at trimPrefix (/home/dior/Desktop/5-exam1/node_modules/router/index.js:342:13)\n' +
+    '    at /home/dior/Desktop/5-exam1/node_modules/router/index.js:297:9\n' +
+    '    at processParams (/home/dior/Desktop/5-exam1/node_modules/router/index.js:582:12)\n' +
+    '    at next (/home/dior/Desktop/5-exam1/node_modules/router/index.js:291:5)\n' +
+    '    at Function.handle (/home/dior/Desktop/5-exam1/node_modules/router/index.js:186:3)\n' +
+    '    at router (/home/dior/Desktop/5-exam1/node_modules/router/index.js:60:12)\n' +
+    '    at Layer.handleRequest (/home/dior/Desktop/5-exam1/node_modules/router/lib/layer.js:152:17)',
+  url: '/api/auth/verify-code',
+  method: 'POST',
+  ip: '::1',
+  userAgent: 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36',
+  userId: null,
+  level: 'error',
+  message: 'Global Error Handler',
+  timestamp: '2025-08-20 01:43:06'
+}
+{
+  service: 'avto-salon',
+  error: 'Autentifikatsiya talab qilinadi',
+  stack: 'Error: Autentifikatsiya talab qilinadi\n' +
+    '    at file:///home/dior/Desktop/5-exam1/src/middleware/auth.middleware.js:11:11\n' +
+    '    at file:///home/dior/Desktop/5-exam1/src/utils/errorHandler.js:104:5\n' +
+    '    at Layer.handleRequest (/home/dior/Desktop/5-exam1/node_modules/router/lib/layer.js:152:17)\n' +
+    '    at trimPrefix (/home/dior/Desktop/5-exam1/node_modules/router/index.js:342:13)\n' +
+    '    at /home/dior/Desktop/5-exam1/node_modules/router/index.js:297:9\n' +
+    '    at processParams (/home/dior/Desktop/5-exam1/node_modules/router/index.js:582:12)\n' +
+    '    at next (/home/dior/Desktop/5-exam1/node_modules/router/index.js:291:5)\n' +
+    '    at Function.handle (/home/dior/Desktop/5-exam1/node_modules/router/index.js:186:3)\n' +
+    '    at router (/home/dior/Desktop/5-exam1/node_modules/router/index.js:60:12)\n' +
+    '    at Layer.handleRequest (/home/dior/Desktop/5-exam1/node_modules/router/lib/layer.js:152:17)',
+  url: '/api/auth/verify-code',
+  method: 'POST',
+  ip: '::1',
+  userAgent: 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36',
+  userId: null,
+  level: 'error',
+  message: 'Global Error Handler',
+  timestamp: '2025-08-20 01:43:06'
+}
+{
+  service: 'avto-salon',
+  error: 'Autentifikatsiya talab qilinadi',
+  stack: 'Error: Autentifikatsiya talab qilinadi\n' +
+    '    at file:///home/dior/Desktop/5-exam1/src/middleware/auth.middleware.js:11:11\n' +
+    '    at file:///home/dior/Desktop/5-exam1/src/utils/errorHandler.js:104:5\n' +
+    '    at Layer.handleRequest (/home/dior/Desktop/5-exam1/node_modules/router/lib/layer.js:152:17)\n' +
+    '    at trimPrefix (/home/dior/Desktop/5-exam1/node_modules/router/index.js:342:13)\n' +
+    '    at /home/dior/Desktop/5-exam1/node_modules/router/index.js:297:9\n' +
+    '    at processParams (/home/dior/Desktop/5-exam1/node_modules/router/index.js:582:12)\n' +
+    '    at next (/home/dior/Desktop/5-exam1/node_modules/router/index.js:291:5)\n' +
+    '    at Function.handle (/home/dior/Desktop/5-exam1/node_modules/router/index.js:186:3)\n' +
+    '    at router (/home/dior/Desktop/5-exam1/node_modules/router/index.js:60:12)\n' +
+    '    at Layer.handleRequest (/home/dior/Desktop/5-exam1/node_modules/router/lib/layer.js:152:17)',
+  url: '/api/auth/verify-code',
+  method: 'POST',
+  ip: '::1',
+  userAgent: 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36',
+  userId: null,
+  level: 'error',
+  message: 'Global Error Handler',
+  timestamp: '2025-08-20 01:43:07'
+}
+{
+  service: 'avto-salon',
+  error: 'Autentifikatsiya talab qilinadi',
+  stack: 'Error: Autentifikatsiya talab qilinadi\n' +
+    '    at file:///home/dior/Desktop/5-exam1/src/middleware/auth.middleware.js:11:11\n' +
+    '    at file:///home/dior/Desktop/5-exam1/src/utils/errorHandler.js:104:5\n' +
+    '    at Layer.handleRequest (/home/dior/Desktop/5-exam1/node_modules/router/lib/layer.js:152:17)\n' +
+    '    at trimPrefix (/home/dior/Desktop/5-exam1/node_modules/router/index.js:342:13)\n' +
+    '    at /home/dior/Desktop/5-exam1/node_modules/router/index.js:297:9\n' +
+    '    at processParams (/home/dior/Desktop/5-exam1/node_modules/router/index.js:582:12)\n' +
+    '    at next (/home/dior/Desktop/5-exam1/node_modules/router/index.js:291:5)\n' +
+    '    at Function.handle (/home/dior/Desktop/5-exam1/node_modules/router/index.js:186:3)\n' +
+    '    at router (/home/dior/Desktop/5-exam1/node_modules/router/index.js:60:12)\n' +
+    '    at Layer.handleRequest (/home/dior/Desktop/5-exam1/node_modules/router/lib/layer.js:152:17)',
+  url: '/api/auth/verify-code',
+  method: 'POST',
+  ip: '::1',
+  userAgent: 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36',
+  userId: null,
+  level: 'error',
+  message: 'Global Error Handler',
+  timestamp: '2025-08-20 01:43:07'
+}
+{
+  service: 'avto-salon',
+  error: 'Autentifikatsiya talab qilinadi',
+  stack: 'Error: Autentifikatsiya talab qilinadi\n' +
+    '    at file:///home/dior/Desktop/5-exam1/src/middleware/auth.middleware.js:11:11\n' +
+    '    at file:///home/dior/Desktop/5-exam1/src/utils/errorHandler.js:104:5\n' +
+    '    at Layer.handleRequest (/home/dior/Desktop/5-exam1/node_modules/router/lib/layer.js:152:17)\n' +
+    '    at trimPrefix (/home/dior/Desktop/5-exam1/node_modules/router/index.js:342:13)\n' +
+    '    at /home/dior/Desktop/5-exam1/node_modules/router/index.js:297:9\n' +
+    '    at processParams (/home/dior/Desktop/5-exam1/node_modules/router/index.js:582:12)\n' +
+    '    at next (/home/dior/Desktop/5-exam1/node_modules/router/index.js:291:5)\n' +
+    '    at Function.handle (/home/dior/Desktop/5-exam1/node_modules/router/index.js:186:3)\n' +
+    '    at router (/home/dior/Desktop/5-exam1/node_modules/router/index.js:60:12)\n' +
+    '    at Layer.handleRequest (/home/dior/Desktop/5-exam1/node_modules/router/lib/layer.js:152:17)',
+  url: '/api/auth/verify-code',
+  method: 'POST',
+  ip: '::1',
+  userAgent: 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36',
+  userId: null,
+  level: 'error',
+  message: 'Global Error Handler',
+  timestamp: '2025-08-20 01:43:16'
+}
+{
+  service: 'avto-salon',
+  error: 'Autentifikatsiya talab qilinadi',
+  stack: 'Error: Autentifikatsiya talab qilinadi\n' +
+    '    at file:///home/dior/Desktop/5-exam1/src/middleware/auth.middleware.js:11:11\n' +
+    '    at file:///home/dior/Desktop/5-exam1/src/utils/errorHandler.js:104:5\n' +
+    '    at Layer.handleRequest (/home/dior/Desktop/5-exam1/node_modules/router/lib/layer.js:152:17)\n' +
+    '    at trimPrefix (/home/dior/Desktop/5-exam1/node_modules/router/index.js:342:13)\n' +
+    '    at /home/dior/Desktop/5-exam1/node_modules/router/index.js:297:9\n' +
+    '    at processParams (/home/dior/Desktop/5-exam1/node_modules/router/index.js:582:12)\n' +
+    '    at next (/home/dior/Desktop/5-exam1/node_modules/router/index.js:291:5)\n' +
+    '    at Function.handle (/home/dior/Desktop/5-exam1/node_modules/router/index.js:186:3)\n' +
+    '    at router (/home/dior/Desktop/5-exam1/node_modules/router/index.js:60:12)\n' +
+    '    at Layer.handleRequest (/home/dior/Desktop/5-exam1/node_modules/router/lib/layer.js:152:17)',
+  url: '/api/auth/verify-code',
+  method: 'POST',
+  ip: '::1',
+  userAgent: 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36',
+  userId: null,
+  level: 'error',
+  message: 'Global Error Handler',
+  timestamp: '2025-08-20 01:44:53'
+}
+{
+  service: 'avto-salon',
+  error: 'Email allaqachon tasdiqlangan',
+  stack: 'Error: Email allaqachon tasdiqlangan\n' +
+    '    at file:///home/dior/Desktop/5-exam1/src/controller/enhanced-auth.controller.js:378:11\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)',
+  url: '/api/auth/send-code',
+  method: 'POST',
+  ip: '::1',
+  userAgent: 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36',
+  userId: null,
+  level: 'error',
+  message: 'Global Error Handler',
+  timestamp: '2025-08-20 01:45:01'
+}
+{
+  service: 'avto-salon',
+  error: 'Email allaqachon tasdiqlangan',
+  stack: 'Error: Email allaqachon tasdiqlangan\n' +
+    '    at file:///home/dior/Desktop/5-exam1/src/controller/enhanced-auth.controller.js:378:11\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)',
+  url: '/api/auth/send-code',
+  method: 'POST',
+  ip: '::1',
+  userAgent: 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36',
+  userId: null,
+  level: 'error',
+  message: 'Global Error Handler',
+  timestamp: '2025-08-20 01:45:02'
+}
+{
+  service: 'avto-salon',
+  error: 'Email allaqachon tasdiqlangan',
+  stack: 'Error: Email allaqachon tasdiqlangan\n' +
+    '    at file:///home/dior/Desktop/5-exam1/src/controller/enhanced-auth.controller.js:378:11\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)',
+  url: '/api/auth/send-code',
+  method: 'POST',
+  ip: '::1',
+  userAgent: 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36',
+  userId: null,
+  level: 'error',
+  message: 'Global Error Handler',
+  timestamp: '2025-08-20 01:45:26'
+}
+{
+  service: 'avto-salon',
+  error: 'Autentifikatsiya talab qilinadi',
+  stack: 'Error: Autentifikatsiya talab qilinadi\n' +
+    '    at file:///home/dior/Desktop/5-exam1/src/middleware/auth.middleware.js:11:11\n' +
+    '    at file:///home/dior/Desktop/5-exam1/src/utils/errorHandler.js:104:5\n' +
+    '    at Layer.handleRequest (/home/dior/Desktop/5-exam1/node_modules/router/lib/layer.js:152:17)\n' +
+    '    at trimPrefix (/home/dior/Desktop/5-exam1/node_modules/router/index.js:342:13)\n' +
+    '    at /home/dior/Desktop/5-exam1/node_modules/router/index.js:297:9\n' +
+    '    at processParams (/home/dior/Desktop/5-exam1/node_modules/router/index.js:582:12)\n' +
+    '    at next (/home/dior/Desktop/5-exam1/node_modules/router/index.js:291:5)\n' +
+    '    at Function.handle (/home/dior/Desktop/5-exam1/node_modules/router/index.js:186:3)\n' +
+    '    at router (/home/dior/Desktop/5-exam1/node_modules/router/index.js:60:12)\n' +
+    '    at Layer.handleRequest (/home/dior/Desktop/5-exam1/node_modules/router/lib/layer.js:152:17)',
+  url: '/api/auth/verify-code',
+  method: 'POST',
+  ip: '::1',
+  userAgent: 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36',
+  userId: null,
+  level: 'error',
+  message: 'Global Error Handler',
+  timestamp: '2025-08-20 01:46:14'
+}
+{
+  service: 'avto-salon',
+  error: 'Autentifikatsiya talab qilinadi',
+  stack: 'Error: Autentifikatsiya talab qilinadi\n' +
+    '    at file:///home/dior/Desktop/5-exam1/src/middleware/auth.middleware.js:11:11\n' +
+    '    at file:///home/dior/Desktop/5-exam1/src/utils/errorHandler.js:104:5\n' +
+    '    at Layer.handleRequest (/home/dior/Desktop/5-exam1/node_modules/router/lib/layer.js:152:17)\n' +
+    '    at trimPrefix (/home/dior/Desktop/5-exam1/node_modules/router/index.js:342:13)\n' +
+    '    at /home/dior/Desktop/5-exam1/node_modules/router/index.js:297:9\n' +
+    '    at processParams (/home/dior/Desktop/5-exam1/node_modules/router/index.js:582:12)\n' +
+    '    at next (/home/dior/Desktop/5-exam1/node_modules/router/index.js:291:5)\n' +
+    '    at Function.handle (/home/dior/Desktop/5-exam1/node_modules/router/index.js:186:3)\n' +
+    '    at router (/home/dior/Desktop/5-exam1/node_modules/router/index.js:60:12)\n' +
+    '    at Layer.handleRequest (/home/dior/Desktop/5-exam1/node_modules/router/lib/layer.js:152:17)',
+  url: '/api/auth/verify-code',
+  method: 'POST',
+  ip: '::1',
+  userAgent: 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36',
+  userId: null,
+  level: 'error',
+  message: 'Global Error Handler',
+  timestamp: '2025-08-20 01:46:17'
+}
+{
+  service: 'avto-salon',
+  error: 'Autentifikatsiya talab qilinadi',
+  stack: 'Error: Autentifikatsiya talab qilinadi\n' +
+    '    at file:///home/dior/Desktop/5-exam1/src/middleware/auth.middleware.js:11:11\n' +
+    '    at file:///home/dior/Desktop/5-exam1/src/utils/errorHandler.js:104:5\n' +
+    '    at Layer.handleRequest (/home/dior/Desktop/5-exam1/node_modules/router/lib/layer.js:152:17)\n' +
+    '    at trimPrefix (/home/dior/Desktop/5-exam1/node_modules/router/index.js:342:13)\n' +
+    '    at /home/dior/Desktop/5-exam1/node_modules/router/index.js:297:9\n' +
+    '    at processParams (/home/dior/Desktop/5-exam1/node_modules/router/index.js:582:12)\n' +
+    '    at next (/home/dior/Desktop/5-exam1/node_modules/router/index.js:291:5)\n' +
+    '    at Function.handle (/home/dior/Desktop/5-exam1/node_modules/router/index.js:186:3)\n' +
+    '    at router (/home/dior/Desktop/5-exam1/node_modules/router/index.js:60:12)\n' +
+    '    at Layer.handleRequest (/home/dior/Desktop/5-exam1/node_modules/router/lib/layer.js:152:17)',
+  url: '/api/auth/verify-code',
+  method: 'POST',
+  ip: '::1',
+  userAgent: 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36',
+  userId: null,
+  level: 'error',
+  message: 'Global Error Handler',
+  timestamp: '2025-08-20 01:46:19'
+}
+{
+  service: 'avto-salon',
+  error: 'Autentifikatsiya talab qilinadi',
+  stack: 'Error: Autentifikatsiya talab qilinadi\n' +
+    '    at file:///home/dior/Desktop/5-exam1/src/middleware/auth.middleware.js:11:11\n' +
+    '    at file:///home/dior/Desktop/5-exam1/src/utils/errorHandler.js:104:5\n' +
+    '    at Layer.handleRequest (/home/dior/Desktop/5-exam1/node_modules/router/lib/layer.js:152:17)\n' +
+    '    at trimPrefix (/home/dior/Desktop/5-exam1/node_modules/router/index.js:342:13)\n' +
+    '    at /home/dior/Desktop/5-exam1/node_modules/router/index.js:297:9\n' +
+    '    at processParams (/home/dior/Desktop/5-exam1/node_modules/router/index.js:582:12)\n' +
+    '    at next (/home/dior/Desktop/5-exam1/node_modules/router/index.js:291:5)\n' +
+    '    at Function.handle (/home/dior/Desktop/5-exam1/node_modules/router/index.js:186:3)\n' +
+    '    at router (/home/dior/Desktop/5-exam1/node_modules/router/index.js:60:12)\n' +
+    '    at Layer.handleRequest (/home/dior/Desktop/5-exam1/node_modules/router/lib/layer.js:152:17)',
+  url: '/api/auth/verify-code',
+  method: 'POST',
+  ip: '::1',
+  userAgent: 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36',
+  userId: null,
+  level: 'error',
+  message: 'Global Error Handler',
+  timestamp: '2025-08-20 01:47:04'
+}
+{
+  service: 'avto-salon',
+  error: 'Autentifikatsiya talab qilinadi',
+  stack: 'Error: Autentifikatsiya talab qilinadi\n' +
+    '    at file:///home/dior/Desktop/5-exam1/src/middleware/auth.middleware.js:11:11\n' +
+    '    at file:///home/dior/Desktop/5-exam1/src/utils/errorHandler.js:104:5\n' +
+    '    at Layer.handleRequest (/home/dior/Desktop/5-exam1/node_modules/router/lib/layer.js:152:17)\n' +
+    '    at trimPrefix (/home/dior/Desktop/5-exam1/node_modules/router/index.js:342:13)\n' +
+    '    at /home/dior/Desktop/5-exam1/node_modules/router/index.js:297:9\n' +
+    '    at processParams (/home/dior/Desktop/5-exam1/node_modules/router/index.js:582:12)\n' +
+    '    at next (/home/dior/Desktop/5-exam1/node_modules/router/index.js:291:5)\n' +
+    '    at Function.handle (/home/dior/Desktop/5-exam1/node_modules/router/index.js:186:3)\n' +
+    '    at router (/home/dior/Desktop/5-exam1/node_modules/router/index.js:60:12)\n' +
+    '    at Layer.handleRequest (/home/dior/Desktop/5-exam1/node_modules/router/lib/layer.js:152:17)',
+  url: '/api/auth/verify-code',
+  method: 'POST',
+  ip: '::1',
+  userAgent: 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36',
+  userId: null,
+  level: 'error',
+  message: 'Global Error Handler',
+  timestamp: '2025-08-20 01:47:09'
+}
+{
+  service: 'avto-salon',
+  error: 'Autentifikatsiya talab qilinadi',
+  stack: 'Error: Autentifikatsiya talab qilinadi\n' +
+    '    at file:///home/dior/Desktop/5-exam1/src/middleware/auth.middleware.js:11:11\n' +
+    '    at file:///home/dior/Desktop/5-exam1/src/utils/errorHandler.js:104:5\n' +
+    '    at Layer.handleRequest (/home/dior/Desktop/5-exam1/node_modules/router/lib/layer.js:152:17)\n' +
+    '    at trimPrefix (/home/dior/Desktop/5-exam1/node_modules/router/index.js:342:13)\n' +
+    '    at /home/dior/Desktop/5-exam1/node_modules/router/index.js:297:9\n' +
+    '    at processParams (/home/dior/Desktop/5-exam1/node_modules/router/index.js:582:12)\n' +
+    '    at next (/home/dior/Desktop/5-exam1/node_modules/router/index.js:291:5)\n' +
+    '    at Function.handle (/home/dior/Desktop/5-exam1/node_modules/router/index.js:186:3)\n' +
+    '    at router (/home/dior/Desktop/5-exam1/node_modules/router/index.js:60:12)\n' +
+    '    at Layer.handleRequest (/home/dior/Desktop/5-exam1/node_modules/router/lib/layer.js:152:17)',
+  url: '/api/auth/verify-code',
+  method: 'POST',
+  ip: '::1',
+  userAgent: 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36',
+  userId: null,
+  level: 'error',
+  message: 'Global Error Handler',
+  timestamp: '2025-08-20 01:47:14'
+}
+{
+  service: 'avto-salon',
+  error: 'Autentifikatsiya talab qilinadi',
+  stack: 'Error: Autentifikatsiya talab qilinadi\n' +
+    '    at file:///home/dior/Desktop/5-exam1/src/middleware/auth.middleware.js:11:11\n' +
+    '    at file:///home/dior/Desktop/5-exam1/src/utils/errorHandler.js:104:5\n' +
+    '    at Layer.handleRequest (/home/dior/Desktop/5-exam1/node_modules/router/lib/layer.js:152:17)\n' +
+    '    at trimPrefix (/home/dior/Desktop/5-exam1/node_modules/router/index.js:342:13)\n' +
+    '    at /home/dior/Desktop/5-exam1/node_modules/router/index.js:297:9\n' +
+    '    at processParams (/home/dior/Desktop/5-exam1/node_modules/router/index.js:582:12)\n' +
+    '    at next (/home/dior/Desktop/5-exam1/node_modules/router/index.js:291:5)\n' +
+    '    at Function.handle (/home/dior/Desktop/5-exam1/node_modules/router/index.js:186:3)\n' +
+    '    at router (/home/dior/Desktop/5-exam1/node_modules/router/index.js:60:12)\n' +
+    '    at Layer.handleRequest (/home/dior/Desktop/5-exam1/node_modules/router/lib/layer.js:152:17)',
+  url: '/api/auth/verify-code',
+  method: 'POST',
+  ip: '::1',
+  userAgent: 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36',
+  userId: null,
+  level: 'error',
+  message: 'Global Error Handler',
+  timestamp: '2025-08-20 01:48:33'
+}
+{
+  service: 'avto-salon',
+  error: 'Autentifikatsiya talab qilinadi',
+  stack: 'Error: Autentifikatsiya talab qilinadi\n' +
+    '    at file:///home/dior/Desktop/5-exam1/src/middleware/auth.middleware.js:11:11\n' +
+    '    at file:///home/dior/Desktop/5-exam1/src/utils/errorHandler.js:104:5\n' +
+    '    at Layer.handleRequest (/home/dior/Desktop/5-exam1/node_modules/router/lib/layer.js:152:17)\n' +
+    '    at trimPrefix (/home/dior/Desktop/5-exam1/node_modules/router/index.js:342:13)\n' +
+    '    at /home/dior/Desktop/5-exam1/node_modules/router/index.js:297:9\n' +
+    '    at processParams (/home/dior/Desktop/5-exam1/node_modules/router/index.js:582:12)\n' +
+    '    at next (/home/dior/Desktop/5-exam1/node_modules/router/index.js:291:5)\n' +
+    '    at Function.handle (/home/dior/Desktop/5-exam1/node_modules/router/index.js:186:3)\n' +
+    '    at router (/home/dior/Desktop/5-exam1/node_modules/router/index.js:60:12)\n' +
+    '    at Layer.handleRequest (/home/dior/Desktop/5-exam1/node_modules/router/lib/layer.js:152:17)',
+  url: '/api/auth/admin/login',
+  method: 'POST',
+  ip: '::1',
+  userAgent: 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36',
+  userId: null,
+  level: 'error',
+  message: 'Global Error Handler',
+  timestamp: '2025-08-20 01:49:10'
+}
+{
+  service: 'avto-salon',
+  error: 'Autentifikatsiya talab qilinadi',
+  stack: 'Error: Autentifikatsiya talab qilinadi\n' +
+    '    at file:///home/dior/Desktop/5-exam1/src/middleware/auth.middleware.js:11:11\n' +
+    '    at file:///home/dior/Desktop/5-exam1/src/utils/errorHandler.js:104:5\n' +
+    '    at Layer.handleRequest (/home/dior/Desktop/5-exam1/node_modules/router/lib/layer.js:152:17)\n' +
+    '    at trimPrefix (/home/dior/Desktop/5-exam1/node_modules/router/index.js:342:13)\n' +
+    '    at /home/dior/Desktop/5-exam1/node_modules/router/index.js:297:9\n' +
+    '    at processParams (/home/dior/Desktop/5-exam1/node_modules/router/index.js:582:12)\n' +
+    '    at next (/home/dior/Desktop/5-exam1/node_modules/router/index.js:291:5)\n' +
+    '    at Function.handle (/home/dior/Desktop/5-exam1/node_modules/router/index.js:186:3)\n' +
+    '    at router (/home/dior/Desktop/5-exam1/node_modules/router/index.js:60:12)\n' +
+    '    at Layer.handleRequest (/home/dior/Desktop/5-exam1/node_modules/router/lib/layer.js:152:17)',
+  url: '/api/auth/admin/login',
+  method: 'POST',
+  ip: '::1',
+  userAgent: 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36',
+  userId: null,
+  level: 'error',
+  message: 'Global Error Handler',
+  timestamp: '2025-08-20 01:49:15'
+}
+{
+  service: 'avto-salon',
+  error: 'Autentifikatsiya talab qilinadi',
+  stack: 'Error: Autentifikatsiya talab qilinadi\n' +
+    '    at file:///home/dior/Desktop/5-exam1/src/middleware/auth.middleware.js:11:11\n' +
+    '    at file:///home/dior/Desktop/5-exam1/src/utils/errorHandler.js:104:5\n' +
+    '    at Layer.handleRequest (/home/dior/Desktop/5-exam1/node_modules/router/lib/layer.js:152:17)\n' +
+    '    at trimPrefix (/home/dior/Desktop/5-exam1/node_modules/router/index.js:342:13)\n' +
+    '    at /home/dior/Desktop/5-exam1/node_modules/router/index.js:297:9\n' +
+    '    at processParams (/home/dior/Desktop/5-exam1/node_modules/router/index.js:582:12)\n' +
+    '    at next (/home/dior/Desktop/5-exam1/node_modules/router/index.js:291:5)\n' +
+    '    at Function.handle (/home/dior/Desktop/5-exam1/node_modules/router/index.js:186:3)\n' +
+    '    at router (/home/dior/Desktop/5-exam1/node_modules/router/index.js:60:12)\n' +
+    '    at Layer.handleRequest (/home/dior/Desktop/5-exam1/node_modules/router/lib/layer.js:152:17)',
+  url: '/api/auth/admin/login',
+  method: 'POST',
+  ip: '::1',
+  userAgent: 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36',
+  userId: null,
+  level: 'error',
+  message: 'Global Error Handler',
+  timestamp: '2025-08-20 01:49:21'
+}
+{
+  service: 'avto-salon',
+  error: 'Autentifikatsiya talab qilinadi',
+  stack: 'Error: Autentifikatsiya talab qilinadi\n' +
+    '    at file:///home/dior/Desktop/5-exam1/src/middleware/auth.middleware.js:11:11\n' +
+    '    at file:///home/dior/Desktop/5-exam1/src/utils/errorHandler.js:104:5\n' +
+    '    at Layer.handleRequest (/home/dior/Desktop/5-exam1/node_modules/router/lib/layer.js:152:17)\n' +
+    '    at trimPrefix (/home/dior/Desktop/5-exam1/node_modules/router/index.js:342:13)\n' +
+    '    at /home/dior/Desktop/5-exam1/node_modules/router/index.js:297:9\n' +
+    '    at processParams (/home/dior/Desktop/5-exam1/node_modules/router/index.js:582:12)\n' +
+    '    at next (/home/dior/Desktop/5-exam1/node_modules/router/index.js:291:5)\n' +
+    '    at Function.handle (/home/dior/Desktop/5-exam1/node_modules/router/index.js:186:3)\n' +
+    '    at router (/home/dior/Desktop/5-exam1/node_modules/router/index.js:60:12)\n' +
+    '    at Layer.handleRequest (/home/dior/Desktop/5-exam1/node_modules/router/lib/layer.js:152:17)',
+  url: '/api/auth/admin/login',
+  method: 'POST',
+  ip: '::1',
+  userAgent: 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36',
+  userId: null,
+  level: 'error',
+  message: 'Global Error Handler',
+  timestamp: '2025-08-20 01:49:22'
+}
+{
+  service: 'avto-salon',
+  error: 'Email allaqachon tasdiqlangan',
+  stack: 'Error: Email allaqachon tasdiqlangan\n' +
+    '    at file:///home/dior/Desktop/5-exam1/src/controller/enhanced-auth.controller.js:378:11\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)',
+  url: '/api/auth/send-code',
+  method: 'POST',
+  ip: '::1',
+  userAgent: 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36',
+  userId: null,
+  level: 'error',
+  message: 'Global Error Handler',
+  timestamp: '2025-08-20 01:50:16'
+}
+{
+  service: 'avto-salon',
+  error: 'Autentifikatsiya talab qilinadi',
+  stack: 'Error: Autentifikatsiya talab qilinadi\n' +
+    '    at file:///home/dior/Desktop/5-exam1/src/middleware/auth.middleware.js:11:11\n' +
+    '    at file:///home/dior/Desktop/5-exam1/src/utils/errorHandler.js:104:5\n' +
+    '    at Layer.handleRequest (/home/dior/Desktop/5-exam1/node_modules/router/lib/layer.js:152:17)\n' +
+    '    at trimPrefix (/home/dior/Desktop/5-exam1/node_modules/router/index.js:342:13)\n' +
+    '    at /home/dior/Desktop/5-exam1/node_modules/router/index.js:297:9\n' +
+    '    at processParams (/home/dior/Desktop/5-exam1/node_modules/router/index.js:582:12)\n' +
+    '    at next (/home/dior/Desktop/5-exam1/node_modules/router/index.js:291:5)\n' +
+    '    at Function.handle (/home/dior/Desktop/5-exam1/node_modules/router/index.js:186:3)\n' +
+    '    at router (/home/dior/Desktop/5-exam1/node_modules/router/index.js:60:12)\n' +
+    '    at Layer.handleRequest (/home/dior/Desktop/5-exam1/node_modules/router/lib/layer.js:152:17)',
+  url: '/api/auth/verify-code',
+  method: 'POST',
+  ip: '::1',
+  userAgent: 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36',
+  userId: null,
+  level: 'error',
+  message: 'Global Error Handler',
+  timestamp: '2025-08-20 01:51:34'
+}
+{
+  service: 'avto-salon',
+  error: 'Autentifikatsiya talab qilinadi',
+  stack: 'Error: Autentifikatsiya talab qilinadi\n' +
+    '    at file:///home/dior/Desktop/5-exam1/src/middleware/auth.middleware.js:11:11\n' +
+    '    at file:///home/dior/Desktop/5-exam1/src/utils/errorHandler.js:104:5\n' +
+    '    at Layer.handleRequest (/home/dior/Desktop/5-exam1/node_modules/router/lib/layer.js:152:17)\n' +
+    '    at trimPrefix (/home/dior/Desktop/5-exam1/node_modules/router/index.js:342:13)\n' +
+    '    at /home/dior/Desktop/5-exam1/node_modules/router/index.js:297:9\n' +
+    '    at processParams (/home/dior/Desktop/5-exam1/node_modules/router/index.js:582:12)\n' +
+    '    at next (/home/dior/Desktop/5-exam1/node_modules/router/index.js:291:5)\n' +
+    '    at Function.handle (/home/dior/Desktop/5-exam1/node_modules/router/index.js:186:3)\n' +
+    '    at router (/home/dior/Desktop/5-exam1/node_modules/router/index.js:60:12)\n' +
+    '    at Layer.handleRequest (/home/dior/Desktop/5-exam1/node_modules/router/lib/layer.js:152:17)',
+  url: '/api/auth/verify-code',
+  method: 'POST',
+  ip: '::1',
+  userAgent: 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36',
+  userId: null,
+  level: 'error',
+  message: 'Global Error Handler',
+  timestamp: '2025-08-20 01:52:08'
+}
+{
+  service: 'avto-salon',
+  error: 'Email tasdiqlash talab qilinadi',
+  stack: 'Error: Email tasdiqlash talab qilinadi\n' +
+    '    at file:///home/dior/Desktop/5-exam1/src/controller/enhanced-auth.controller.js:71:11',
+  url: '/api/auth/login',
+  method: 'POST',
+  ip: '::1',
+  userAgent: 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36',
+  userId: null,
+  level: 'error',
+  message: 'Global Error Handler',
+  timestamp: '2025-08-20 01:57:59'
+}
+{
+  service: 'avto-salon',
+  error: 'Autentifikatsiya talab qilinadi',
+  stack: 'Error: Autentifikatsiya talab qilinadi\n' +
+    '    at file:///home/dior/Desktop/5-exam1/src/middleware/auth.middleware.js:11:11\n' +
+    '    at file:///home/dior/Desktop/5-exam1/src/utils/errorHandler.js:104:5\n' +
+    '    at Layer.handleRequest (/home/dior/Desktop/5-exam1/node_modules/router/lib/layer.js:152:17)\n' +
+    '    at trimPrefix (/home/dior/Desktop/5-exam1/node_modules/router/index.js:342:13)\n' +
+    '    at /home/dior/Desktop/5-exam1/node_modules/router/index.js:297:9\n' +
+    '    at processParams (/home/dior/Desktop/5-exam1/node_modules/router/index.js:582:12)\n' +
+    '    at next (/home/dior/Desktop/5-exam1/node_modules/router/index.js:291:5)\n' +
+    '    at Function.handle (/home/dior/Desktop/5-exam1/node_modules/router/index.js:186:3)\n' +
+    '    at router (/home/dior/Desktop/5-exam1/node_modules/router/index.js:60:12)\n' +
+    '    at Layer.handleRequest (/home/dior/Desktop/5-exam1/node_modules/router/lib/layer.js:152:17)',
+  url: '/api/auth/verify-code',
+  method: 'POST',
+  ip: '::1',
+  userAgent: 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36',
+  userId: null,
+  level: 'error',
+  message: 'Global Error Handler',
+  timestamp: '2025-08-20 01:59:46'
+}
+{
+  service: 'avto-salon',
+  error: 'Autentifikatsiya talab qilinadi',
+  stack: 'Error: Autentifikatsiya talab qilinadi\n' +
+    '    at file:///home/dior/Desktop/5-exam1/src/middleware/auth.middleware.js:11:11\n' +
+    '    at file:///home/dior/Desktop/5-exam1/src/utils/errorHandler.js:104:5\n' +
+    '    at Layer.handleRequest (/home/dior/Desktop/5-exam1/node_modules/router/lib/layer.js:152:17)\n' +
+    '    at trimPrefix (/home/dior/Desktop/5-exam1/node_modules/router/index.js:342:13)\n' +
+    '    at /home/dior/Desktop/5-exam1/node_modules/router/index.js:297:9\n' +
+    '    at processParams (/home/dior/Desktop/5-exam1/node_modules/router/index.js:582:12)\n' +
+    '    at next (/home/dior/Desktop/5-exam1/node_modules/router/index.js:291:5)\n' +
+    '    at Function.handle (/home/dior/Desktop/5-exam1/node_modules/router/index.js:186:3)\n' +
+    '    at router (/home/dior/Desktop/5-exam1/node_modules/router/index.js:60:12)\n' +
+    '    at Layer.handleRequest (/home/dior/Desktop/5-exam1/node_modules/router/lib/layer.js:152:17)',
+  url: '/api/auth/verify-code',
+  method: 'POST',
+  ip: '::1',
+  userAgent: 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36',
+  userId: null,
+  level: 'error',
+  message: 'Global Error Handler',
+  timestamp: '2025-08-20 01:59:48'
+}
+{
+  service: 'avto-salon',
+  error: 'Autentifikatsiya talab qilinadi',
+  stack: 'Error: Autentifikatsiya talab qilinadi\n' +
+    '    at file:///home/dior/Desktop/5-exam1/src/middleware/auth.middleware.js:11:11\n' +
+    '    at file:///home/dior/Desktop/5-exam1/src/utils/errorHandler.js:104:5\n' +
+    '    at Layer.handleRequest (/home/dior/Desktop/5-exam1/node_modules/router/lib/layer.js:152:17)\n' +
+    '    at trimPrefix (/home/dior/Desktop/5-exam1/node_modules/router/index.js:342:13)\n' +
+    '    at /home/dior/Desktop/5-exam1/node_modules/router/index.js:297:9\n' +
+    '    at processParams (/home/dior/Desktop/5-exam1/node_modules/router/index.js:582:12)\n' +
+    '    at next (/home/dior/Desktop/5-exam1/node_modules/router/index.js:291:5)\n' +
+    '    at Function.handle (/home/dior/Desktop/5-exam1/node_modules/router/index.js:186:3)\n' +
+    '    at router (/home/dior/Desktop/5-exam1/node_modules/router/index.js:60:12)\n' +
+    '    at Layer.handleRequest (/home/dior/Desktop/5-exam1/node_modules/router/lib/layer.js:152:17)',
+  url: '/api/auth/verify-code',
+  method: 'POST',
+  ip: '::1',
+  userAgent: 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36',
+  userId: null,
+  level: 'error',
+  message: 'Global Error Handler',
+  timestamp: '2025-08-20 01:59:49'
+}
+{
+  service: 'avto-salon',
+  error: 'Autentifikatsiya talab qilinadi',
+  stack: 'Error: Autentifikatsiya talab qilinadi\n' +
+    '    at file:///home/dior/Desktop/5-exam1/src/middleware/auth.middleware.js:11:11\n' +
+    '    at file:///home/dior/Desktop/5-exam1/src/utils/errorHandler.js:104:5\n' +
+    '    at Layer.handleRequest (/home/dior/Desktop/5-exam1/node_modules/router/lib/layer.js:152:17)\n' +
+    '    at trimPrefix (/home/dior/Desktop/5-exam1/node_modules/router/index.js:342:13)\n' +
+    '    at /home/dior/Desktop/5-exam1/node_modules/router/index.js:297:9\n' +
+    '    at processParams (/home/dior/Desktop/5-exam1/node_modules/router/index.js:582:12)\n' +
+    '    at next (/home/dior/Desktop/5-exam1/node_modules/router/index.js:291:5)\n' +
+    '    at Function.handle (/home/dior/Desktop/5-exam1/node_modules/router/index.js:186:3)\n' +
+    '    at router (/home/dior/Desktop/5-exam1/node_modules/router/index.js:60:12)\n' +
+    '    at Layer.handleRequest (/home/dior/Desktop/5-exam1/node_modules/router/lib/layer.js:152:17)',
+  url: '/api/auth/verify-code',
+  method: 'POST',
+  ip: '::1',
+  userAgent: 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36',
+  userId: null,
+  level: 'error',
+  message: 'Global Error Handler',
+  timestamp: '2025-08-20 01:59:50'
+}
+{
+  service: 'avto-salon',
+  error: 'generateTokenPair is not defined',
+  stack: 'ReferenceError: generateTokenPair is not defined\n' +
+    '    at file:///home/dior/Desktop/5-exam1/src/controller/enhanced-auth.controller.js:75:41',
+  url: '/api/auth/login',
+  method: 'POST',
+  ip: '::1',
+  userAgent: 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36',
+  userId: null,
+  level: 'error',
+  message: 'Global Error Handler',
+  timestamp: '2025-08-20 02:00:08'
+}
+{
+  service: 'avto-salon',
+  error: 'generateTokenPair is not defined',
+  stack: 'ReferenceError: generateTokenPair is not defined\n' +
+    '    at file:///home/dior/Desktop/5-exam1/src/controller/enhanced-auth.controller.js:75:41',
+  url: '/api/auth/login',
+  method: 'POST',
+  ip: '::1',
+  userAgent: 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36',
+  userId: null,
+  level: 'error',
+  message: 'Global Error Handler',
+  timestamp: '2025-08-20 02:00:14'
+}
+{
+  service: 'avto-salon',
+  error: 'Email allaqachon tasdiqlangan',
+  stack: 'Error: Email allaqachon tasdiqlangan\n' +
+    '    at file:///home/dior/Desktop/5-exam1/src/controller/enhanced-auth.controller.js:378:11\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)',
+  url: '/api/auth/send-code',
+  method: 'POST',
+  ip: '::1',
+  userAgent: 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36',
+  userId: null,
+  level: 'error',
+  message: 'Global Error Handler',
+  timestamp: '2025-08-20 02:00:20'
+}
+{
+  service: 'avto-salon',
+  error: 'generateTokenPair is not defined',
+  stack: 'ReferenceError: generateTokenPair is not defined\n' +
+    '    at file:///home/dior/Desktop/5-exam1/src/controller/enhanced-auth.controller.js:75:41',
+  url: '/api/auth/login',
+  method: 'POST',
+  ip: '::1',
+  userAgent: 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36',
+  userId: null,
+  level: 'error',
+  message: 'Global Error Handler',
+  timestamp: '2025-08-20 02:01:15'
+}
+{
+  service: 'avto-salon',
+  error: 'generateTokenPair is not defined',
+  stack: 'ReferenceError: generateTokenPair is not defined\n' +
+    '    at file:///home/dior/Desktop/5-exam1/src/controller/enhanced-auth.controller.js:75:41',
+  url: '/api/auth/login',
+  method: 'POST',
+  ip: '::1',
+  userAgent: 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36',
+  userId: null,
+  level: 'error',
+  message: 'Global Error Handler',
+  timestamp: '2025-08-20 02:01:33'
+}
+{
+  service: 'avto-salon',
+  error: "Email yoki parol noto'g'ri",
+  stack: "Error: Email yoki parol noto'g'ri\n" +
+    '    at file:///home/dior/Desktop/5-exam1/src/controller/enhanced-auth.controller.js:66:11\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)',
+  url: '/api/auth/login',
+  method: 'POST',
+  ip: '::1',
+  userAgent: 'curl/8.13.0',
+  userId: null,
+  level: 'error',
+  message: 'Global Error Handler',
+  timestamp: '2025-08-20 02:03:55'
+}
+{
+  service: 'avto-salon',
+  error: "Email yoki parol noto'g'ri",
+  stack: "Error: Email yoki parol noto'g'ri\n" +
+    '    at file:///home/dior/Desktop/5-exam1/src/controller/enhanced-auth.controller.js:66:11\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)',
+  url: '/api/auth/login',
+  method: 'POST',
+  ip: '::1',
+  userAgent: 'curl/8.13.0',
+  userId: null,
+  level: 'error',
+  message: 'Global Error Handler',
+  timestamp: '2025-08-20 02:04:46'
+}
+{
+  service: 'avto-salon',
+  error: "Email yoki parol noto'g'ri",
+  stack: "Error: Email yoki parol noto'g'ri\n" +
+    '    at file:///home/dior/Desktop/5-exam1/src/controller/enhanced-auth.controller.js:66:11\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)',
+  url: '/api/auth/login',
+  method: 'POST',
+  ip: '::1',
+  userAgent: 'curl/8.13.0',
+  userId: null,
+  level: 'error',
+  message: 'Global Error Handler',
+  timestamp: '2025-08-20 02:05:51'
+}
+{
+  service: 'avto-salon',
+  error: "Noto'g'ri access token",
+  stack: "Error: Noto'g'ri access token\n" +
+    '    at verifyAccessToken (file:///home/dior/Desktop/5-exam1/src/utils/tokenUtils.js:44:13)\n' +
+    '    at file:///home/dior/Desktop/5-exam1/src/middleware/auth.middleware.js:15:19\n' +
+    '    at file:///home/dior/Desktop/5-exam1/src/utils/errorHandler.js:104:5\n' +
+    '    at Layer.handleRequest (/home/dior/Desktop/5-exam1/node_modules/router/lib/layer.js:152:17)\n' +
+    '    at next (/home/dior/Desktop/5-exam1/node_modules/router/lib/route.js:157:13)\n' +
+    '    at Route.dispatch (/home/dior/Desktop/5-exam1/node_modules/router/lib/route.js:117:3)\n' +
+    '    at handle (/home/dior/Desktop/5-exam1/node_modules/router/index.js:435:11)\n' +
+    '    at Layer.handleRequest (/home/dior/Desktop/5-exam1/node_modules/router/lib/layer.js:152:17)\n' +
+    '    at /home/dior/Desktop/5-exam1/node_modules/router/index.js:295:15\n' +
+    '    at processParams (/home/dior/Desktop/5-exam1/node_modules/router/index.js:582:12)',
+  url: '/api/auth/admin/add',
+  method: 'POST',
+  ip: '::1',
+  userAgent: 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36',
+  userId: null,
+  level: 'error',
+  message: 'Global Error Handler',
+  timestamp: '2025-08-20 02:31:20'
+}
+{
+  service: 'avto-salon',
+  error: "Noto'g'ri access token",
+  stack: "Error: Noto'g'ri access token\n" +
+    '    at verifyAccessToken (file:///home/dior/Desktop/5-exam1/src/utils/tokenUtils.js:44:13)\n' +
+    '    at file:///home/dior/Desktop/5-exam1/src/middleware/auth.middleware.js:15:19\n' +
+    '    at file:///home/dior/Desktop/5-exam1/src/utils/errorHandler.js:104:5\n' +
+    '    at Layer.handleRequest (/home/dior/Desktop/5-exam1/node_modules/router/lib/layer.js:152:17)\n' +
+    '    at next (/home/dior/Desktop/5-exam1/node_modules/router/lib/route.js:157:13)\n' +
+    '    at Route.dispatch (/home/dior/Desktop/5-exam1/node_modules/router/lib/route.js:117:3)\n' +
+    '    at handle (/home/dior/Desktop/5-exam1/node_modules/router/index.js:435:11)\n' +
+    '    at Layer.handleRequest (/home/dior/Desktop/5-exam1/node_modules/router/lib/layer.js:152:17)\n' +
+    '    at /home/dior/Desktop/5-exam1/node_modules/router/index.js:295:15\n' +
+    '    at processParams (/home/dior/Desktop/5-exam1/node_modules/router/index.js:582:12)',
+  url: '/api/auth/admin/add',
+  method: 'POST',
+  ip: '::1',
+  userAgent: 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36',
+  userId: null,
+  level: 'error',
+  message: 'Global Error Handler',
+  timestamp: '2025-08-20 02:31:34'
+}

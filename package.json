@@ -1,0 +1,34 @@
+{
+  "name": "lesson-10",
+  "version": "1.0.0",
+  "main": "src/server.js",
+  "type": "module",
+  "scripts": {
+    "dev": "node --watch src/server.js",
+    "start": "node src/server.js",
+    "build": "npm i",
+    "seed": "node src/scripts/seedData.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cookie-parser": "^1.4.6",
+    "crypto-js": "^4.2.0",
+    "dotenv": "^17.1.0",
+    "ejs": "^3.1.10",
+    "express": "^5.1.0",
+    "express-ejs-layouts": "^2.5.1",
+    "express-rate-limit": "^7.1.5",
+    "joi": "^17.11.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.17.2",
+    "multer": "^1.4.5-lts.1",
+    "nodemailer": "^7.0.5",
+    "sharp": "^0.33.2",
+    "winston": "^3.11.0",
+    "winston-mongodb": "^5.1.1"
+  }
+}
