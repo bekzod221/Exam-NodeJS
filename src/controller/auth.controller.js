@@ -5,11 +5,10 @@ import { sendVerificationCode } from "../config/email.js";
 import { sendSuccess, sendError, handleControllerError } from "../utils/responseUtils.js";
 import { isValidEmail } from "../utils/validationUtils.js";
 import { USER_ROLES, HTTP_STATUS } from "../utils/constants.js";
+import { generateAccessToken } from "../utils/tokenUtils.js";
 
 const generateToken = (userId) => {
-  return jwt.sign({ userId }, process.env.JWT_SECRET || 'your-secret-key', {
-    expiresIn: '7d'
-  });
+  return generateAccessToken(userId);
 };
 
 export const adminLogin = async (req, res) => {
@@ -204,6 +203,31 @@ export const login = async (req, res) => {
 
   } catch (error) {
     console.error('Login error:', error);
+    res.status(500).json({ 
+      success: false, 
+      message: 'Server xatosi' 
+    });
+  }
+};
+
+// Check authentication status
+export const checkAuthStatus = async (req, res) => {
+  try {
+    // If we reach here, the user is authenticated (middleware already checked)
+    const user = req.user;
+    
+    res.json({
+      success: true,
+      user: {
+        id: user._id,
+        email: user.email,
+        name: user.name,
+        role: user.role,
+        isVerified: user.isVerified
+      }
+    });
+  } catch (error) {
+    console.error('Auth status check error:', error);
     res.status(500).json({ 
       success: false, 
       message: 'Server xatosi' 

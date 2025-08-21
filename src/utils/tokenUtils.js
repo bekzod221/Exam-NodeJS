@@ -6,8 +6,8 @@ import { AppError } from './errorHandler.js';
 export const generateAccessToken = (userId) => {
   return jwt.sign(
     { userId, type: 'access' },
-    process.env.JWT_ACCESS_SECRET || 'access-secret-key',
-    { expiresIn: process.env.JWT_ACCESS_EXPIRES || '15m' }
+    process.env.JWT_SECRET || 'your-super-secret-jwt-key-change-this-in-production',
+    { expiresIn: '7d' }
   );
 };
 
@@ -31,7 +31,7 @@ export const generateTokenPair = (userId) => {
 // Verify access token
 export const verifyAccessToken = (token) => {
   try {
-    const decoded = jwt.verify(token, process.env.JWT_ACCESS_SECRET || 'access-secret-key');
+    const decoded = jwt.verify(token, process.env.JWT_SECRET || 'your-super-secret-jwt-key-change-this-in-production');
     if (decoded.type !== 'access') {
       throw new AppError('Noto\'g\'ri token turi', 401);
     }

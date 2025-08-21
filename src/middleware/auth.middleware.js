@@ -2,6 +2,7 @@ import { verifyAccessToken } from '../utils/tokenUtils.js';
 import User from '../models/User.js';
 import { AppError, catchAsync } from '../utils/errorHandler.js';
 import logger from '../config/logger.js';
+import jwt from 'jsonwebtoken';
 
 // Enhanced auth middleware with access token
 export const requireAuth = catchAsync(async (req, res, next) => {
@@ -11,8 +12,19 @@ export const requireAuth = catchAsync(async (req, res, next) => {
     throw new AppError('Autentifikatsiya talab qilinadi', 401);
   }
 
-  // Verify access token
-  const decoded = verifyAccessToken(token);
+  let decoded;
+  
+  try {
+    // Try to verify as access token first
+    decoded = verifyAccessToken(token);
+  } catch (error) {
+    // If that fails, try to verify as legacy token
+    try {
+      decoded = jwt.verify(token, process.env.JWT_SECRET || 'your-super-secret-jwt-key-change-this-in-production');
+    } catch (legacyError) {
+      throw new AppError('Noto\'g\'ri token', 401);
+    }
+  }
   
   // Get user from database
   const user = await User.findById(decoded.userId).select('-password -refreshToken -passwordResetToken');
@@ -45,7 +57,21 @@ export const optionalAuth = async (req, res, next) => {
     const token = req.cookies.accessToken || req.headers.authorization?.split(' ')[1];
 
     if (token) {
-      const decoded = verifyAccessToken(token);
+      let decoded;
+      
+      try {
+        // Try to verify as access token first
+        decoded = verifyAccessToken(token);
+      } catch (error) {
+        // If that fails, try to verify as legacy token
+        try {
+          decoded = jwt.verify(token, process.env.JWT_SECRET || 'your-super-secret-jwt-key-change-this-in-production');
+        } catch (legacyError) {
+          // Continue without user if both fail
+          return next();
+        }
+      }
+      
       const user = await User.findById(decoded.userId).select('-password -refreshToken -passwordResetToken');
       
       if (user && user.isVerified) {

@@ -69,6 +69,9 @@ app.use((req, res, next) => {
     next();
 });  
 
+app.use('/', viewRouter);
+app.use('/', mainRouter);
+
 app.use('/api/auth', authRouter);
 app.use('/api/cars', carRouter);
 app.use('/api/categories', categoryRouter);
@@ -76,9 +79,6 @@ app.use('/api/profile', profileRouter);
 app.use('/api/admin', adminRouter);
 app.use('/api/cart', cartRouter);
 app.use('/api/orders', orderRouter);
-
-app.use('/', mainRouter);
-app.use('/', viewRouter);
 
 app.use('/api/auth-enhanced', enhancedAuthRouter);
 

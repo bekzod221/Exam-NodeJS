@@ -4,38 +4,29 @@ import dotenv from 'dotenv';
 dotenv.config();
 
 const createTransporter = () => {
-  // Prefer explicit SMTP config if provided; fallback to Gmail service
-  const hasSmtpHost = Boolean(process.env.SMTP_HOST && process.env.SMTP_PORT);
-  const hasBasicCreds = Boolean(process.env.EMAIL_USER && process.env.EMAIL_PASS);
+  // Check if we have Gmail credentials
+  const hasGmailCreds = Boolean(process.env.EMAIL_USER && process.env.EMAIL_PASS);
 
-  if (!hasSmtpHost && !hasBasicCreds) {
-    console.warn('Email credentials not configured. Email functionality will be disabled.');
+  if (!hasGmailCreds) {
+    console.warn('Gmail credentials not configured. Email functionality will be disabled.');
     return null;
   }
 
-  if (hasSmtpHost) {
-    return nodemailer.createTransport({
-      host: process.env.SMTP_HOST,
-      port: Number(process.env.SMTP_PORT),
-      secure: Number(process.env.SMTP_PORT) === 465,
-      pool: true,
-      auth: hasBasicCreds
-        ? {
-            user: process.env.EMAIL_USER,
-            pass: process.env.EMAIL_PASS
-          }
-        : undefined,
-      tls: { rejectUnauthorized: false }
-    });
-  }
-
+  // Use explicit Gmail SMTP settings for better reliability
   return nodemailer.createTransport({
-    service: 'gmail',
+    host: 'smtp.gmail.com',
+    port: 587,
+    secure: false, // true for 465, false for other ports
     auth: {
       user: process.env.EMAIL_USER,
       pass: process.env.EMAIL_PASS
     },
-    tls: { rejectUnauthorized: false }
+    tls: {
+      rejectUnauthorized: false
+    },
+    pool: true,
+    maxConnections: 5,
+    maxMessages: 100
   });
 };
 

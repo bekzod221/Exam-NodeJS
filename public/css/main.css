@@ -3707,7 +3707,21 @@ nav button:hover {
 }
 
 /* =========================================================
-   14. RESPONSIVE DESIGN
+   14. USER VISIBILITY CLASSES
+   =======================================================*/
+/* User-only and guest-only visibility classes */
+.user-only {
+  display: none;
+}
+
+.guest-only {
+  display: inline;
+}
+
+/* When user is logged in, these classes will be toggled via JavaScript */
+
+/* =========================================================
+   15. RESPONSIVE DESIGN
    =======================================================*/
 @media (max-width: 768px) {
   .nav-wrapper {

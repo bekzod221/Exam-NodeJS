@@ -6,6 +6,7 @@ import {
   login,
   logout, 
   getCurrentUser,
+  checkAuthStatus,
   adminLogin,
   adminLogout,
   addAdmin
@@ -22,6 +23,7 @@ authRouter.post("/verify-code", verifyCode);
 authRouter.post("/register", register);
 authRouter.post("/logout", logout);
 authRouter.get("/me", requireAuth, getCurrentUser);
+authRouter.get("/status", requireAuth, checkAuthStatus);
 
 // Admin authentication routes
 authRouter.post("/admin/login", adminLogin);

@@ -19,18 +19,15 @@
             <a href="/">Home</a>
             <a href="/models">Models</a>
             <a href="/categories">Categories</a>
-            <% if (user) { %>
-                <a href="/profile">Profile</a>
-                <a href="/bookmarks">Favorites</a>
-                <a href="/cart" class="cart-link">
-                    <span class="cart-icon">🛒</span>
-                    <span class="cart-count" id="cartCount">0</span>
-                </a>
-                <button id="logoutBtn" class="link">Sign Out</button>
-            <% } else { %>
-                <a href="/login">Sign In</a>
-                <a href="/register">Sign Up</a>
-            <% } %>
+            <a href="/profile" class="user-only">Profile</a>
+            <a href="/bookmarks" class="user-only">Favorites</a>
+            <a href="/cart" class="cart-link user-only">
+                <span class="cart-icon">🛒</span>
+                <span class="cart-count" id="cartCount">0</span>
+            </a>
+            <button id="logoutBtn" class="link user-only">Sign Out</button>
+            <a href="/login" class="guest-only">Sign In</a>
+            <a href="/register" class="guest-only">Sign Up</a>
             <a href="/admin-login" class="admin-btn">
                 <i class="admin-icon">👤</i>
                 Admin Panel

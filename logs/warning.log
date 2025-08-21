@@ -8157,3 +8157,3769 @@
   message: 'HTTP Request Warning',
   timestamp: '2025-08-21 18:29:14'
 }
+{
+  service: 'avto-salon',
+  url: '/js/main.js',
+  method: 'GET',
+  ip: '::1',
+  level: 'warn',
+  message: '404 Not Found',
+  timestamp: '2025-08-21 18:39:17'
+}
+{
+  service: 'avto-salon',
+  method: 'GET',
+  url: '/js/main.js',
+  statusCode: 404,
+  duration: '4ms',
+  userAgent: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36',
+  ip: '::1',
+  userId: null,
+  level: 'warn',
+  message: 'HTTP Request Warning',
+  timestamp: '2025-08-21 18:39:17'
+}
+{
+  service: 'avto-salon',
+  url: '/js/main.js',
+  method: 'GET',
+  ip: '::1',
+  level: 'warn',
+  message: '404 Not Found',
+  timestamp: '2025-08-21 18:39:17'
+}
+{
+  service: 'avto-salon',
+  method: 'GET',
+  url: '/js/main.js',
+  statusCode: 404,
+  duration: '3ms',
+  userAgent: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36',
+  ip: '::1',
+  userId: null,
+  level: 'warn',
+  message: 'HTTP Request Warning',
+  timestamp: '2025-08-21 18:39:17'
+}
+{
+  service: 'avto-salon',
+  url: '/js/main.js',
+  method: 'GET',
+  ip: '::1',
+  level: 'warn',
+  message: '404 Not Found',
+  timestamp: '2025-08-21 18:39:19'
+}
+{
+  service: 'avto-salon',
+  method: 'GET',
+  url: '/js/main.js',
+  statusCode: 404,
+  duration: '3ms',
+  userAgent: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36',
+  ip: '::1',
+  userId: null,
+  level: 'warn',
+  message: 'HTTP Request Warning',
+  timestamp: '2025-08-21 18:39:19'
+}
+{
+  service: 'avto-salon',
+  url: '/js/main.js',
+  method: 'GET',
+  ip: '::1',
+  level: 'warn',
+  message: '404 Not Found',
+  timestamp: '2025-08-21 18:39:19'
+}
+{
+  service: 'avto-salon',
+  method: 'GET',
+  url: '/js/main.js',
+  statusCode: 404,
+  duration: '2ms',
+  userAgent: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36',
+  ip: '::1',
+  userId: null,
+  level: 'warn',
+  message: 'HTTP Request Warning',
+  timestamp: '2025-08-21 18:39:19'
+}
+{
+  service: 'avto-salon',
+  url: '/js/main.js',
+  method: 'GET',
+  ip: '::1',
+  level: 'warn',
+  message: '404 Not Found',
+  timestamp: '2025-08-21 18:39:20'
+}
+{
+  service: 'avto-salon',
+  method: 'GET',
+  url: '/js/main.js',
+  statusCode: 404,
+  duration: '2ms',
+  userAgent: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36',
+  ip: '::1',
+  userId: null,
+  level: 'warn',
+  message: 'HTTP Request Warning',
+  timestamp: '2025-08-21 18:39:20'
+}
+{
+  service: 'avto-salon',
+  url: '/js/main.js',
+  method: 'GET',
+  ip: '::1',
+  level: 'warn',
+  message: '404 Not Found',
+  timestamp: '2025-08-21 18:39:20'
+}
+{
+  service: 'avto-salon',
+  method: 'GET',
+  url: '/js/main.js',
+  statusCode: 404,
+  duration: '2ms',
+  userAgent: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36',
+  ip: '::1',
+  userId: null,
+  level: 'warn',
+  message: 'HTTP Request Warning',
+  timestamp: '2025-08-21 18:39:20'
+}
+{
+  service: 'avto-salon',
+  method: 'POST',
+  url: '/api/auth/register',
+  statusCode: 400,
+  duration: '9ms',
+  userAgent: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36',
+  ip: '::1',
+  userId: null,
+  level: 'warn',
+  message: 'HTTP Request Warning',
+  timestamp: '2025-08-21 18:39:32'
+}
+{
+  service: 'avto-salon',
+  method: 'POST',
+  url: '/api/auth/register',
+  statusCode: 400,
+  duration: '4ms',
+  userAgent: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36',
+  ip: '::1',
+  userId: null,
+  level: 'warn',
+  message: 'HTTP Request Warning',
+  timestamp: '2025-08-21 18:39:44'
+}
+{
+  service: 'avto-salon',
+  url: '/js/main.js',
+  method: 'GET',
+  ip: '::1',
+  level: 'warn',
+  message: '404 Not Found',
+  timestamp: '2025-08-21 18:39:47'
+}
+{
+  service: 'avto-salon',
+  method: 'GET',
+  url: '/js/main.js',
+  statusCode: 404,
+  duration: '2ms',
+  userAgent: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36',
+  ip: '::1',
+  userId: null,
+  level: 'warn',
+  message: 'HTTP Request Warning',
+  timestamp: '2025-08-21 18:39:47'
+}
+{
+  service: 'avto-salon',
+  url: '/js/main.js',
+  method: 'GET',
+  ip: '::1',
+  level: 'warn',
+  message: '404 Not Found',
+  timestamp: '2025-08-21 18:39:47'
+}
+{
+  service: 'avto-salon',
+  method: 'GET',
+  url: '/js/main.js',
+  statusCode: 404,
+  duration: '2ms',
+  userAgent: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36',
+  ip: '::1',
+  userId: null,
+  level: 'warn',
+  message: 'HTTP Request Warning',
+  timestamp: '2025-08-21 18:39:47'
+}
+{
+  service: 'avto-salon',
+  url: '/js/main.js',
+  method: 'GET',
+  ip: '::1',
+  level: 'warn',
+  message: '404 Not Found',
+  timestamp: '2025-08-21 18:39:48'
+}
+{
+  service: 'avto-salon',
+  method: 'GET',
+  url: '/js/main.js',
+  statusCode: 404,
+  duration: '1ms',
+  userAgent: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36',
+  ip: '::1',
+  userId: null,
+  level: 'warn',
+  message: 'HTTP Request Warning',
+  timestamp: '2025-08-21 18:39:48'
+}
+{
+  service: 'avto-salon',
+  url: '/js/main.js',
+  method: 'GET',
+  ip: '::1',
+  level: 'warn',
+  message: '404 Not Found',
+  timestamp: '2025-08-21 18:39:48'
+}
+{
+  service: 'avto-salon',
+  method: 'GET',
+  url: '/js/main.js',
+  statusCode: 404,
+  duration: '2ms',
+  userAgent: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36',
+  ip: '::1',
+  userId: null,
+  level: 'warn',
+  message: 'HTTP Request Warning',
+  timestamp: '2025-08-21 18:39:48'
+}
+{
+  service: 'avto-salon',
+  method: 'POST',
+  url: '/api/auth/send-code',
+  statusCode: 500,
+  duration: '1222ms',
+  userAgent: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36',
+  ip: '::1',
+  userId: null,
+  level: 'warn',
+  message: 'HTTP Request Warning',
+  timestamp: '2025-08-21 18:39:54'
+}
+{
+  service: 'avto-salon',
+  method: 'POST',
+  url: '/api/auth/send-code',
+  statusCode: 500,
+  duration: '1097ms',
+  userAgent: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36',
+  ip: '::1',
+  userId: null,
+  level: 'warn',
+  message: 'HTTP Request Warning',
+  timestamp: '2025-08-21 18:40:09'
+}
+{
+  service: 'avto-salon',
+  method: 'POST',
+  url: '/api/auth/send-code',
+  statusCode: 500,
+  duration: '1152ms',
+  userAgent: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36',
+  ip: '::1',
+  userId: null,
+  level: 'warn',
+  message: 'HTTP Request Warning',
+  timestamp: '2025-08-21 18:40:13'
+}
+{
+  service: 'avto-salon',
+  method: 'POST',
+  url: '/api/auth/send-code',
+  statusCode: 500,
+  duration: '1118ms',
+  userAgent: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36',
+  ip: '::1',
+  userId: null,
+  level: 'warn',
+  message: 'HTTP Request Warning',
+  timestamp: '2025-08-21 18:40:34'
+}
+{
+  service: 'avto-salon',
+  method: 'POST',
+  url: '/api/auth/send-code',
+  statusCode: 500,
+  duration: '1074ms',
+  userAgent: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36',
+  ip: '::1',
+  userId: null,
+  level: 'warn',
+  message: 'HTTP Request Warning',
+  timestamp: '2025-08-21 18:40:45'
+}
+{
+  service: 'avto-salon',
+  method: 'POST',
+  url: '/api/auth/send-code',
+  statusCode: 500,
+  duration: '1254ms',
+  userAgent: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36',
+  ip: '::1',
+  userId: null,
+  level: 'warn',
+  message: 'HTTP Request Warning',
+  timestamp: '2025-08-21 18:43:15'
+}
+{
+  service: 'avto-salon',
+  url: '/js/main.js',
+  method: 'GET',
+  ip: '::1',
+  level: 'warn',
+  message: '404 Not Found',
+  timestamp: '2025-08-21 18:43:16'
+}
+{
+  service: 'avto-salon',
+  method: 'GET',
+  url: '/js/main.js',
+  statusCode: 404,
+  duration: '3ms',
+  userAgent: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36',
+  ip: '::1',
+  userId: null,
+  level: 'warn',
+  message: 'HTTP Request Warning',
+  timestamp: '2025-08-21 18:43:16'
+}
+{
+  service: 'avto-salon',
+  url: '/js/main.js',
+  method: 'GET',
+  ip: '::1',
+  level: 'warn',
+  message: '404 Not Found',
+  timestamp: '2025-08-21 18:43:16'
+}
+{
+  service: 'avto-salon',
+  method: 'GET',
+  url: '/js/main.js',
+  statusCode: 404,
+  duration: '2ms',
+  userAgent: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36',
+  ip: '::1',
+  userId: null,
+  level: 'warn',
+  message: 'HTTP Request Warning',
+  timestamp: '2025-08-21 18:43:16'
+}
+{
+  service: 'avto-salon',
+  method: 'POST',
+  url: '/api/auth/send-code',
+  statusCode: 500,
+  duration: '1110ms',
+  userAgent: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36',
+  ip: '::1',
+  userId: null,
+  level: 'warn',
+  message: 'HTTP Request Warning',
+  timestamp: '2025-08-21 18:43:20'
+}
+{
+  service: 'avto-salon',
+  url: '/js/main.js',
+  method: 'GET',
+  ip: '::1',
+  level: 'warn',
+  message: '404 Not Found',
+  timestamp: '2025-08-21 18:43:28'
+}
+{
+  service: 'avto-salon',
+  method: 'GET',
+  url: '/js/main.js',
+  statusCode: 404,
+  duration: '5ms',
+  userAgent: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36',
+  ip: '::1',
+  userId: null,
+  level: 'warn',
+  message: 'HTTP Request Warning',
+  timestamp: '2025-08-21 18:43:28'
+}
+{
+  service: 'avto-salon',
+  url: '/js/main.js',
+  method: 'GET',
+  ip: '::1',
+  level: 'warn',
+  message: '404 Not Found',
+  timestamp: '2025-08-21 18:43:28'
+}
+{
+  service: 'avto-salon',
+  method: 'GET',
+  url: '/js/main.js',
+  statusCode: 404,
+  duration: '2ms',
+  userAgent: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36',
+  ip: '::1',
+  userId: null,
+  level: 'warn',
+  message: 'HTTP Request Warning',
+  timestamp: '2025-08-21 18:43:28'
+}
+{
+  service: 'avto-salon',
+  method: 'POST',
+  url: '/api/auth/send-code',
+  statusCode: 500,
+  duration: '1078ms',
+  userAgent: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36',
+  ip: '::1',
+  userId: null,
+  level: 'warn',
+  message: 'HTTP Request Warning',
+  timestamp: '2025-08-21 18:43:31'
+}
+{
+  service: 'avto-salon',
+  url: '/.well-known/appspecific/com.chrome.devtools.json',
+  method: 'GET',
+  ip: '::1',
+  level: 'warn',
+  message: '404 Not Found',
+  timestamp: '2025-08-21 18:43:35'
+}
+{
+  service: 'avto-salon',
+  method: 'GET',
+  url: '/.well-known/appspecific/com.chrome.devtools.json',
+  statusCode: 404,
+  duration: '5ms',
+  userAgent: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36',
+  ip: '::1',
+  userId: null,
+  level: 'warn',
+  message: 'HTTP Request Warning',
+  timestamp: '2025-08-21 18:43:35'
+}
+{
+  service: 'avto-salon',
+  method: 'POST',
+  url: '/api/auth/send-code',
+  statusCode: 500,
+  duration: '960ms',
+  userAgent: 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Mobile Safari/537.36',
+  ip: '::1',
+  userId: null,
+  level: 'warn',
+  message: 'HTTP Request Warning',
+  timestamp: '2025-08-21 18:43:51'
+}
+{
+  service: 'avto-salon',
+  method: 'POST',
+  url: '/api/auth/send-code',
+  statusCode: 500,
+  duration: '1013ms',
+  userAgent: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36',
+  ip: '::1',
+  userId: null,
+  level: 'warn',
+  message: 'HTTP Request Warning',
+  timestamp: '2025-08-21 18:44:19'
+}
+{
+  service: 'avto-salon',
+  url: '/js/main.js',
+  method: 'GET',
+  ip: '::1',
+  level: 'warn',
+  message: '404 Not Found',
+  timestamp: '2025-08-21 18:44:20'
+}
+{
+  service: 'avto-salon',
+  method: 'GET',
+  url: '/js/main.js',
+  statusCode: 404,
+  duration: '2ms',
+  userAgent: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36',
+  ip: '::1',
+  userId: null,
+  level: 'warn',
+  message: 'HTTP Request Warning',
+  timestamp: '2025-08-21 18:44:20'
+}
+{
+  service: 'avto-salon',
+  url: '/js/main.js',
+  method: 'GET',
+  ip: '::1',
+  level: 'warn',
+  message: '404 Not Found',
+  timestamp: '2025-08-21 18:44:20'
+}
+{
+  service: 'avto-salon',
+  method: 'GET',
+  url: '/js/main.js',
+  statusCode: 404,
+  duration: '2ms',
+  userAgent: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36',
+  ip: '::1',
+  userId: null,
+  level: 'warn',
+  message: 'HTTP Request Warning',
+  timestamp: '2025-08-21 18:44:20'
+}
+{
+  service: 'avto-salon',
+  method: 'POST',
+  url: '/api/auth/send-code',
+  statusCode: 500,
+  duration: '937ms',
+  userAgent: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36',
+  ip: '::1',
+  userId: null,
+  level: 'warn',
+  message: 'HTTP Request Warning',
+  timestamp: '2025-08-21 18:44:24'
+}
+{
+  service: 'avto-salon',
+  url: '/js/main.js',
+  method: 'GET',
+  ip: '::1',
+  level: 'warn',
+  message: '404 Not Found',
+  timestamp: '2025-08-21 18:44:32'
+}
+{
+  service: 'avto-salon',
+  method: 'GET',
+  url: '/js/main.js',
+  statusCode: 404,
+  duration: '5ms',
+  userAgent: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36',
+  ip: '::1',
+  userId: null,
+  level: 'warn',
+  message: 'HTTP Request Warning',
+  timestamp: '2025-08-21 18:44:32'
+}
+{
+  service: 'avto-salon',
+  url: '/js/main.js',
+  method: 'GET',
+  ip: '::1',
+  level: 'warn',
+  message: '404 Not Found',
+  timestamp: '2025-08-21 18:44:32'
+}
+{
+  service: 'avto-salon',
+  method: 'GET',
+  url: '/js/main.js',
+  statusCode: 404,
+  duration: '2ms',
+  userAgent: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36',
+  ip: '::1',
+  userId: null,
+  level: 'warn',
+  message: 'HTTP Request Warning',
+  timestamp: '2025-08-21 18:44:32'
+}
+{
+  service: 'avto-salon',
+  url: '/js/main.js',
+  method: 'GET',
+  ip: '::1',
+  level: 'warn',
+  message: '404 Not Found',
+  timestamp: '2025-08-21 18:44:33'
+}
+{
+  service: 'avto-salon',
+  method: 'GET',
+  url: '/js/main.js',
+  statusCode: 404,
+  duration: '3ms',
+  userAgent: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36',
+  ip: '::1',
+  userId: null,
+  level: 'warn',
+  message: 'HTTP Request Warning',
+  timestamp: '2025-08-21 18:44:33'
+}
+{
+  service: 'avto-salon',
+  url: '/js/main.js',
+  method: 'GET',
+  ip: '::1',
+  level: 'warn',
+  message: '404 Not Found',
+  timestamp: '2025-08-21 18:44:33'
+}
+{
+  service: 'avto-salon',
+  method: 'GET',
+  url: '/js/main.js',
+  statusCode: 404,
+  duration: '2ms',
+  userAgent: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36',
+  ip: '::1',
+  userId: null,
+  level: 'warn',
+  message: 'HTTP Request Warning',
+  timestamp: '2025-08-21 18:44:33'
+}
+{
+  service: 'avto-salon',
+  url: '/js/main.js',
+  method: 'GET',
+  ip: '::1',
+  level: 'warn',
+  message: '404 Not Found',
+  timestamp: '2025-08-21 18:45:32'
+}
+{
+  service: 'avto-salon',
+  method: 'GET',
+  url: '/js/main.js',
+  statusCode: 404,
+  duration: '3ms',
+  userAgent: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36',
+  ip: '::1',
+  userId: null,
+  level: 'warn',
+  message: 'HTTP Request Warning',
+  timestamp: '2025-08-21 18:45:32'
+}
+{
+  service: 'avto-salon',
+  url: '/js/main.js',
+  method: 'GET',
+  ip: '::1',
+  level: 'warn',
+  message: '404 Not Found',
+  timestamp: '2025-08-21 18:45:37'
+}
+{
+  service: 'avto-salon',
+  method: 'GET',
+  url: '/js/main.js',
+  statusCode: 404,
+  duration: '2ms',
+  userAgent: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36',
+  ip: '::1',
+  userId: null,
+  level: 'warn',
+  message: 'HTTP Request Warning',
+  timestamp: '2025-08-21 18:45:37'
+}
+{
+  service: 'avto-salon',
+  url: '/js/main.js',
+  method: 'GET',
+  ip: '::1',
+  level: 'warn',
+  message: '404 Not Found',
+  timestamp: '2025-08-21 18:45:37'
+}
+{
+  service: 'avto-salon',
+  method: 'GET',
+  url: '/js/main.js',
+  statusCode: 404,
+  duration: '2ms',
+  userAgent: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36',
+  ip: '::1',
+  userId: null,
+  level: 'warn',
+  message: 'HTTP Request Warning',
+  timestamp: '2025-08-21 18:45:37'
+}
+{
+  service: 'avto-salon',
+  url: '/js/main.js',
+  method: 'GET',
+  ip: '::1',
+  level: 'warn',
+  message: '404 Not Found',
+  timestamp: '2025-08-21 18:46:13'
+}
+{
+  service: 'avto-salon',
+  method: 'GET',
+  url: '/js/main.js',
+  statusCode: 404,
+  duration: '2ms',
+  userAgent: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36',
+  ip: '::1',
+  userId: null,
+  level: 'warn',
+  message: 'HTTP Request Warning',
+  timestamp: '2025-08-21 18:46:13'
+}
+{
+  service: 'avto-salon',
+  url: '/js/main.js',
+  method: 'GET',
+  ip: '::1',
+  level: 'warn',
+  message: '404 Not Found',
+  timestamp: '2025-08-21 18:46:13'
+}
+{
+  service: 'avto-salon',
+  method: 'GET',
+  url: '/js/main.js',
+  statusCode: 404,
+  duration: '2ms',
+  userAgent: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36',
+  ip: '::1',
+  userId: null,
+  level: 'warn',
+  message: 'HTTP Request Warning',
+  timestamp: '2025-08-21 18:46:13'
+}
+{
+  service: 'avto-salon',
+  url: '/js/main.js',
+  method: 'GET',
+  ip: '::1',
+  level: 'warn',
+  message: '404 Not Found',
+  timestamp: '2025-08-21 18:46:15'
+}
+{
+  service: 'avto-salon',
+  method: 'GET',
+  url: '/js/main.js',
+  statusCode: 404,
+  duration: '2ms',
+  userAgent: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36',
+  ip: '::1',
+  userId: null,
+  level: 'warn',
+  message: 'HTTP Request Warning',
+  timestamp: '2025-08-21 18:46:15'
+}
+{
+  service: 'avto-salon',
+  url: '/js/main.js',
+  method: 'GET',
+  ip: '::1',
+  level: 'warn',
+  message: '404 Not Found',
+  timestamp: '2025-08-21 18:46:15'
+}
+{
+  service: 'avto-salon',
+  method: 'GET',
+  url: '/js/main.js',
+  statusCode: 404,
+  duration: '2ms',
+  userAgent: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36',
+  ip: '::1',
+  userId: null,
+  level: 'warn',
+  message: 'HTTP Request Warning',
+  timestamp: '2025-08-21 18:46:15'
+}
+{
+  service: 'avto-salon',
+  url: '/js/main.js',
+  method: 'GET',
+  ip: '::1',
+  level: 'warn',
+  message: '404 Not Found',
+  timestamp: '2025-08-21 18:46:16'
+}
+{
+  service: 'avto-salon',
+  method: 'GET',
+  url: '/js/main.js',
+  statusCode: 404,
+  duration: '2ms',
+  userAgent: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36',
+  ip: '::1',
+  userId: null,
+  level: 'warn',
+  message: 'HTTP Request Warning',
+  timestamp: '2025-08-21 18:46:16'
+}
+{
+  service: 'avto-salon',
+  url: '/js/main.js',
+  method: 'GET',
+  ip: '::1',
+  level: 'warn',
+  message: '404 Not Found',
+  timestamp: '2025-08-21 18:46:16'
+}
+{
+  service: 'avto-salon',
+  method: 'GET',
+  url: '/js/main.js',
+  statusCode: 404,
+  duration: '3ms',
+  userAgent: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36',
+  ip: '::1',
+  userId: null,
+  level: 'warn',
+  message: 'HTTP Request Warning',
+  timestamp: '2025-08-21 18:46:16'
+}
+{
+  service: 'avto-salon',
+  url: '/js/main.js',
+  method: 'GET',
+  ip: '::1',
+  level: 'warn',
+  message: '404 Not Found',
+  timestamp: '2025-08-21 18:46:17'
+}
+{
+  service: 'avto-salon',
+  method: 'GET',
+  url: '/js/main.js',
+  statusCode: 404,
+  duration: '2ms',
+  userAgent: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36',
+  ip: '::1',
+  userId: null,
+  level: 'warn',
+  message: 'HTTP Request Warning',
+  timestamp: '2025-08-21 18:46:17'
+}
+{
+  service: 'avto-salon',
+  url: '/js/main.js',
+  method: 'GET',
+  ip: '::1',
+  level: 'warn',
+  message: '404 Not Found',
+  timestamp: '2025-08-21 18:46:17'
+}
+{
+  service: 'avto-salon',
+  method: 'GET',
+  url: '/js/main.js',
+  statusCode: 404,
+  duration: '3ms',
+  userAgent: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36',
+  ip: '::1',
+  userId: null,
+  level: 'warn',
+  message: 'HTTP Request Warning',
+  timestamp: '2025-08-21 18:46:17'
+}
+{
+  service: 'avto-salon',
+  url: '/js/main.js',
+  method: 'GET',
+  ip: '::1',
+  level: 'warn',
+  message: '404 Not Found',
+  timestamp: '2025-08-21 18:46:53'
+}
+{
+  service: 'avto-salon',
+  method: 'GET',
+  url: '/js/main.js',
+  statusCode: 404,
+  duration: '5ms',
+  userAgent: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36',
+  ip: '::1',
+  userId: null,
+  level: 'warn',
+  message: 'HTTP Request Warning',
+  timestamp: '2025-08-21 18:46:53'
+}
+{
+  service: 'avto-salon',
+  url: '/js/main.js',
+  method: 'GET',
+  ip: '::1',
+  level: 'warn',
+  message: '404 Not Found',
+  timestamp: '2025-08-21 18:46:53'
+}
+{
+  service: 'avto-salon',
+  method: 'GET',
+  url: '/js/main.js',
+  statusCode: 404,
+  duration: '3ms',
+  userAgent: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36',
+  ip: '::1',
+  userId: null,
+  level: 'warn',
+  message: 'HTTP Request Warning',
+  timestamp: '2025-08-21 18:46:53'
+}
+{
+  service: 'avto-salon',
+  url: '/js/main.js',
+  method: 'GET',
+  ip: '::1',
+  level: 'warn',
+  message: '404 Not Found',
+  timestamp: '2025-08-21 18:46:54'
+}
+{
+  service: 'avto-salon',
+  method: 'GET',
+  url: '/js/main.js',
+  statusCode: 404,
+  duration: '3ms',
+  userAgent: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36',
+  ip: '::1',
+  userId: null,
+  level: 'warn',
+  message: 'HTTP Request Warning',
+  timestamp: '2025-08-21 18:46:54'
+}
+{
+  service: 'avto-salon',
+  url: '/js/main.js',
+  method: 'GET',
+  ip: '::1',
+  level: 'warn',
+  message: '404 Not Found',
+  timestamp: '2025-08-21 18:46:54'
+}
+{
+  service: 'avto-salon',
+  method: 'GET',
+  url: '/js/main.js',
+  statusCode: 404,
+  duration: '2ms',
+  userAgent: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36',
+  ip: '::1',
+  userId: null,
+  level: 'warn',
+  message: 'HTTP Request Warning',
+  timestamp: '2025-08-21 18:46:54'
+}
+{
+  service: 'avto-salon',
+  url: '/js/main.js',
+  method: 'GET',
+  ip: '::1',
+  level: 'warn',
+  message: '404 Not Found',
+  timestamp: '2025-08-21 18:46:55'
+}
+{
+  service: 'avto-salon',
+  method: 'GET',
+  url: '/js/main.js',
+  statusCode: 404,
+  duration: '2ms',
+  userAgent: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36',
+  ip: '::1',
+  userId: null,
+  level: 'warn',
+  message: 'HTTP Request Warning',
+  timestamp: '2025-08-21 18:46:55'
+}
+{
+  service: 'avto-salon',
+  url: '/js/main.js',
+  method: 'GET',
+  ip: '::1',
+  level: 'warn',
+  message: '404 Not Found',
+  timestamp: '2025-08-21 18:46:55'
+}
+{
+  service: 'avto-salon',
+  method: 'GET',
+  url: '/js/main.js',
+  statusCode: 404,
+  duration: '2ms',
+  userAgent: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36',
+  ip: '::1',
+  userId: null,
+  level: 'warn',
+  message: 'HTTP Request Warning',
+  timestamp: '2025-08-21 18:46:55'
+}
+{
+  service: 'avto-salon',
+  url: '/js/main.js',
+  method: 'GET',
+  ip: '::1',
+  level: 'warn',
+  message: '404 Not Found',
+  timestamp: '2025-08-21 18:46:56'
+}
+{
+  service: 'avto-salon',
+  method: 'GET',
+  url: '/js/main.js',
+  statusCode: 404,
+  duration: '2ms',
+  userAgent: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36',
+  ip: '::1',
+  userId: null,
+  level: 'warn',
+  message: 'HTTP Request Warning',
+  timestamp: '2025-08-21 18:46:56'
+}
+{
+  service: 'avto-salon',
+  url: '/js/main.js',
+  method: 'GET',
+  ip: '::1',
+  level: 'warn',
+  message: '404 Not Found',
+  timestamp: '2025-08-21 18:46:56'
+}
+{
+  service: 'avto-salon',
+  method: 'GET',
+  url: '/js/main.js',
+  statusCode: 404,
+  duration: '1ms',
+  userAgent: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36',
+  ip: '::1',
+  userId: null,
+  level: 'warn',
+  message: 'HTTP Request Warning',
+  timestamp: '2025-08-21 18:46:56'
+}
+{
+  service: 'avto-salon',
+  url: '/js/main.js',
+  method: 'GET',
+  ip: '::1',
+  level: 'warn',
+  message: '404 Not Found',
+  timestamp: '2025-08-21 18:46:56'
+}
+{
+  service: 'avto-salon',
+  method: 'GET',
+  url: '/js/main.js',
+  statusCode: 404,
+  duration: '2ms',
+  userAgent: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36',
+  ip: '::1',
+  userId: null,
+  level: 'warn',
+  message: 'HTTP Request Warning',
+  timestamp: '2025-08-21 18:46:56'
+}
+{
+  service: 'avto-salon',
+  url: '/js/main.js',
+  method: 'GET',
+  ip: '::1',
+  level: 'warn',
+  message: '404 Not Found',
+  timestamp: '2025-08-21 18:46:56'
+}
+{
+  service: 'avto-salon',
+  method: 'GET',
+  url: '/js/main.js',
+  statusCode: 404,
+  duration: '2ms',
+  userAgent: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36',
+  ip: '::1',
+  userId: null,
+  level: 'warn',
+  message: 'HTTP Request Warning',
+  timestamp: '2025-08-21 18:46:56'
+}
+{
+  service: 'avto-salon',
+  url: '/js/main.js',
+  method: 'GET',
+  ip: '::1',
+  level: 'warn',
+  message: '404 Not Found',
+  timestamp: '2025-08-21 18:46:56'
+}
+{
+  service: 'avto-salon',
+  method: 'GET',
+  url: '/js/main.js',
+  statusCode: 404,
+  duration: '2ms',
+  userAgent: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36',
+  ip: '::1',
+  userId: null,
+  level: 'warn',
+  message: 'HTTP Request Warning',
+  timestamp: '2025-08-21 18:46:56'
+}
+{
+  service: 'avto-salon',
+  url: '/js/main.js',
+  method: 'GET',
+  ip: '::1',
+  level: 'warn',
+  message: '404 Not Found',
+  timestamp: '2025-08-21 18:46:56'
+}
+{
+  service: 'avto-salon',
+  method: 'GET',
+  url: '/js/main.js',
+  statusCode: 404,
+  duration: '1ms',
+  userAgent: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36',
+  ip: '::1',
+  userId: null,
+  level: 'warn',
+  message: 'HTTP Request Warning',
+  timestamp: '2025-08-21 18:46:56'
+}
+{
+  service: 'avto-salon',
+  method: 'POST',
+  url: '/api/auth/register',
+  statusCode: 500,
+  duration: '1378ms',
+  userAgent: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36',
+  ip: '::1',
+  userId: null,
+  level: 'warn',
+  message: 'HTTP Request Warning',
+  timestamp: '2025-08-21 18:47:07'
+}
+{
+  service: 'avto-salon',
+  url: '/js/main.js',
+  method: 'GET',
+  ip: '::1',
+  level: 'warn',
+  message: '404 Not Found',
+  timestamp: '2025-08-21 19:16:35'
+}
+{
+  service: 'avto-salon',
+  method: 'GET',
+  url: '/js/main.js',
+  statusCode: 404,
+  duration: '5ms',
+  userAgent: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36',
+  ip: '::1',
+  userId: null,
+  level: 'warn',
+  message: 'HTTP Request Warning',
+  timestamp: '2025-08-21 19:16:35'
+}
+{
+  service: 'avto-salon',
+  url: '/js/main.js',
+  method: 'GET',
+  ip: '::1',
+  level: 'warn',
+  message: '404 Not Found',
+  timestamp: '2025-08-21 19:16:35'
+}
+{
+  service: 'avto-salon',
+  method: 'GET',
+  url: '/js/main.js',
+  statusCode: 404,
+  duration: '3ms',
+  userAgent: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36',
+  ip: '::1',
+  userId: null,
+  level: 'warn',
+  message: 'HTTP Request Warning',
+  timestamp: '2025-08-21 19:16:35'
+}
+{
+  service: 'avto-salon',
+  url: '/js/main.js',
+  method: 'GET',
+  ip: '::1',
+  level: 'warn',
+  message: '404 Not Found',
+  timestamp: '2025-08-21 19:16:38'
+}
+{
+  service: 'avto-salon',
+  method: 'GET',
+  url: '/js/main.js',
+  statusCode: 404,
+  duration: '3ms',
+  userAgent: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36',
+  ip: '::1',
+  userId: null,
+  level: 'warn',
+  message: 'HTTP Request Warning',
+  timestamp: '2025-08-21 19:16:38'
+}
+{
+  service: 'avto-salon',
+  url: '/js/main.js',
+  method: 'GET',
+  ip: '::1',
+  level: 'warn',
+  message: '404 Not Found',
+  timestamp: '2025-08-21 19:16:38'
+}
+{
+  service: 'avto-salon',
+  method: 'GET',
+  url: '/js/main.js',
+  statusCode: 404,
+  duration: '2ms',
+  userAgent: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36',
+  ip: '::1',
+  userId: null,
+  level: 'warn',
+  message: 'HTTP Request Warning',
+  timestamp: '2025-08-21 19:16:38'
+}
+{
+  service: 'avto-salon',
+  url: '/js/main.js',
+  method: 'GET',
+  ip: '::1',
+  level: 'warn',
+  message: '404 Not Found',
+  timestamp: '2025-08-21 19:17:54'
+}
+{
+  service: 'avto-salon',
+  method: 'GET',
+  url: '/js/main.js',
+  statusCode: 404,
+  duration: '2ms',
+  userAgent: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36',
+  ip: '::1',
+  userId: null,
+  level: 'warn',
+  message: 'HTTP Request Warning',
+  timestamp: '2025-08-21 19:17:54'
+}
+{
+  service: 'avto-salon',
+  url: '/js/main.js',
+  method: 'GET',
+  ip: '::1',
+  level: 'warn',
+  message: '404 Not Found',
+  timestamp: '2025-08-21 19:17:54'
+}
+{
+  service: 'avto-salon',
+  method: 'GET',
+  url: '/js/main.js',
+  statusCode: 404,
+  duration: '3ms',
+  userAgent: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36',
+  ip: '::1',
+  userId: null,
+  level: 'warn',
+  message: 'HTTP Request Warning',
+  timestamp: '2025-08-21 19:17:54'
+}
+{
+  service: 'avto-salon',
+  url: '/assets/images/cars/lada-niva.jpg',
+  method: 'GET',
+  ip: '::1',
+  level: 'warn',
+  message: '404 Not Found',
+  timestamp: '2025-08-21 19:17:56'
+}
+{
+  service: 'avto-salon',
+  method: 'GET',
+  url: '/assets/images/cars/lada-niva.jpg',
+  statusCode: 404,
+  duration: '2ms',
+  userAgent: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36',
+  ip: '::1',
+  userId: null,
+  level: 'warn',
+  message: 'HTTP Request Warning',
+  timestamp: '2025-08-21 19:17:56'
+}
+{
+  service: 'avto-salon',
+  url: '/js/main.js',
+  method: 'GET',
+  ip: '::1',
+  level: 'warn',
+  message: '404 Not Found',
+  timestamp: '2025-08-21 19:17:56'
+}
+{
+  service: 'avto-salon',
+  method: 'GET',
+  url: '/js/main.js',
+  statusCode: 404,
+  duration: '2ms',
+  userAgent: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36',
+  ip: '::1',
+  userId: null,
+  level: 'warn',
+  message: 'HTTP Request Warning',
+  timestamp: '2025-08-21 19:17:56'
+}
+{
+  service: 'avto-salon',
+  url: '/js/main.js',
+  method: 'GET',
+  ip: '::1',
+  level: 'warn',
+  message: '404 Not Found',
+  timestamp: '2025-08-21 19:17:56'
+}
+{
+  service: 'avto-salon',
+  method: 'GET',
+  url: '/js/main.js',
+  statusCode: 404,
+  duration: '1ms',
+  userAgent: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36',
+  ip: '::1',
+  userId: null,
+  level: 'warn',
+  message: 'HTTP Request Warning',
+  timestamp: '2025-08-21 19:17:56'
+}
+{
+  service: 'avto-salon',
+  url: '/api/bookmarks',
+  method: 'POST',
+  ip: '::1',
+  level: 'warn',
+  message: '404 Not Found',
+  timestamp: '2025-08-21 19:18:00'
+}
+{
+  service: 'avto-salon',
+  method: 'POST',
+  url: '/api/bookmarks',
+  statusCode: 404,
+  duration: '2ms',
+  userAgent: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36',
+  ip: '::1',
+  userId: null,
+  level: 'warn',
+  message: 'HTTP Request Warning',
+  timestamp: '2025-08-21 19:18:00'
+}
+{
+  service: 'avto-salon',
+  url: '/api/bookmarks',
+  method: 'POST',
+  ip: '::1',
+  level: 'warn',
+  message: '404 Not Found',
+  timestamp: '2025-08-21 19:18:02'
+}
+{
+  service: 'avto-salon',
+  method: 'POST',
+  url: '/api/bookmarks',
+  statusCode: 404,
+  duration: '2ms',
+  userAgent: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36',
+  ip: '::1',
+  userId: null,
+  level: 'warn',
+  message: 'HTTP Request Warning',
+  timestamp: '2025-08-21 19:18:02'
+}
+{
+  service: 'avto-salon',
+  url: '/assets/images/cars/lada-niva-exterior.jpg',
+  method: 'GET',
+  ip: '::1',
+  level: 'warn',
+  message: '404 Not Found',
+  timestamp: '2025-08-21 19:18:02'
+}
+{
+  service: 'avto-salon',
+  method: 'GET',
+  url: '/assets/images/cars/lada-niva-exterior.jpg',
+  statusCode: 404,
+  duration: '3ms',
+  userAgent: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36',
+  ip: '::1',
+  userId: null,
+  level: 'warn',
+  message: 'HTTP Request Warning',
+  timestamp: '2025-08-21 19:18:02'
+}
+{
+  service: 'avto-salon',
+  url: '/js/main.js',
+  method: 'GET',
+  ip: '::1',
+  level: 'warn',
+  message: '404 Not Found',
+  timestamp: '2025-08-21 19:18:02'
+}
+{
+  service: 'avto-salon',
+  method: 'GET',
+  url: '/js/main.js',
+  statusCode: 404,
+  duration: '1ms',
+  userAgent: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36',
+  ip: '::1',
+  userId: null,
+  level: 'warn',
+  message: 'HTTP Request Warning',
+  timestamp: '2025-08-21 19:18:02'
+}
+{
+  service: 'avto-salon',
+  url: '/js/main.js',
+  method: 'GET',
+  ip: '::1',
+  level: 'warn',
+  message: '404 Not Found',
+  timestamp: '2025-08-21 19:18:02'
+}
+{
+  service: 'avto-salon',
+  method: 'GET',
+  url: '/js/main.js',
+  statusCode: 404,
+  duration: '2ms',
+  userAgent: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36',
+  ip: '::1',
+  userId: null,
+  level: 'warn',
+  message: 'HTTP Request Warning',
+  timestamp: '2025-08-21 19:18:02'
+}
+{
+  service: 'avto-salon',
+  url: '/js/main.js',
+  method: 'GET',
+  ip: '::1',
+  level: 'warn',
+  message: '404 Not Found',
+  timestamp: '2025-08-21 19:18:04'
+}
+{
+  service: 'avto-salon',
+  method: 'GET',
+  url: '/js/main.js',
+  statusCode: 404,
+  duration: '2ms',
+  userAgent: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36',
+  ip: '::1',
+  userId: null,
+  level: 'warn',
+  message: 'HTTP Request Warning',
+  timestamp: '2025-08-21 19:18:04'
+}
+{
+  service: 'avto-salon',
+  url: '/js/main.js',
+  method: 'GET',
+  ip: '::1',
+  level: 'warn',
+  message: '404 Not Found',
+  timestamp: '2025-08-21 19:18:04'
+}
+{
+  service: 'avto-salon',
+  method: 'GET',
+  url: '/js/main.js',
+  statusCode: 404,
+  duration: '2ms',
+  userAgent: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36',
+  ip: '::1',
+  userId: null,
+  level: 'warn',
+  message: 'HTTP Request Warning',
+  timestamp: '2025-08-21 19:18:04'
+}
+{
+  service: 'avto-salon',
+  url: '/js/main.js',
+  method: 'GET',
+  ip: '::1',
+  level: 'warn',
+  message: '404 Not Found',
+  timestamp: '2025-08-21 19:18:14'
+}
+{
+  service: 'avto-salon',
+  method: 'GET',
+  url: '/js/main.js',
+  statusCode: 404,
+  duration: '2ms',
+  userAgent: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36',
+  ip: '::1',
+  userId: null,
+  level: 'warn',
+  message: 'HTTP Request Warning',
+  timestamp: '2025-08-21 19:18:14'
+}
+{
+  service: 'avto-salon',
+  url: '/js/main.js',
+  method: 'GET',
+  ip: '::1',
+  level: 'warn',
+  message: '404 Not Found',
+  timestamp: '2025-08-21 19:18:14'
+}
+{
+  service: 'avto-salon',
+  method: 'GET',
+  url: '/js/main.js',
+  statusCode: 404,
+  duration: '2ms',
+  userAgent: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36',
+  ip: '::1',
+  userId: null,
+  level: 'warn',
+  message: 'HTTP Request Warning',
+  timestamp: '2025-08-21 19:18:14'
+}
+{
+  service: 'avto-salon',
+  url: '/assets/images/cars/chevrolet-corvette.jpg',
+  method: 'GET',
+  ip: '::1',
+  level: 'warn',
+  message: '404 Not Found',
+  timestamp: '2025-08-21 19:18:17'
+}
+{
+  service: 'avto-salon',
+  method: 'GET',
+  url: '/assets/images/cars/chevrolet-corvette.jpg',
+  statusCode: 404,
+  duration: '2ms',
+  userAgent: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36',
+  ip: '::1',
+  userId: null,
+  level: 'warn',
+  message: 'HTTP Request Warning',
+  timestamp: '2025-08-21 19:18:17'
+}
+{
+  service: 'avto-salon',
+  url: '/js/main.js',
+  method: 'GET',
+  ip: '::1',
+  level: 'warn',
+  message: '404 Not Found',
+  timestamp: '2025-08-21 19:18:17'
+}
+{
+  service: 'avto-salon',
+  method: 'GET',
+  url: '/js/main.js',
+  statusCode: 404,
+  duration: '2ms',
+  userAgent: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36',
+  ip: '::1',
+  userId: null,
+  level: 'warn',
+  message: 'HTTP Request Warning',
+  timestamp: '2025-08-21 19:18:17'
+}
+{
+  service: 'avto-salon',
+  url: '/js/main.js',
+  method: 'GET',
+  ip: '::1',
+  level: 'warn',
+  message: '404 Not Found',
+  timestamp: '2025-08-21 19:18:17'
+}
+{
+  service: 'avto-salon',
+  method: 'GET',
+  url: '/js/main.js',
+  statusCode: 404,
+  duration: '1ms',
+  userAgent: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36',
+  ip: '::1',
+  userId: null,
+  level: 'warn',
+  message: 'HTTP Request Warning',
+  timestamp: '2025-08-21 19:18:17'
+}
+{
+  service: 'avto-salon',
+  url: '/assets/images/cars/chevrolet-corvette-exterior.jpg',
+  method: 'GET',
+  ip: '::1',
+  level: 'warn',
+  message: '404 Not Found',
+  timestamp: '2025-08-21 19:18:19'
+}
+{
+  service: 'avto-salon',
+  method: 'GET',
+  url: '/assets/images/cars/chevrolet-corvette-exterior.jpg',
+  statusCode: 404,
+  duration: '1ms',
+  userAgent: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36',
+  ip: '::1',
+  userId: null,
+  level: 'warn',
+  message: 'HTTP Request Warning',
+  timestamp: '2025-08-21 19:18:19'
+}
+{
+  service: 'avto-salon',
+  url: '/js/main.js',
+  method: 'GET',
+  ip: '::1',
+  level: 'warn',
+  message: '404 Not Found',
+  timestamp: '2025-08-21 19:18:19'
+}
+{
+  service: 'avto-salon',
+  method: 'GET',
+  url: '/js/main.js',
+  statusCode: 404,
+  duration: '2ms',
+  userAgent: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36',
+  ip: '::1',
+  userId: null,
+  level: 'warn',
+  message: 'HTTP Request Warning',
+  timestamp: '2025-08-21 19:18:19'
+}
+{
+  service: 'avto-salon',
+  url: '/js/main.js',
+  method: 'GET',
+  ip: '::1',
+  level: 'warn',
+  message: '404 Not Found',
+  timestamp: '2025-08-21 19:18:19'
+}
+{
+  service: 'avto-salon',
+  method: 'GET',
+  url: '/js/main.js',
+  statusCode: 404,
+  duration: '2ms',
+  userAgent: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36',
+  ip: '::1',
+  userId: null,
+  level: 'warn',
+  message: 'HTTP Request Warning',
+  timestamp: '2025-08-21 19:18:19'
+}
+{
+  service: 'avto-salon',
+  url: '/js/main.js',
+  method: 'GET',
+  ip: '::1',
+  level: 'warn',
+  message: '404 Not Found',
+  timestamp: '2025-08-21 19:18:20'
+}
+{
+  service: 'avto-salon',
+  method: 'GET',
+  url: '/js/main.js',
+  statusCode: 404,
+  duration: '2ms',
+  userAgent: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36',
+  ip: '::1',
+  userId: null,
+  level: 'warn',
+  message: 'HTTP Request Warning',
+  timestamp: '2025-08-21 19:18:20'
+}
+{
+  service: 'avto-salon',
+  url: '/js/main.js',
+  method: 'GET',
+  ip: '::1',
+  level: 'warn',
+  message: '404 Not Found',
+  timestamp: '2025-08-21 19:18:20'
+}
+{
+  service: 'avto-salon',
+  method: 'GET',
+  url: '/js/main.js',
+  statusCode: 404,
+  duration: '2ms',
+  userAgent: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36',
+  ip: '::1',
+  userId: null,
+  level: 'warn',
+  message: 'HTTP Request Warning',
+  timestamp: '2025-08-21 19:18:20'
+}
+{
+  service: 'avto-salon',
+  url: '/js/main.js',
+  method: 'GET',
+  ip: '::1',
+  level: 'warn',
+  message: '404 Not Found',
+  timestamp: '2025-08-21 19:18:25'
+}
+{
+  service: 'avto-salon',
+  method: 'GET',
+  url: '/js/main.js',
+  statusCode: 404,
+  duration: '2ms',
+  userAgent: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36',
+  ip: '::1',
+  userId: null,
+  level: 'warn',
+  message: 'HTTP Request Warning',
+  timestamp: '2025-08-21 19:18:25'
+}
+{
+  service: 'avto-salon',
+  url: '/js/main.js',
+  method: 'GET',
+  ip: '::1',
+  level: 'warn',
+  message: '404 Not Found',
+  timestamp: '2025-08-21 19:18:25'
+}
+{
+  service: 'avto-salon',
+  method: 'GET',
+  url: '/js/main.js',
+  statusCode: 404,
+  duration: '1ms',
+  userAgent: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36',
+  ip: '::1',
+  userId: null,
+  level: 'warn',
+  message: 'HTTP Request Warning',
+  timestamp: '2025-08-21 19:18:25'
+}
+{
+  service: 'avto-salon',
+  url: '/js/main.js',
+  method: 'GET',
+  ip: '::1',
+  level: 'warn',
+  message: '404 Not Found',
+  timestamp: '2025-08-21 19:18:26'
+}
+{
+  service: 'avto-salon',
+  method: 'GET',
+  url: '/js/main.js',
+  statusCode: 404,
+  duration: '3ms',
+  userAgent: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36',
+  ip: '::1',
+  userId: null,
+  level: 'warn',
+  message: 'HTTP Request Warning',
+  timestamp: '2025-08-21 19:18:26'
+}
+{
+  service: 'avto-salon',
+  url: '/js/main.js',
+  method: 'GET',
+  ip: '::1',
+  level: 'warn',
+  message: '404 Not Found',
+  timestamp: '2025-08-21 19:18:26'
+}
+{
+  service: 'avto-salon',
+  method: 'GET',
+  url: '/js/main.js',
+  statusCode: 404,
+  duration: '2ms',
+  userAgent: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36',
+  ip: '::1',
+  userId: null,
+  level: 'warn',
+  message: 'HTTP Request Warning',
+  timestamp: '2025-08-21 19:18:26'
+}
+{
+  service: 'avto-salon',
+  url: '/js/main.js',
+  method: 'GET',
+  ip: '::1',
+  level: 'warn',
+  message: '404 Not Found',
+  timestamp: '2025-08-21 19:18:27'
+}
+{
+  service: 'avto-salon',
+  method: 'GET',
+  url: '/js/main.js',
+  statusCode: 404,
+  duration: '2ms',
+  userAgent: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36',
+  ip: '::1',
+  userId: null,
+  level: 'warn',
+  message: 'HTTP Request Warning',
+  timestamp: '2025-08-21 19:18:27'
+}
+{
+  service: 'avto-salon',
+  url: '/js/main.js',
+  method: 'GET',
+  ip: '::1',
+  level: 'warn',
+  message: '404 Not Found',
+  timestamp: '2025-08-21 19:18:27'
+}
+{
+  service: 'avto-salon',
+  method: 'GET',
+  url: '/js/main.js',
+  statusCode: 404,
+  duration: '2ms',
+  userAgent: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36',
+  ip: '::1',
+  userId: null,
+  level: 'warn',
+  message: 'HTTP Request Warning',
+  timestamp: '2025-08-21 19:18:27'
+}
+{
+  service: 'avto-salon',
+  url: '/js/main.js',
+  method: 'GET',
+  ip: '::1',
+  level: 'warn',
+  message: '404 Not Found',
+  timestamp: '2025-08-21 19:18:28'
+}
+{
+  service: 'avto-salon',
+  method: 'GET',
+  url: '/js/main.js',
+  statusCode: 404,
+  duration: '1ms',
+  userAgent: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36',
+  ip: '::1',
+  userId: null,
+  level: 'warn',
+  message: 'HTTP Request Warning',
+  timestamp: '2025-08-21 19:18:28'
+}
+{
+  service: 'avto-salon',
+  url: '/js/main.js',
+  method: 'GET',
+  ip: '::1',
+  level: 'warn',
+  message: '404 Not Found',
+  timestamp: '2025-08-21 19:18:28'
+}
+{
+  service: 'avto-salon',
+  method: 'GET',
+  url: '/js/main.js',
+  statusCode: 404,
+  duration: '1ms',
+  userAgent: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36',
+  ip: '::1',
+  userId: null,
+  level: 'warn',
+  message: 'HTTP Request Warning',
+  timestamp: '2025-08-21 19:18:28'
+}
+{
+  service: 'avto-salon',
+  error: 'Autentifikatsiya talab qilinadi',
+  stack: 'Error: Autentifikatsiya talab qilinadi\n' +
+    '    at file:///Users/an1ksyy/Desktop/lessons/exams/mongodb/5-exam/src/middleware/auth.middleware.js:12:11\n' +
+    '    at file:///Users/an1ksyy/Desktop/lessons/exams/mongodb/5-exam/src/utils/errorHandler.js:104:5\n' +
+    '    at Layer.handleRequest (/Users/an1ksyy/Desktop/lessons/exams/mongodb/5-exam/node_modules/router/lib/layer.js:152:17)\n' +
+    '    at next (/Users/an1ksyy/Desktop/lessons/exams/mongodb/5-exam/node_modules/router/lib/route.js:157:13)\n' +
+    '    at Route.dispatch (/Users/an1ksyy/Desktop/lessons/exams/mongodb/5-exam/node_modules/router/lib/route.js:117:3)\n' +
+    '    at handle (/Users/an1ksyy/Desktop/lessons/exams/mongodb/5-exam/node_modules/router/index.js:435:11)\n' +
+    '    at Layer.handleRequest (/Users/an1ksyy/Desktop/lessons/exams/mongodb/5-exam/node_modules/router/lib/layer.js:152:17)\n' +
+    '    at /Users/an1ksyy/Desktop/lessons/exams/mongodb/5-exam/node_modules/router/index.js:295:15\n' +
+    '    at processParams (/Users/an1ksyy/Desktop/lessons/exams/mongodb/5-exam/node_modules/router/index.js:582:12)\n' +
+    '    at next (/Users/an1ksyy/Desktop/lessons/exams/mongodb/5-exam/node_modules/router/index.js:291:5)',
+  url: '/api/auth/status',
+  method: 'GET',
+  ip: '::1',
+  userAgent: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36',
+  userId: null,
+  level: 'error',
+  message: 'Global Error Handler',
+  timestamp: '2025-08-21 19:28:31'
+}
+{
+  service: 'avto-salon',
+  method: 'GET',
+  url: '/api/auth/status',
+  statusCode: 401,
+  duration: '3ms',
+  userAgent: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36',
+  ip: '::1',
+  userId: null,
+  level: 'warn',
+  message: 'HTTP Request Warning',
+  timestamp: '2025-08-21 19:28:31'
+}
+{
+  service: 'avto-salon',
+  error: 'Autentifikatsiya talab qilinadi',
+  stack: 'Error: Autentifikatsiya talab qilinadi\n' +
+    '    at file:///Users/an1ksyy/Desktop/lessons/exams/mongodb/5-exam/src/middleware/auth.middleware.js:12:11\n' +
+    '    at file:///Users/an1ksyy/Desktop/lessons/exams/mongodb/5-exam/src/utils/errorHandler.js:104:5\n' +
+    '    at Layer.handleRequest (/Users/an1ksyy/Desktop/lessons/exams/mongodb/5-exam/node_modules/router/lib/layer.js:152:17)\n' +
+    '    at trimPrefix (/Users/an1ksyy/Desktop/lessons/exams/mongodb/5-exam/node_modules/router/index.js:342:13)\n' +
+    '    at /Users/an1ksyy/Desktop/lessons/exams/mongodb/5-exam/node_modules/router/index.js:297:9\n' +
+    '    at processParams (/Users/an1ksyy/Desktop/lessons/exams/mongodb/5-exam/node_modules/router/index.js:582:12)\n' +
+    '    at next (/Users/an1ksyy/Desktop/lessons/exams/mongodb/5-exam/node_modules/router/index.js:291:5)\n' +
+    '    at router.handle (/Users/an1ksyy/Desktop/lessons/exams/mongodb/5-exam/node_modules/router/index.js:186:3)\n' +
+    '    at router (/Users/an1ksyy/Desktop/lessons/exams/mongodb/5-exam/node_modules/router/index.js:60:12)\n' +
+    '    at Layer.handleRequest (/Users/an1ksyy/Desktop/lessons/exams/mongodb/5-exam/node_modules/router/lib/layer.js:152:17)',
+  url: '/api/cart',
+  method: 'GET',
+  ip: '::1',
+  userAgent: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36',
+  userId: null,
+  level: 'error',
+  message: 'Global Error Handler',
+  timestamp: '2025-08-21 19:28:31'
+}
+{
+  service: 'avto-salon',
+  method: 'GET',
+  url: '/api/cart',
+  statusCode: 401,
+  duration: '1ms',
+  userAgent: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36',
+  ip: '::1',
+  userId: null,
+  level: 'warn',
+  message: 'HTTP Request Warning',
+  timestamp: '2025-08-21 19:28:31'
+}
+{
+  service: 'avto-salon',
+  error: 'Autentifikatsiya talab qilinadi',
+  stack: 'Error: Autentifikatsiya talab qilinadi\n' +
+    '    at file:///Users/an1ksyy/Desktop/lessons/exams/mongodb/5-exam/src/middleware/auth.middleware.js:12:11\n' +
+    '    at file:///Users/an1ksyy/Desktop/lessons/exams/mongodb/5-exam/src/utils/errorHandler.js:104:5\n' +
+    '    at Layer.handleRequest (/Users/an1ksyy/Desktop/lessons/exams/mongodb/5-exam/node_modules/router/lib/layer.js:152:17)\n' +
+    '    at next (/Users/an1ksyy/Desktop/lessons/exams/mongodb/5-exam/node_modules/router/lib/route.js:157:13)\n' +
+    '    at Route.dispatch (/Users/an1ksyy/Desktop/lessons/exams/mongodb/5-exam/node_modules/router/lib/route.js:117:3)\n' +
+    '    at handle (/Users/an1ksyy/Desktop/lessons/exams/mongodb/5-exam/node_modules/router/index.js:435:11)\n' +
+    '    at Layer.handleRequest (/Users/an1ksyy/Desktop/lessons/exams/mongodb/5-exam/node_modules/router/lib/layer.js:152:17)\n' +
+    '    at /Users/an1ksyy/Desktop/lessons/exams/mongodb/5-exam/node_modules/router/index.js:295:15\n' +
+    '    at processParams (/Users/an1ksyy/Desktop/lessons/exams/mongodb/5-exam/node_modules/router/index.js:582:12)\n' +
+    '    at next (/Users/an1ksyy/Desktop/lessons/exams/mongodb/5-exam/node_modules/router/index.js:291:5)',
+  url: '/api/auth/status',
+  method: 'GET',
+  ip: '::1',
+  userAgent: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36',
+  userId: null,
+  level: 'error',
+  message: 'Global Error Handler',
+  timestamp: '2025-08-21 19:28:31'
+}
+{
+  service: 'avto-salon',
+  method: 'GET',
+  url: '/api/auth/status',
+  statusCode: 401,
+  duration: '1ms',
+  userAgent: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36',
+  ip: '::1',
+  userId: null,
+  level: 'warn',
+  message: 'HTTP Request Warning',
+  timestamp: '2025-08-21 19:28:31'
+}
+{
+  service: 'avto-salon',
+  error: 'Autentifikatsiya talab qilinadi',
+  stack: 'Error: Autentifikatsiya talab qilinadi\n' +
+    '    at file:///Users/an1ksyy/Desktop/lessons/exams/mongodb/5-exam/src/middleware/auth.middleware.js:12:11\n' +
+    '    at file:///Users/an1ksyy/Desktop/lessons/exams/mongodb/5-exam/src/utils/errorHandler.js:104:5\n' +
+    '    at Layer.handleRequest (/Users/an1ksyy/Desktop/lessons/exams/mongodb/5-exam/node_modules/router/lib/layer.js:152:17)\n' +
+    '    at trimPrefix (/Users/an1ksyy/Desktop/lessons/exams/mongodb/5-exam/node_modules/router/index.js:342:13)\n' +
+    '    at /Users/an1ksyy/Desktop/lessons/exams/mongodb/5-exam/node_modules/router/index.js:297:9\n' +
+    '    at processParams (/Users/an1ksyy/Desktop/lessons/exams/mongodb/5-exam/node_modules/router/index.js:582:12)\n' +
+    '    at next (/Users/an1ksyy/Desktop/lessons/exams/mongodb/5-exam/node_modules/router/index.js:291:5)\n' +
+    '    at router.handle (/Users/an1ksyy/Desktop/lessons/exams/mongodb/5-exam/node_modules/router/index.js:186:3)\n' +
+    '    at router (/Users/an1ksyy/Desktop/lessons/exams/mongodb/5-exam/node_modules/router/index.js:60:12)\n' +
+    '    at Layer.handleRequest (/Users/an1ksyy/Desktop/lessons/exams/mongodb/5-exam/node_modules/router/lib/layer.js:152:17)',
+  url: '/api/cart',
+  method: 'GET',
+  ip: '::1',
+  userAgent: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36',
+  userId: null,
+  level: 'error',
+  message: 'Global Error Handler',
+  timestamp: '2025-08-21 19:28:31'
+}
+{
+  service: 'avto-salon',
+  method: 'GET',
+  url: '/api/cart',
+  statusCode: 401,
+  duration: '1ms',
+  userAgent: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36',
+  ip: '::1',
+  userId: null,
+  level: 'warn',
+  message: 'HTTP Request Warning',
+  timestamp: '2025-08-21 19:28:31'
+}
+{
+  service: 'avto-salon',
+  error: 'Autentifikatsiya talab qilinadi',
+  stack: 'Error: Autentifikatsiya talab qilinadi\n' +
+    '    at file:///Users/an1ksyy/Desktop/lessons/exams/mongodb/5-exam/src/middleware/auth.middleware.js:12:11\n' +
+    '    at file:///Users/an1ksyy/Desktop/lessons/exams/mongodb/5-exam/src/utils/errorHandler.js:104:5\n' +
+    '    at Layer.handleRequest (/Users/an1ksyy/Desktop/lessons/exams/mongodb/5-exam/node_modules/router/lib/layer.js:152:17)\n' +
+    '    at next (/Users/an1ksyy/Desktop/lessons/exams/mongodb/5-exam/node_modules/router/lib/route.js:157:13)\n' +
+    '    at Route.dispatch (/Users/an1ksyy/Desktop/lessons/exams/mongodb/5-exam/node_modules/router/lib/route.js:117:3)\n' +
+    '    at handle (/Users/an1ksyy/Desktop/lessons/exams/mongodb/5-exam/node_modules/router/index.js:435:11)\n' +
+    '    at Layer.handleRequest (/Users/an1ksyy/Desktop/lessons/exams/mongodb/5-exam/node_modules/router/lib/layer.js:152:17)\n' +
+    '    at /Users/an1ksyy/Desktop/lessons/exams/mongodb/5-exam/node_modules/router/index.js:295:15\n' +
+    '    at processParams (/Users/an1ksyy/Desktop/lessons/exams/mongodb/5-exam/node_modules/router/index.js:582:12)\n' +
+    '    at next (/Users/an1ksyy/Desktop/lessons/exams/mongodb/5-exam/node_modules/router/index.js:291:5)',
+  url: '/api/auth/status',
+  method: 'GET',
+  ip: '::1',
+  userAgent: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36',
+  userId: null,
+  level: 'error',
+  message: 'Global Error Handler',
+  timestamp: '2025-08-21 19:28:32'
+}
+{
+  service: 'avto-salon',
+  method: 'GET',
+  url: '/api/auth/status',
+  statusCode: 401,
+  duration: '1ms',
+  userAgent: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36',
+  ip: '::1',
+  userId: null,
+  level: 'warn',
+  message: 'HTTP Request Warning',
+  timestamp: '2025-08-21 19:28:32'
+}
+{
+  service: 'avto-salon',
+  error: 'Autentifikatsiya talab qilinadi',
+  stack: 'Error: Autentifikatsiya talab qilinadi\n' +
+    '    at file:///Users/an1ksyy/Desktop/lessons/exams/mongodb/5-exam/src/middleware/auth.middleware.js:12:11\n' +
+    '    at file:///Users/an1ksyy/Desktop/lessons/exams/mongodb/5-exam/src/utils/errorHandler.js:104:5\n' +
+    '    at Layer.handleRequest (/Users/an1ksyy/Desktop/lessons/exams/mongodb/5-exam/node_modules/router/lib/layer.js:152:17)\n' +
+    '    at trimPrefix (/Users/an1ksyy/Desktop/lessons/exams/mongodb/5-exam/node_modules/router/index.js:342:13)\n' +
+    '    at /Users/an1ksyy/Desktop/lessons/exams/mongodb/5-exam/node_modules/router/index.js:297:9\n' +
+    '    at processParams (/Users/an1ksyy/Desktop/lessons/exams/mongodb/5-exam/node_modules/router/index.js:582:12)\n' +
+    '    at next (/Users/an1ksyy/Desktop/lessons/exams/mongodb/5-exam/node_modules/router/index.js:291:5)\n' +
+    '    at router.handle (/Users/an1ksyy/Desktop/lessons/exams/mongodb/5-exam/node_modules/router/index.js:186:3)\n' +
+    '    at router (/Users/an1ksyy/Desktop/lessons/exams/mongodb/5-exam/node_modules/router/index.js:60:12)\n' +
+    '    at Layer.handleRequest (/Users/an1ksyy/Desktop/lessons/exams/mongodb/5-exam/node_modules/router/lib/layer.js:152:17)',
+  url: '/api/cart',
+  method: 'GET',
+  ip: '::1',
+  userAgent: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36',
+  userId: null,
+  level: 'error',
+  message: 'Global Error Handler',
+  timestamp: '2025-08-21 19:28:32'
+}
+{
+  service: 'avto-salon',
+  method: 'GET',
+  url: '/api/cart',
+  statusCode: 401,
+  duration: '1ms',
+  userAgent: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36',
+  ip: '::1',
+  userId: null,
+  level: 'warn',
+  message: 'HTTP Request Warning',
+  timestamp: '2025-08-21 19:28:32'
+}
+{
+  service: 'avto-salon',
+  error: 'Autentifikatsiya talab qilinadi',
+  stack: 'Error: Autentifikatsiya talab qilinadi\n' +
+    '    at file:///Users/an1ksyy/Desktop/lessons/exams/mongodb/5-exam/src/middleware/auth.middleware.js:12:11\n' +
+    '    at file:///Users/an1ksyy/Desktop/lessons/exams/mongodb/5-exam/src/utils/errorHandler.js:104:5\n' +
+    '    at Layer.handleRequest (/Users/an1ksyy/Desktop/lessons/exams/mongodb/5-exam/node_modules/router/lib/layer.js:152:17)\n' +
+    '    at next (/Users/an1ksyy/Desktop/lessons/exams/mongodb/5-exam/node_modules/router/lib/route.js:157:13)\n' +
+    '    at Route.dispatch (/Users/an1ksyy/Desktop/lessons/exams/mongodb/5-exam/node_modules/router/lib/route.js:117:3)\n' +
+    '    at handle (/Users/an1ksyy/Desktop/lessons/exams/mongodb/5-exam/node_modules/router/index.js:435:11)\n' +
+    '    at Layer.handleRequest (/Users/an1ksyy/Desktop/lessons/exams/mongodb/5-exam/node_modules/router/lib/layer.js:152:17)\n' +
+    '    at /Users/an1ksyy/Desktop/lessons/exams/mongodb/5-exam/node_modules/router/index.js:295:15\n' +
+    '    at processParams (/Users/an1ksyy/Desktop/lessons/exams/mongodb/5-exam/node_modules/router/index.js:582:12)\n' +
+    '    at next (/Users/an1ksyy/Desktop/lessons/exams/mongodb/5-exam/node_modules/router/index.js:291:5)',
+  url: '/api/auth/status',
+  method: 'GET',
+  ip: '::1',
+  userAgent: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36',
+  userId: null,
+  level: 'error',
+  message: 'Global Error Handler',
+  timestamp: '2025-08-21 19:28:33'
+}
+{
+  service: 'avto-salon',
+  method: 'GET',
+  url: '/api/auth/status',
+  statusCode: 401,
+  duration: '1ms',
+  userAgent: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36',
+  ip: '::1',
+  userId: null,
+  level: 'warn',
+  message: 'HTTP Request Warning',
+  timestamp: '2025-08-21 19:28:33'
+}
+{
+  service: 'avto-salon',
+  error: 'Autentifikatsiya talab qilinadi',
+  stack: 'Error: Autentifikatsiya talab qilinadi\n' +
+    '    at file:///Users/an1ksyy/Desktop/lessons/exams/mongodb/5-exam/src/middleware/auth.middleware.js:12:11\n' +
+    '    at file:///Users/an1ksyy/Desktop/lessons/exams/mongodb/5-exam/src/utils/errorHandler.js:104:5\n' +
+    '    at Layer.handleRequest (/Users/an1ksyy/Desktop/lessons/exams/mongodb/5-exam/node_modules/router/lib/layer.js:152:17)\n' +
+    '    at trimPrefix (/Users/an1ksyy/Desktop/lessons/exams/mongodb/5-exam/node_modules/router/index.js:342:13)\n' +
+    '    at /Users/an1ksyy/Desktop/lessons/exams/mongodb/5-exam/node_modules/router/index.js:297:9\n' +
+    '    at processParams (/Users/an1ksyy/Desktop/lessons/exams/mongodb/5-exam/node_modules/router/index.js:582:12)\n' +
+    '    at next (/Users/an1ksyy/Desktop/lessons/exams/mongodb/5-exam/node_modules/router/index.js:291:5)\n' +
+    '    at router.handle (/Users/an1ksyy/Desktop/lessons/exams/mongodb/5-exam/node_modules/router/index.js:186:3)\n' +
+    '    at router (/Users/an1ksyy/Desktop/lessons/exams/mongodb/5-exam/node_modules/router/index.js:60:12)\n' +
+    '    at Layer.handleRequest (/Users/an1ksyy/Desktop/lessons/exams/mongodb/5-exam/node_modules/router/lib/layer.js:152:17)',
+  url: '/api/cart',
+  method: 'GET',
+  ip: '::1',
+  userAgent: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36',
+  userId: null,
+  level: 'error',
+  message: 'Global Error Handler',
+  timestamp: '2025-08-21 19:28:33'
+}
+{
+  service: 'avto-salon',
+  method: 'GET',
+  url: '/api/cart',
+  statusCode: 401,
+  duration: '1ms',
+  userAgent: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36',
+  ip: '::1',
+  userId: null,
+  level: 'warn',
+  message: 'HTTP Request Warning',
+  timestamp: '2025-08-21 19:28:33'
+}
+{
+  service: 'avto-salon',
+  url: '/favicon.ico',
+  method: 'GET',
+  ip: '::1',
+  level: 'warn',
+  message: '404 Not Found',
+  timestamp: '2025-08-21 19:28:42'
+}
+{
+  service: 'avto-salon',
+  method: 'GET',
+  url: '/favicon.ico',
+  statusCode: 404,
+  duration: '3ms',
+  userAgent: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36',
+  ip: '::1',
+  userId: new ObjectId('68a6f775affe2cc1550f913b'),
+  level: 'warn',
+  message: 'HTTP Request Warning',
+  timestamp: '2025-08-21 19:28:42'
+}
+{
+  service: 'avto-salon',
+  error: 'Failed to lookup view "pages/bookmarks" in views directory "/Users/an1ksyy/Desktop/lessons/exams/mongodb/5-exam/src/views"',
+  stack: 'Error: Failed to lookup view "pages/bookmarks" in views directory "/Users/an1ksyy/Desktop/lessons/exams/mongodb/5-exam/src/views"\n' +
+    '    at app.render (/Users/an1ksyy/Desktop/lessons/exams/mongodb/5-exam/node_modules/express/lib/application.js:562:17)\n' +
+    '    at ServerResponse.render (/Users/an1ksyy/Desktop/lessons/exams/mongodb/5-exam/node_modules/express/lib/response.js:909:7)\n' +
+    '    at res.render (/Users/an1ksyy/Desktop/lessons/exams/mongodb/5-exam/node_modules/express-ejs-layouts/lib/express-layouts.js:77:18)\n' +
+    '    at file:///Users/an1ksyy/Desktop/lessons/exams/mongodb/5-exam/src/routes/view.routes.js:157:9\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)',
+  url: '/bookmarks',
+  method: 'GET',
+  ip: '::1',
+  userAgent: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36',
+  userId: new ObjectId('68a6f775affe2cc1550f913b'),
+  level: 'error',
+  message: 'Global Error Handler',
+  timestamp: '2025-08-21 19:28:47'
+}
+{
+  service: 'avto-salon',
+  method: 'GET',
+  url: '/bookmarks',
+  statusCode: 500,
+  duration: '10ms',
+  userAgent: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36',
+  ip: '::1',
+  userId: new ObjectId('68a6f775affe2cc1550f913b'),
+  level: 'warn',
+  message: 'HTTP Request Warning',
+  timestamp: '2025-08-21 19:28:47'
+}
+{
+  service: 'avto-salon',
+  url: '/assets/images/default-avatar.png',
+  method: 'GET',
+  ip: '::1',
+  level: 'warn',
+  message: '404 Not Found',
+  timestamp: '2025-08-21 19:28:48'
+}
+{
+  service: 'avto-salon',
+  method: 'GET',
+  url: '/assets/images/default-avatar.png',
+  statusCode: 404,
+  duration: '2ms',
+  userAgent: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36',
+  ip: '::1',
+  userId: new ObjectId('68a6f775affe2cc1550f913b'),
+  level: 'warn',
+  message: 'HTTP Request Warning',
+  timestamp: '2025-08-21 19:28:48'
+}
+{
+  service: 'avto-salon',
+  url: '/uploads/profiles/profileImage-1755786535391-381214833.jpeg',
+  method: 'GET',
+  ip: '::1',
+  level: 'warn',
+  message: '404 Not Found',
+  timestamp: '2025-08-21 19:28:55'
+}
+{
+  service: 'avto-salon',
+  method: 'GET',
+  url: '/uploads/profiles/profileImage-1755786535391-381214833.jpeg',
+  statusCode: 404,
+  duration: '2ms',
+  userAgent: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36',
+  ip: '::1',
+  userId: new ObjectId('68a6f775affe2cc1550f913b'),
+  level: 'warn',
+  message: 'HTTP Request Warning',
+  timestamp: '2025-08-21 19:28:55'
+}
+{
+  service: 'avto-salon',
+  url: '/uploads/profiles/profileImage-1755786535391-381214833.jpeg',
+  method: 'GET',
+  ip: '::1',
+  level: 'warn',
+  message: '404 Not Found',
+  timestamp: '2025-08-21 19:28:59'
+}
+{
+  service: 'avto-salon',
+  method: 'GET',
+  url: '/uploads/profiles/profileImage-1755786535391-381214833.jpeg',
+  statusCode: 404,
+  duration: '3ms',
+  userAgent: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36',
+  ip: '::1',
+  userId: new ObjectId('68a6f775affe2cc1550f913b'),
+  level: 'warn',
+  message: 'HTTP Request Warning',
+  timestamp: '2025-08-21 19:28:59'
+}
+{
+  service: 'avto-salon',
+  url: '/uploads/profiles/profileImage-1755786535391-381214833.jpeg',
+  method: 'GET',
+  ip: '::1',
+  level: 'warn',
+  message: '404 Not Found',
+  timestamp: '2025-08-21 19:29:01'
+}
+{
+  service: 'avto-salon',
+  method: 'GET',
+  url: '/uploads/profiles/profileImage-1755786535391-381214833.jpeg',
+  statusCode: 404,
+  duration: '3ms',
+  userAgent: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36',
+  ip: '::1',
+  userId: new ObjectId('68a6f775affe2cc1550f913b'),
+  level: 'warn',
+  message: 'HTTP Request Warning',
+  timestamp: '2025-08-21 19:29:01'
+}
+{
+  service: 'avto-salon',
+  url: '/assets/images/cars/classic.jpg',
+  method: 'GET',
+  ip: '::1',
+  level: 'warn',
+  message: '404 Not Found',
+  timestamp: '2025-08-21 19:29:07'
+}
+{
+  service: 'avto-salon',
+  method: 'GET',
+  url: '/assets/images/cars/classic.jpg',
+  statusCode: 404,
+  duration: '4ms',
+  userAgent: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36',
+  ip: '::1',
+  userId: new ObjectId('68a6f775affe2cc1550f913b'),
+  level: 'warn',
+  message: 'HTTP Request Warning',
+  timestamp: '2025-08-21 19:29:07'
+}
+{
+  service: 'avto-salon',
+  url: '/assets/images/cars/electric.jpg',
+  method: 'GET',
+  ip: '::1',
+  level: 'warn',
+  message: '404 Not Found',
+  timestamp: '2025-08-21 19:29:07'
+}
+{
+  service: 'avto-salon',
+  method: 'GET',
+  url: '/assets/images/cars/electric.jpg',
+  statusCode: 404,
+  duration: '5ms',
+  userAgent: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36',
+  ip: '::1',
+  userId: new ObjectId('68a6f775affe2cc1550f913b'),
+  level: 'warn',
+  message: 'HTTP Request Warning',
+  timestamp: '2025-08-21 19:29:07'
+}
+{
+  service: 'avto-salon',
+  url: '/assets/images/cars/luxury-sedan.jpg',
+  method: 'GET',
+  ip: '::1',
+  level: 'warn',
+  message: '404 Not Found',
+  timestamp: '2025-08-21 19:29:07'
+}
+{
+  service: 'avto-salon',
+  method: 'GET',
+  url: '/assets/images/cars/luxury-sedan.jpg',
+  statusCode: 404,
+  duration: '3ms',
+  userAgent: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36',
+  ip: '::1',
+  userId: new ObjectId('68a6f775affe2cc1550f913b'),
+  level: 'warn',
+  message: 'HTTP Request Warning',
+  timestamp: '2025-08-21 19:29:07'
+}
+{
+  service: 'avto-salon',
+  url: '/assets/images/cars/suv.jpg',
+  method: 'GET',
+  ip: '::1',
+  level: 'warn',
+  message: '404 Not Found',
+  timestamp: '2025-08-21 19:29:07'
+}
+{
+  service: 'avto-salon',
+  method: 'GET',
+  url: '/assets/images/cars/suv.jpg',
+  statusCode: 404,
+  duration: '5ms',
+  userAgent: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36',
+  ip: '::1',
+  userId: new ObjectId('68a6f775affe2cc1550f913b'),
+  level: 'warn',
+  message: 'HTTP Request Warning',
+  timestamp: '2025-08-21 19:29:07'
+}
+{
+  service: 'avto-salon',
+  url: '/assets/images/cars/sports-car.jpg',
+  method: 'GET',
+  ip: '::1',
+  level: 'warn',
+  message: '404 Not Found',
+  timestamp: '2025-08-21 19:29:07'
+}
+{
+  service: 'avto-salon',
+  method: 'GET',
+  url: '/assets/images/cars/sports-car.jpg',
+  statusCode: 404,
+  duration: '6ms',
+  userAgent: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36',
+  ip: '::1',
+  userId: new ObjectId('68a6f775affe2cc1550f913b'),
+  level: 'warn',
+  message: 'HTTP Request Warning',
+  timestamp: '2025-08-21 19:29:07'
+}
+{
+  service: 'avto-salon',
+  url: '/uploads/profiles/profileImage-1755786535391-381214833.jpeg',
+  method: 'GET',
+  ip: '::1',
+  level: 'warn',
+  message: '404 Not Found',
+  timestamp: '2025-08-21 19:29:10'
+}
+{
+  service: 'avto-salon',
+  method: 'GET',
+  url: '/uploads/profiles/profileImage-1755786535391-381214833.jpeg',
+  statusCode: 404,
+  duration: '3ms',
+  userAgent: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36',
+  ip: '::1',
+  userId: new ObjectId('68a6f775affe2cc1550f913b'),
+  level: 'warn',
+  message: 'HTTP Request Warning',
+  timestamp: '2025-08-21 19:29:10'
+}
+{
+  service: 'avto-salon',
+  error: 'Failed to lookup view "pages/bookmarks" in views directory "/Users/an1ksyy/Desktop/lessons/exams/mongodb/5-exam/src/views"',
+  stack: 'Error: Failed to lookup view "pages/bookmarks" in views directory "/Users/an1ksyy/Desktop/lessons/exams/mongodb/5-exam/src/views"\n' +
+    '    at app.render (/Users/an1ksyy/Desktop/lessons/exams/mongodb/5-exam/node_modules/express/lib/application.js:562:17)\n' +
+    '    at ServerResponse.render (/Users/an1ksyy/Desktop/lessons/exams/mongodb/5-exam/node_modules/express/lib/response.js:909:7)\n' +
+    '    at res.render (/Users/an1ksyy/Desktop/lessons/exams/mongodb/5-exam/node_modules/express-ejs-layouts/lib/express-layouts.js:77:18)\n' +
+    '    at file:///Users/an1ksyy/Desktop/lessons/exams/mongodb/5-exam/src/routes/view.routes.js:157:9\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)',
+  url: '/bookmarks',
+  method: 'GET',
+  ip: '::1',
+  userAgent: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36',
+  userId: new ObjectId('68a6f775affe2cc1550f913b'),
+  level: 'error',
+  message: 'Global Error Handler',
+  timestamp: '2025-08-21 19:29:10'
+}
+{
+  service: 'avto-salon',
+  method: 'GET',
+  url: '/bookmarks',
+  statusCode: 500,
+  duration: '7ms',
+  userAgent: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36',
+  ip: '::1',
+  userId: new ObjectId('68a6f775affe2cc1550f913b'),
+  level: 'warn',
+  message: 'HTTP Request Warning',
+  timestamp: '2025-08-21 19:29:10'
+}
+{
+  service: 'avto-salon',
+  url: '/assets/images/cars/lada-niva.jpg',
+  method: 'GET',
+  ip: '::1',
+  level: 'warn',
+  message: '404 Not Found',
+  timestamp: '2025-08-21 19:29:16'
+}
+{
+  service: 'avto-salon',
+  method: 'GET',
+  url: '/assets/images/cars/lada-niva.jpg',
+  statusCode: 404,
+  duration: '4ms',
+  userAgent: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36',
+  ip: '::1',
+  userId: new ObjectId('68a6f775affe2cc1550f913b'),
+  level: 'warn',
+  message: 'HTTP Request Warning',
+  timestamp: '2025-08-21 19:29:16'
+}
+{
+  service: 'avto-salon',
+  url: '/api/bookmarks',
+  method: 'POST',
+  ip: '::1',
+  level: 'warn',
+  message: '404 Not Found',
+  timestamp: '2025-08-21 19:29:17'
+}
+{
+  service: 'avto-salon',
+  method: 'POST',
+  url: '/api/bookmarks',
+  statusCode: 404,
+  duration: '4ms',
+  userAgent: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36',
+  ip: '::1',
+  userId: new ObjectId('68a6f775affe2cc1550f913b'),
+  level: 'warn',
+  message: 'HTTP Request Warning',
+  timestamp: '2025-08-21 19:29:17'
+}
+{
+  service: 'avto-salon',
+  url: '/assets/images/cars/lada-niva-exterior.jpg',
+  method: 'GET',
+  ip: '::1',
+  level: 'warn',
+  message: '404 Not Found',
+  timestamp: '2025-08-21 19:29:18'
+}
+{
+  service: 'avto-salon',
+  method: 'GET',
+  url: '/assets/images/cars/lada-niva-exterior.jpg',
+  statusCode: 404,
+  duration: '3ms',
+  userAgent: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36',
+  ip: '::1',
+  userId: new ObjectId('68a6f775affe2cc1550f913b'),
+  level: 'warn',
+  message: 'HTTP Request Warning',
+  timestamp: '2025-08-21 19:29:18'
+}
+{
+  service: 'avto-salon',
+  error: 'Autentifikatsiya talab qilinadi',
+  stack: 'Error: Autentifikatsiya talab qilinadi\n' +
+    '    at file:///Users/an1ksyy/Desktop/lessons/exams/mongodb/5-exam/src/middleware/auth.middleware.js:12:11\n' +
+    '    at file:///Users/an1ksyy/Desktop/lessons/exams/mongodb/5-exam/src/utils/errorHandler.js:104:5\n' +
+    '    at Layer.handleRequest (/Users/an1ksyy/Desktop/lessons/exams/mongodb/5-exam/node_modules/router/lib/layer.js:152:17)\n' +
+    '    at next (/Users/an1ksyy/Desktop/lessons/exams/mongodb/5-exam/node_modules/router/lib/route.js:157:13)\n' +
+    '    at Route.dispatch (/Users/an1ksyy/Desktop/lessons/exams/mongodb/5-exam/node_modules/router/lib/route.js:117:3)\n' +
+    '    at handle (/Users/an1ksyy/Desktop/lessons/exams/mongodb/5-exam/node_modules/router/index.js:435:11)\n' +
+    '    at Layer.handleRequest (/Users/an1ksyy/Desktop/lessons/exams/mongodb/5-exam/node_modules/router/lib/layer.js:152:17)\n' +
+    '    at /Users/an1ksyy/Desktop/lessons/exams/mongodb/5-exam/node_modules/router/index.js:295:15\n' +
+    '    at processParams (/Users/an1ksyy/Desktop/lessons/exams/mongodb/5-exam/node_modules/router/index.js:582:12)\n' +
+    '    at next (/Users/an1ksyy/Desktop/lessons/exams/mongodb/5-exam/node_modules/router/index.js:291:5)',
+  url: '/api/auth/status',
+  method: 'GET',
+  ip: '::1',
+  userAgent: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36',
+  userId: null,
+  level: 'error',
+  message: 'Global Error Handler',
+  timestamp: '2025-08-21 19:54:09'
+}
+{
+  service: 'avto-salon',
+  method: 'GET',
+  url: '/api/auth/status',
+  statusCode: 401,
+  duration: '3ms',
+  userAgent: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36',
+  ip: '::1',
+  userId: null,
+  level: 'warn',
+  message: 'HTTP Request Warning',
+  timestamp: '2025-08-21 19:54:09'
+}
+{
+  service: 'avto-salon',
+  error: 'Autentifikatsiya talab qilinadi',
+  stack: 'Error: Autentifikatsiya talab qilinadi\n' +
+    '    at file:///Users/an1ksyy/Desktop/lessons/exams/mongodb/5-exam/src/middleware/auth.middleware.js:12:11\n' +
+    '    at file:///Users/an1ksyy/Desktop/lessons/exams/mongodb/5-exam/src/utils/errorHandler.js:104:5\n' +
+    '    at Layer.handleRequest (/Users/an1ksyy/Desktop/lessons/exams/mongodb/5-exam/node_modules/router/lib/layer.js:152:17)\n' +
+    '    at trimPrefix (/Users/an1ksyy/Desktop/lessons/exams/mongodb/5-exam/node_modules/router/index.js:342:13)\n' +
+    '    at /Users/an1ksyy/Desktop/lessons/exams/mongodb/5-exam/node_modules/router/index.js:297:9\n' +
+    '    at processParams (/Users/an1ksyy/Desktop/lessons/exams/mongodb/5-exam/node_modules/router/index.js:582:12)\n' +
+    '    at next (/Users/an1ksyy/Desktop/lessons/exams/mongodb/5-exam/node_modules/router/index.js:291:5)\n' +
+    '    at router.handle (/Users/an1ksyy/Desktop/lessons/exams/mongodb/5-exam/node_modules/router/index.js:186:3)\n' +
+    '    at router (/Users/an1ksyy/Desktop/lessons/exams/mongodb/5-exam/node_modules/router/index.js:60:12)\n' +
+    '    at Layer.handleRequest (/Users/an1ksyy/Desktop/lessons/exams/mongodb/5-exam/node_modules/router/lib/layer.js:152:17)',
+  url: '/api/cart',
+  method: 'GET',
+  ip: '::1',
+  userAgent: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36',
+  userId: null,
+  level: 'error',
+  message: 'Global Error Handler',
+  timestamp: '2025-08-21 19:54:09'
+}
+{
+  service: 'avto-salon',
+  method: 'GET',
+  url: '/api/cart',
+  statusCode: 401,
+  duration: '1ms',
+  userAgent: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36',
+  ip: '::1',
+  userId: null,
+  level: 'warn',
+  message: 'HTTP Request Warning',
+  timestamp: '2025-08-21 19:54:09'
+}
+{
+  service: 'avto-salon',
+  url: '/assets/images/cars/lamborghini-huracan.jpg',
+  method: 'GET',
+  ip: '::1',
+  level: 'warn',
+  message: '404 Not Found',
+  timestamp: '2025-08-21 19:54:10'
+}
+{
+  service: 'avto-salon',
+  method: 'GET',
+  url: '/assets/images/cars/lamborghini-huracan.jpg',
+  statusCode: 404,
+  duration: '3ms',
+  userAgent: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36',
+  ip: '::1',
+  userId: null,
+  level: 'warn',
+  message: 'HTTP Request Warning',
+  timestamp: '2025-08-21 19:54:10'
+}
+{
+  service: 'avto-salon',
+  error: 'Autentifikatsiya talab qilinadi',
+  stack: 'Error: Autentifikatsiya talab qilinadi\n' +
+    '    at file:///Users/an1ksyy/Desktop/lessons/exams/mongodb/5-exam/src/middleware/auth.middleware.js:12:11\n' +
+    '    at file:///Users/an1ksyy/Desktop/lessons/exams/mongodb/5-exam/src/utils/errorHandler.js:104:5\n' +
+    '    at Layer.handleRequest (/Users/an1ksyy/Desktop/lessons/exams/mongodb/5-exam/node_modules/router/lib/layer.js:152:17)\n' +
+    '    at next (/Users/an1ksyy/Desktop/lessons/exams/mongodb/5-exam/node_modules/router/lib/route.js:157:13)\n' +
+    '    at Route.dispatch (/Users/an1ksyy/Desktop/lessons/exams/mongodb/5-exam/node_modules/router/lib/route.js:117:3)\n' +
+    '    at handle (/Users/an1ksyy/Desktop/lessons/exams/mongodb/5-exam/node_modules/router/index.js:435:11)\n' +
+    '    at Layer.handleRequest (/Users/an1ksyy/Desktop/lessons/exams/mongodb/5-exam/node_modules/router/lib/layer.js:152:17)\n' +
+    '    at /Users/an1ksyy/Desktop/lessons/exams/mongodb/5-exam/node_modules/router/index.js:295:15\n' +
+    '    at processParams (/Users/an1ksyy/Desktop/lessons/exams/mongodb/5-exam/node_modules/router/index.js:582:12)\n' +
+    '    at next (/Users/an1ksyy/Desktop/lessons/exams/mongodb/5-exam/node_modules/router/index.js:291:5)',
+  url: '/api/auth/status',
+  method: 'GET',
+  ip: '::1',
+  userAgent: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36',
+  userId: null,
+  level: 'error',
+  message: 'Global Error Handler',
+  timestamp: '2025-08-21 19:54:10'
+}
+{
+  service: 'avto-salon',
+  method: 'GET',
+  url: '/api/auth/status',
+  statusCode: 401,
+  duration: '1ms',
+  userAgent: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36',
+  ip: '::1',
+  userId: null,
+  level: 'warn',
+  message: 'HTTP Request Warning',
+  timestamp: '2025-08-21 19:54:10'
+}
+{
+  service: 'avto-salon',
+  error: 'Autentifikatsiya talab qilinadi',
+  stack: 'Error: Autentifikatsiya talab qilinadi\n' +
+    '    at file:///Users/an1ksyy/Desktop/lessons/exams/mongodb/5-exam/src/middleware/auth.middleware.js:12:11\n' +
+    '    at file:///Users/an1ksyy/Desktop/lessons/exams/mongodb/5-exam/src/utils/errorHandler.js:104:5\n' +
+    '    at Layer.handleRequest (/Users/an1ksyy/Desktop/lessons/exams/mongodb/5-exam/node_modules/router/lib/layer.js:152:17)\n' +
+    '    at trimPrefix (/Users/an1ksyy/Desktop/lessons/exams/mongodb/5-exam/node_modules/router/index.js:342:13)\n' +
+    '    at /Users/an1ksyy/Desktop/lessons/exams/mongodb/5-exam/node_modules/router/index.js:297:9\n' +
+    '    at processParams (/Users/an1ksyy/Desktop/lessons/exams/mongodb/5-exam/node_modules/router/index.js:582:12)\n' +
+    '    at next (/Users/an1ksyy/Desktop/lessons/exams/mongodb/5-exam/node_modules/router/index.js:291:5)\n' +
+    '    at router.handle (/Users/an1ksyy/Desktop/lessons/exams/mongodb/5-exam/node_modules/router/index.js:186:3)\n' +
+    '    at router (/Users/an1ksyy/Desktop/lessons/exams/mongodb/5-exam/node_modules/router/index.js:60:12)\n' +
+    '    at Layer.handleRequest (/Users/an1ksyy/Desktop/lessons/exams/mongodb/5-exam/node_modules/router/lib/layer.js:152:17)',
+  url: '/api/cart',
+  method: 'GET',
+  ip: '::1',
+  userAgent: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36',
+  userId: null,
+  level: 'error',
+  message: 'Global Error Handler',
+  timestamp: '2025-08-21 19:54:10'
+}
+{
+  service: 'avto-salon',
+  method: 'GET',
+  url: '/api/cart',
+  statusCode: 401,
+  duration: '0ms',
+  userAgent: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36',
+  ip: '::1',
+  userId: null,
+  level: 'warn',
+  message: 'HTTP Request Warning',
+  timestamp: '2025-08-21 19:54:10'
+}
+{
+  service: 'avto-salon',
+  url: '/assets/images/cars/lamborghini-huracan-exterior.jpg',
+  method: 'GET',
+  ip: '::1',
+  level: 'warn',
+  message: '404 Not Found',
+  timestamp: '2025-08-21 19:54:11'
+}
+{
+  service: 'avto-salon',
+  method: 'GET',
+  url: '/assets/images/cars/lamborghini-huracan-exterior.jpg',
+  statusCode: 404,
+  duration: '3ms',
+  userAgent: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36',
+  ip: '::1',
+  userId: null,
+  level: 'warn',
+  message: 'HTTP Request Warning',
+  timestamp: '2025-08-21 19:54:11'
+}
+{
+  service: 'avto-salon',
+  error: 'Autentifikatsiya talab qilinadi',
+  stack: 'Error: Autentifikatsiya talab qilinadi\n' +
+    '    at file:///Users/an1ksyy/Desktop/lessons/exams/mongodb/5-exam/src/middleware/auth.middleware.js:12:11\n' +
+    '    at file:///Users/an1ksyy/Desktop/lessons/exams/mongodb/5-exam/src/utils/errorHandler.js:104:5\n' +
+    '    at Layer.handleRequest (/Users/an1ksyy/Desktop/lessons/exams/mongodb/5-exam/node_modules/router/lib/layer.js:152:17)\n' +
+    '    at next (/Users/an1ksyy/Desktop/lessons/exams/mongodb/5-exam/node_modules/router/lib/route.js:157:13)\n' +
+    '    at Route.dispatch (/Users/an1ksyy/Desktop/lessons/exams/mongodb/5-exam/node_modules/router/lib/route.js:117:3)\n' +
+    '    at handle (/Users/an1ksyy/Desktop/lessons/exams/mongodb/5-exam/node_modules/router/index.js:435:11)\n' +
+    '    at Layer.handleRequest (/Users/an1ksyy/Desktop/lessons/exams/mongodb/5-exam/node_modules/router/lib/layer.js:152:17)\n' +
+    '    at /Users/an1ksyy/Desktop/lessons/exams/mongodb/5-exam/node_modules/router/index.js:295:15\n' +
+    '    at processParams (/Users/an1ksyy/Desktop/lessons/exams/mongodb/5-exam/node_modules/router/index.js:582:12)\n' +
+    '    at next (/Users/an1ksyy/Desktop/lessons/exams/mongodb/5-exam/node_modules/router/index.js:291:5)',
+  url: '/api/auth/status',
+  method: 'GET',
+  ip: '::1',
+  userAgent: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36',
+  userId: null,
+  level: 'error',
+  message: 'Global Error Handler',
+  timestamp: '2025-08-21 19:54:11'
+}
+{
+  service: 'avto-salon',
+  method: 'GET',
+  url: '/api/auth/status',
+  statusCode: 401,
+  duration: '1ms',
+  userAgent: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36',
+  ip: '::1',
+  userId: null,
+  level: 'warn',
+  message: 'HTTP Request Warning',
+  timestamp: '2025-08-21 19:54:11'
+}
+{
+  service: 'avto-salon',
+  error: 'Autentifikatsiya talab qilinadi',
+  stack: 'Error: Autentifikatsiya talab qilinadi\n' +
+    '    at file:///Users/an1ksyy/Desktop/lessons/exams/mongodb/5-exam/src/middleware/auth.middleware.js:12:11\n' +
+    '    at file:///Users/an1ksyy/Desktop/lessons/exams/mongodb/5-exam/src/utils/errorHandler.js:104:5\n' +
+    '    at Layer.handleRequest (/Users/an1ksyy/Desktop/lessons/exams/mongodb/5-exam/node_modules/router/lib/layer.js:152:17)\n' +
+    '    at trimPrefix (/Users/an1ksyy/Desktop/lessons/exams/mongodb/5-exam/node_modules/router/index.js:342:13)\n' +
+    '    at /Users/an1ksyy/Desktop/lessons/exams/mongodb/5-exam/node_modules/router/index.js:297:9\n' +
+    '    at processParams (/Users/an1ksyy/Desktop/lessons/exams/mongodb/5-exam/node_modules/router/index.js:582:12)\n' +
+    '    at next (/Users/an1ksyy/Desktop/lessons/exams/mongodb/5-exam/node_modules/router/index.js:291:5)\n' +
+    '    at router.handle (/Users/an1ksyy/Desktop/lessons/exams/mongodb/5-exam/node_modules/router/index.js:186:3)\n' +
+    '    at router (/Users/an1ksyy/Desktop/lessons/exams/mongodb/5-exam/node_modules/router/index.js:60:12)\n' +
+    '    at Layer.handleRequest (/Users/an1ksyy/Desktop/lessons/exams/mongodb/5-exam/node_modules/router/lib/layer.js:152:17)',
+  url: '/api/cart',
+  method: 'GET',
+  ip: '::1',
+  userAgent: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36',
+  userId: null,
+  level: 'error',
+  message: 'Global Error Handler',
+  timestamp: '2025-08-21 19:54:11'
+}
+{
+  service: 'avto-salon',
+  method: 'GET',
+  url: '/api/cart',
+  statusCode: 401,
+  duration: '0ms',
+  userAgent: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36',
+  ip: '::1',
+  userId: null,
+  level: 'warn',
+  message: 'HTTP Request Warning',
+  timestamp: '2025-08-21 19:54:11'
+}
+{
+  service: 'avto-salon',
+  error: 'Autentifikatsiya talab qilinadi',
+  stack: 'Error: Autentifikatsiya talab qilinadi\n' +
+    '    at file:///Users/an1ksyy/Desktop/lessons/exams/mongodb/5-exam/src/middleware/auth.middleware.js:12:11\n' +
+    '    at file:///Users/an1ksyy/Desktop/lessons/exams/mongodb/5-exam/src/utils/errorHandler.js:104:5\n' +
+    '    at Layer.handleRequest (/Users/an1ksyy/Desktop/lessons/exams/mongodb/5-exam/node_modules/router/lib/layer.js:152:17)\n' +
+    '    at next (/Users/an1ksyy/Desktop/lessons/exams/mongodb/5-exam/node_modules/router/lib/route.js:157:13)\n' +
+    '    at Route.dispatch (/Users/an1ksyy/Desktop/lessons/exams/mongodb/5-exam/node_modules/router/lib/route.js:117:3)\n' +
+    '    at handle (/Users/an1ksyy/Desktop/lessons/exams/mongodb/5-exam/node_modules/router/index.js:435:11)\n' +
+    '    at Layer.handleRequest (/Users/an1ksyy/Desktop/lessons/exams/mongodb/5-exam/node_modules/router/lib/layer.js:152:17)\n' +
+    '    at /Users/an1ksyy/Desktop/lessons/exams/mongodb/5-exam/node_modules/router/index.js:295:15\n' +
+    '    at processParams (/Users/an1ksyy/Desktop/lessons/exams/mongodb/5-exam/node_modules/router/index.js:582:12)\n' +
+    '    at next (/Users/an1ksyy/Desktop/lessons/exams/mongodb/5-exam/node_modules/router/index.js:291:5)',
+  url: '/api/auth/status',
+  method: 'GET',
+  ip: '::1',
+  userAgent: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36',
+  userId: null,
+  level: 'error',
+  message: 'Global Error Handler',
+  timestamp: '2025-08-21 19:54:13'
+}
+{
+  service: 'avto-salon',
+  method: 'GET',
+  url: '/api/auth/status',
+  statusCode: 401,
+  duration: '1ms',
+  userAgent: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36',
+  ip: '::1',
+  userId: null,
+  level: 'warn',
+  message: 'HTTP Request Warning',
+  timestamp: '2025-08-21 19:54:13'
+}
+{
+  service: 'avto-salon',
+  error: 'Autentifikatsiya talab qilinadi',
+  stack: 'Error: Autentifikatsiya talab qilinadi\n' +
+    '    at file:///Users/an1ksyy/Desktop/lessons/exams/mongodb/5-exam/src/middleware/auth.middleware.js:12:11\n' +
+    '    at file:///Users/an1ksyy/Desktop/lessons/exams/mongodb/5-exam/src/utils/errorHandler.js:104:5\n' +
+    '    at Layer.handleRequest (/Users/an1ksyy/Desktop/lessons/exams/mongodb/5-exam/node_modules/router/lib/layer.js:152:17)\n' +
+    '    at trimPrefix (/Users/an1ksyy/Desktop/lessons/exams/mongodb/5-exam/node_modules/router/index.js:342:13)\n' +
+    '    at /Users/an1ksyy/Desktop/lessons/exams/mongodb/5-exam/node_modules/router/index.js:297:9\n' +
+    '    at processParams (/Users/an1ksyy/Desktop/lessons/exams/mongodb/5-exam/node_modules/router/index.js:582:12)\n' +
+    '    at next (/Users/an1ksyy/Desktop/lessons/exams/mongodb/5-exam/node_modules/router/index.js:291:5)\n' +
+    '    at router.handle (/Users/an1ksyy/Desktop/lessons/exams/mongodb/5-exam/node_modules/router/index.js:186:3)\n' +
+    '    at router (/Users/an1ksyy/Desktop/lessons/exams/mongodb/5-exam/node_modules/router/index.js:60:12)\n' +
+    '    at Layer.handleRequest (/Users/an1ksyy/Desktop/lessons/exams/mongodb/5-exam/node_modules/router/lib/layer.js:152:17)',
+  url: '/api/cart',
+  method: 'GET',
+  ip: '::1',
+  userAgent: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36',
+  userId: null,
+  level: 'error',
+  message: 'Global Error Handler',
+  timestamp: '2025-08-21 19:54:13'
+}
+{
+  service: 'avto-salon',
+  method: 'GET',
+  url: '/api/cart',
+  statusCode: 401,
+  duration: '1ms',
+  userAgent: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36',
+  ip: '::1',
+  userId: null,
+  level: 'warn',
+  message: 'HTTP Request Warning',
+  timestamp: '2025-08-21 19:54:13'
+}
+{
+  service: 'avto-salon',
+  url: '/assets/images/cars/lada-niva.jpg',
+  method: 'GET',
+  ip: '::1',
+  level: 'warn',
+  message: '404 Not Found',
+  timestamp: '2025-08-21 19:54:23'
+}
+{
+  service: 'avto-salon',
+  method: 'GET',
+  url: '/assets/images/cars/lada-niva.jpg',
+  statusCode: 404,
+  duration: '4ms',
+  userAgent: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36',
+  ip: '::1',
+  userId: new ObjectId('68a6f775affe2cc1550f913b'),
+  level: 'warn',
+  message: 'HTTP Request Warning',
+  timestamp: '2025-08-21 19:54:23'
+}
+{
+  service: 'avto-salon',
+  url: '/assets/images/cars/lada-niva-exterior.jpg',
+  method: 'GET',
+  ip: '::1',
+  level: 'warn',
+  message: '404 Not Found',
+  timestamp: '2025-08-21 19:54:24'
+}
+{
+  service: 'avto-salon',
+  method: 'GET',
+  url: '/assets/images/cars/lada-niva-exterior.jpg',
+  statusCode: 404,
+  duration: '4ms',
+  userAgent: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36',
+  ip: '::1',
+  userId: new ObjectId('68a6f775affe2cc1550f913b'),
+  level: 'warn',
+  message: 'HTTP Request Warning',
+  timestamp: '2025-08-21 19:54:24'
+}
+{
+  service: 'avto-salon',
+  error: 'Autentifikatsiya talab qilinadi',
+  stack: 'Error: Autentifikatsiya talab qilinadi\n' +
+    '    at file:///Users/an1ksyy/Desktop/lessons/exams/mongodb/5-exam/src/middleware/auth.middleware.js:12:11\n' +
+    '    at file:///Users/an1ksyy/Desktop/lessons/exams/mongodb/5-exam/src/utils/errorHandler.js:104:5\n' +
+    '    at Layer.handleRequest (/Users/an1ksyy/Desktop/lessons/exams/mongodb/5-exam/node_modules/router/lib/layer.js:152:17)\n' +
+    '    at trimPrefix (/Users/an1ksyy/Desktop/lessons/exams/mongodb/5-exam/node_modules/router/index.js:342:13)\n' +
+    '    at /Users/an1ksyy/Desktop/lessons/exams/mongodb/5-exam/node_modules/router/index.js:297:9\n' +
+    '    at processParams (/Users/an1ksyy/Desktop/lessons/exams/mongodb/5-exam/node_modules/router/index.js:582:12)\n' +
+    '    at next (/Users/an1ksyy/Desktop/lessons/exams/mongodb/5-exam/node_modules/router/index.js:291:5)\n' +
+    '    at router.handle (/Users/an1ksyy/Desktop/lessons/exams/mongodb/5-exam/node_modules/router/index.js:186:3)\n' +
+    '    at router (/Users/an1ksyy/Desktop/lessons/exams/mongodb/5-exam/node_modules/router/index.js:60:12)\n' +
+    '    at Layer.handleRequest (/Users/an1ksyy/Desktop/lessons/exams/mongodb/5-exam/node_modules/router/lib/layer.js:152:17)',
+  url: '/bookmarks',
+  method: 'GET',
+  ip: '::1',
+  userAgent: 'curl/8.7.1',
+  userId: null,
+  level: 'error',
+  message: 'Global Error Handler',
+  timestamp: '2025-08-21 19:55:31'
+}
+{
+  service: 'avto-salon',
+  method: 'GET',
+  url: '/bookmarks',
+  statusCode: 401,
+  duration: '1ms',
+  userAgent: 'curl/8.7.1',
+  ip: '::1',
+  userId: null,
+  level: 'warn',
+  message: 'HTTP Request Warning',
+  timestamp: '2025-08-21 19:55:31'
+}
+{
+  service: 'avto-salon',
+  error: 'Autentifikatsiya talab qilinadi',
+  stack: 'Error: Autentifikatsiya talab qilinadi\n' +
+    '    at file:///Users/an1ksyy/Desktop/lessons/exams/mongodb/5-exam/src/middleware/auth.middleware.js:12:11\n' +
+    '    at file:///Users/an1ksyy/Desktop/lessons/exams/mongodb/5-exam/src/utils/errorHandler.js:104:5\n' +
+    '    at Layer.handleRequest (/Users/an1ksyy/Desktop/lessons/exams/mongodb/5-exam/node_modules/router/lib/layer.js:152:17)\n' +
+    '    at trimPrefix (/Users/an1ksyy/Desktop/lessons/exams/mongodb/5-exam/node_modules/router/index.js:342:13)\n' +
+    '    at /Users/an1ksyy/Desktop/lessons/exams/mongodb/5-exam/node_modules/router/index.js:297:9\n' +
+    '    at processParams (/Users/an1ksyy/Desktop/lessons/exams/mongodb/5-exam/node_modules/router/index.js:582:12)\n' +
+    '    at next (/Users/an1ksyy/Desktop/lessons/exams/mongodb/5-exam/node_modules/router/index.js:291:5)\n' +
+    '    at router.handle (/Users/an1ksyy/Desktop/lessons/exams/mongodb/5-exam/node_modules/router/index.js:186:3)\n' +
+    '    at router (/Users/an1ksyy/Desktop/lessons/exams/mongodb/5-exam/node_modules/router/index.js:60:12)\n' +
+    '    at Layer.handleRequest (/Users/an1ksyy/Desktop/lessons/exams/mongodb/5-exam/node_modules/router/lib/layer.js:152:17)',
+  url: '/cart',
+  method: 'GET',
+  ip: '::1',
+  userAgent: 'curl/8.7.1',
+  userId: null,
+  level: 'error',
+  message: 'Global Error Handler',
+  timestamp: '2025-08-21 19:55:37'
+}
+{
+  service: 'avto-salon',
+  method: 'GET',
+  url: '/cart',
+  statusCode: 401,
+  duration: '1ms',
+  userAgent: 'curl/8.7.1',
+  ip: '::1',
+  userId: null,
+  level: 'warn',
+  message: 'HTTP Request Warning',
+  timestamp: '2025-08-21 19:55:37'
+}
+{
+  service: 'avto-salon',
+  url: '/assets/images/cars/classic.jpg',
+  method: 'GET',
+  ip: '::1',
+  level: 'warn',
+  message: '404 Not Found',
+  timestamp: '2025-08-21 19:55:56'
+}
+{
+  service: 'avto-salon',
+  method: 'GET',
+  url: '/assets/images/cars/classic.jpg',
+  statusCode: 404,
+  duration: '4ms',
+  userAgent: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36',
+  ip: '::1',
+  userId: new ObjectId('68a6f775affe2cc1550f913b'),
+  level: 'warn',
+  message: 'HTTP Request Warning',
+  timestamp: '2025-08-21 19:55:56'
+}
+{
+  service: 'avto-salon',
+  url: '/assets/images/cars/electric.jpg',
+  method: 'GET',
+  ip: '::1',
+  level: 'warn',
+  message: '404 Not Found',
+  timestamp: '2025-08-21 19:55:56'
+}
+{
+  service: 'avto-salon',
+  method: 'GET',
+  url: '/assets/images/cars/electric.jpg',
+  statusCode: 404,
+  duration: '5ms',
+  userAgent: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36',
+  ip: '::1',
+  userId: new ObjectId('68a6f775affe2cc1550f913b'),
+  level: 'warn',
+  message: 'HTTP Request Warning',
+  timestamp: '2025-08-21 19:55:56'
+}
+{
+  service: 'avto-salon',
+  url: '/assets/images/cars/luxury-sedan.jpg',
+  method: 'GET',
+  ip: '::1',
+  level: 'warn',
+  message: '404 Not Found',
+  timestamp: '2025-08-21 19:55:56'
+}
+{
+  service: 'avto-salon',
+  method: 'GET',
+  url: '/assets/images/cars/luxury-sedan.jpg',
+  statusCode: 404,
+  duration: '4ms',
+  userAgent: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36',
+  ip: '::1',
+  userId: new ObjectId('68a6f775affe2cc1550f913b'),
+  level: 'warn',
+  message: 'HTTP Request Warning',
+  timestamp: '2025-08-21 19:55:56'
+}
+{
+  service: 'avto-salon',
+  url: '/assets/images/cars/suv.jpg',
+  method: 'GET',
+  ip: '::1',
+  level: 'warn',
+  message: '404 Not Found',
+  timestamp: '2025-08-21 19:55:56'
+}
+{
+  service: 'avto-salon',
+  method: 'GET',
+  url: '/assets/images/cars/suv.jpg',
+  statusCode: 404,
+  duration: '6ms',
+  userAgent: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36',
+  ip: '::1',
+  userId: new ObjectId('68a6f775affe2cc1550f913b'),
+  level: 'warn',
+  message: 'HTTP Request Warning',
+  timestamp: '2025-08-21 19:55:56'
+}
+{
+  service: 'avto-salon',
+  url: '/assets/images/cars/sports-car.jpg',
+  method: 'GET',
+  ip: '::1',
+  level: 'warn',
+  message: '404 Not Found',
+  timestamp: '2025-08-21 19:55:56'
+}
+{
+  service: 'avto-salon',
+  method: 'GET',
+  url: '/assets/images/cars/sports-car.jpg',
+  statusCode: 404,
+  duration: '6ms',
+  userAgent: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36',
+  ip: '::1',
+  userId: new ObjectId('68a6f775affe2cc1550f913b'),
+  level: 'warn',
+  message: 'HTTP Request Warning',
+  timestamp: '2025-08-21 19:55:56'
+}
+{
+  service: 'avto-salon',
+  url: '/uploads/profiles/profileImage-1755786535391-381214833.jpeg',
+  method: 'GET',
+  ip: '::1',
+  level: 'warn',
+  message: '404 Not Found',
+  timestamp: '2025-08-21 19:55:57'
+}
+{
+  service: 'avto-salon',
+  method: 'GET',
+  url: '/uploads/profiles/profileImage-1755786535391-381214833.jpeg',
+  statusCode: 404,
+  duration: '4ms',
+  userAgent: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36',
+  ip: '::1',
+  userId: new ObjectId('68a6f775affe2cc1550f913b'),
+  level: 'warn',
+  message: 'HTTP Request Warning',
+  timestamp: '2025-08-21 19:55:57'
+}
+{
+  service: 'avto-salon',
+  url: '/uploads/profiles/profileImage-1755786535391-381214833.jpeg',
+  method: 'GET',
+  ip: '::1',
+  level: 'warn',
+  message: '404 Not Found',
+  timestamp: '2025-08-21 19:56:39'
+}
+{
+  service: 'avto-salon',
+  method: 'GET',
+  url: '/uploads/profiles/profileImage-1755786535391-381214833.jpeg',
+  statusCode: 404,
+  duration: '5ms',
+  userAgent: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36',
+  ip: '::1',
+  userId: new ObjectId('68a6f775affe2cc1550f913b'),
+  level: 'warn',
+  message: 'HTTP Request Warning',
+  timestamp: '2025-08-21 19:56:39'
+}
+{
+  service: 'avto-salon',
+  url: '/assets/images/cars/lada-niva-exterior.jpg',
+  method: 'GET',
+  ip: '::1',
+  level: 'warn',
+  message: '404 Not Found',
+  timestamp: '2025-08-21 19:56:41'
+}
+{
+  service: 'avto-salon',
+  method: 'GET',
+  url: '/assets/images/cars/lada-niva-exterior.jpg',
+  statusCode: 404,
+  duration: '4ms',
+  userAgent: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36',
+  ip: '::1',
+  userId: new ObjectId('68a6f775affe2cc1550f913b'),
+  level: 'warn',
+  message: 'HTTP Request Warning',
+  timestamp: '2025-08-21 19:56:41'
+}
+{
+  service: 'avto-salon',
+  url: '/assets/images/cars/lada-niva-exterior.jpg',
+  method: 'GET',
+  ip: '::1',
+  level: 'warn',
+  message: '404 Not Found',
+  timestamp: '2025-08-21 19:56:44'
+}
+{
+  service: 'avto-salon',
+  method: 'GET',
+  url: '/assets/images/cars/lada-niva-exterior.jpg',
+  statusCode: 404,
+  duration: '3ms',
+  userAgent: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36',
+  ip: '::1',
+  userId: new ObjectId('68a6f775affe2cc1550f913b'),
+  level: 'warn',
+  message: 'HTTP Request Warning',
+  timestamp: '2025-08-21 19:56:44'
+}
+{
+  service: 'avto-salon',
+  error: 'Autentifikatsiya talab qilinadi',
+  stack: 'Error: Autentifikatsiya talab qilinadi\n' +
+    '    at file:///Users/an1ksyy/Desktop/lessons/exams/mongodb/5-exam/src/middleware/auth.middleware.js:12:11\n' +
+    '    at file:///Users/an1ksyy/Desktop/lessons/exams/mongodb/5-exam/src/utils/errorHandler.js:104:5\n' +
+    '    at Layer.handleRequest (/Users/an1ksyy/Desktop/lessons/exams/mongodb/5-exam/node_modules/router/lib/layer.js:152:17)\n' +
+    '    at next (/Users/an1ksyy/Desktop/lessons/exams/mongodb/5-exam/node_modules/router/lib/route.js:157:13)\n' +
+    '    at Route.dispatch (/Users/an1ksyy/Desktop/lessons/exams/mongodb/5-exam/node_modules/router/lib/route.js:117:3)\n' +
+    '    at handle (/Users/an1ksyy/Desktop/lessons/exams/mongodb/5-exam/node_modules/router/index.js:435:11)\n' +
+    '    at Layer.handleRequest (/Users/an1ksyy/Desktop/lessons/exams/mongodb/5-exam/node_modules/router/lib/layer.js:152:17)\n' +
+    '    at /Users/an1ksyy/Desktop/lessons/exams/mongodb/5-exam/node_modules/router/index.js:295:15\n' +
+    '    at processParams (/Users/an1ksyy/Desktop/lessons/exams/mongodb/5-exam/node_modules/router/index.js:582:12)\n' +
+    '    at next (/Users/an1ksyy/Desktop/lessons/exams/mongodb/5-exam/node_modules/router/index.js:291:5)',
+  url: '/cart',
+  method: 'GET',
+  ip: '::1',
+  userAgent: 'curl/8.7.1',
+  userId: null,
+  level: 'error',
+  message: 'Global Error Handler',
+  timestamp: '2025-08-21 19:57:23'
+}
+{
+  service: 'avto-salon',
+  method: 'GET',
+  url: '/cart',
+  statusCode: 401,
+  duration: '2ms',
+  userAgent: 'curl/8.7.1',
+  ip: '::1',
+  userId: null,
+  level: 'warn',
+  message: 'HTTP Request Warning',
+  timestamp: '2025-08-21 19:57:23'
+}
+{
+  service: 'avto-salon',
+  url: '/assets/images/cars/classic.jpg',
+  method: 'GET',
+  ip: '::1',
+  level: 'warn',
+  message: '404 Not Found',
+  timestamp: '2025-08-21 19:57:28'
+}
+{
+  service: 'avto-salon',
+  method: 'GET',
+  url: '/assets/images/cars/classic.jpg',
+  statusCode: 404,
+  duration: '4ms',
+  userAgent: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36',
+  ip: '::1',
+  userId: new ObjectId('68a6f775affe2cc1550f913b'),
+  level: 'warn',
+  message: 'HTTP Request Warning',
+  timestamp: '2025-08-21 19:57:28'
+}
+{
+  service: 'avto-salon',
+  url: '/assets/images/cars/electric.jpg',
+  method: 'GET',
+  ip: '::1',
+  level: 'warn',
+  message: '404 Not Found',
+  timestamp: '2025-08-21 19:57:28'
+}
+{
+  service: 'avto-salon',
+  method: 'GET',
+  url: '/assets/images/cars/electric.jpg',
+  statusCode: 404,
+  duration: '5ms',
+  userAgent: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36',
+  ip: '::1',
+  userId: new ObjectId('68a6f775affe2cc1550f913b'),
+  level: 'warn',
+  message: 'HTTP Request Warning',
+  timestamp: '2025-08-21 19:57:28'
+}
+{
+  service: 'avto-salon',
+  url: '/assets/images/cars/luxury-sedan.jpg',
+  method: 'GET',
+  ip: '::1',
+  level: 'warn',
+  message: '404 Not Found',
+  timestamp: '2025-08-21 19:57:28'
+}
+{
+  service: 'avto-salon',
+  method: 'GET',
+  url: '/assets/images/cars/luxury-sedan.jpg',
+  statusCode: 404,
+  duration: '4ms',
+  userAgent: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36',
+  ip: '::1',
+  userId: new ObjectId('68a6f775affe2cc1550f913b'),
+  level: 'warn',
+  message: 'HTTP Request Warning',
+  timestamp: '2025-08-21 19:57:28'
+}
+{
+  service: 'avto-salon',
+  url: '/assets/images/cars/suv.jpg',
+  method: 'GET',
+  ip: '::1',
+  level: 'warn',
+  message: '404 Not Found',
+  timestamp: '2025-08-21 19:57:28'
+}
+{
+  service: 'avto-salon',
+  method: 'GET',
+  url: '/assets/images/cars/suv.jpg',
+  statusCode: 404,
+  duration: '4ms',
+  userAgent: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36',
+  ip: '::1',
+  userId: new ObjectId('68a6f775affe2cc1550f913b'),
+  level: 'warn',
+  message: 'HTTP Request Warning',
+  timestamp: '2025-08-21 19:57:28'
+}
+{
+  service: 'avto-salon',
+  url: '/assets/images/cars/sports-car.jpg',
+  method: 'GET',
+  ip: '::1',
+  level: 'warn',
+  message: '404 Not Found',
+  timestamp: '2025-08-21 19:57:28'
+}
+{
+  service: 'avto-salon',
+  method: 'GET',
+  url: '/assets/images/cars/sports-car.jpg',
+  statusCode: 404,
+  duration: '6ms',
+  userAgent: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36',
+  ip: '::1',
+  userId: new ObjectId('68a6f775affe2cc1550f913b'),
+  level: 'warn',
+  message: 'HTTP Request Warning',
+  timestamp: '2025-08-21 19:57:28'
+}
+{
+  service: 'avto-salon',
+  url: '/assets/images/cars/tesla-model-s-exterior.jpg',
+  method: 'GET',
+  ip: '::1',
+  level: 'warn',
+  message: '404 Not Found',
+  timestamp: '2025-08-21 19:57:30'
+}
+{
+  service: 'avto-salon',
+  method: 'GET',
+  url: '/assets/images/cars/tesla-model-s-exterior.jpg',
+  statusCode: 404,
+  duration: '5ms',
+  userAgent: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36',
+  ip: '::1',
+  userId: new ObjectId('68a6f775affe2cc1550f913b'),
+  level: 'warn',
+  message: 'HTTP Request Warning',
+  timestamp: '2025-08-21 19:57:30'
+}
+{
+  service: 'avto-salon',
+  url: '/assets/images/cars/bmw-7-exterior.jpg',
+  method: 'GET',
+  ip: '::1',
+  level: 'warn',
+  message: '404 Not Found',
+  timestamp: '2025-08-21 19:57:32'
+}
+{
+  service: 'avto-salon',
+  method: 'GET',
+  url: '/assets/images/cars/bmw-7-exterior.jpg',
+  statusCode: 404,
+  duration: '3ms',
+  userAgent: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36',
+  ip: '::1',
+  userId: new ObjectId('68a6f775affe2cc1550f913b'),
+  level: 'warn',
+  message: 'HTTP Request Warning',
+  timestamp: '2025-08-21 19:57:32'
+}
+{
+  service: 'avto-salon',
+  url: '/assets/images/cars/mercedes-s-class-exterior.jpg',
+  method: 'GET',
+  ip: '::1',
+  level: 'warn',
+  message: '404 Not Found',
+  timestamp: '2025-08-21 19:57:32'
+}
+{
+  service: 'avto-salon',
+  method: 'GET',
+  url: '/assets/images/cars/mercedes-s-class-exterior.jpg',
+  statusCode: 404,
+  duration: '4ms',
+  userAgent: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36',
+  ip: '::1',
+  userId: new ObjectId('68a6f775affe2cc1550f913b'),
+  level: 'warn',
+  message: 'HTTP Request Warning',
+  timestamp: '2025-08-21 19:57:32'
+}
+{
+  service: 'avto-salon',
+  url: '/assets/images/cars/chevrolet-corvette-exterior.jpg',
+  method: 'GET',
+  ip: '::1',
+  level: 'warn',
+  message: '404 Not Found',
+  timestamp: '2025-08-21 19:57:34'
+}
+{
+  service: 'avto-salon',
+  method: 'GET',
+  url: '/assets/images/cars/chevrolet-corvette-exterior.jpg',
+  statusCode: 404,
+  duration: '2ms',
+  userAgent: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36',
+  ip: '::1',
+  userId: new ObjectId('68a6f775affe2cc1550f913b'),
+  level: 'warn',
+  message: 'HTTP Request Warning',
+  timestamp: '2025-08-21 19:57:34'
+}
+{
+  service: 'avto-salon',
+  url: '/assets/images/cars/classic.jpg',
+  method: 'GET',
+  ip: '::1',
+  level: 'warn',
+  message: '404 Not Found',
+  timestamp: '2025-08-21 19:57:48'
+}
+{
+  service: 'avto-salon',
+  method: 'GET',
+  url: '/assets/images/cars/classic.jpg',
+  statusCode: 404,
+  duration: '4ms',
+  userAgent: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36',
+  ip: '::1',
+  userId: new ObjectId('68a6f775affe2cc1550f913b'),
+  level: 'warn',
+  message: 'HTTP Request Warning',
+  timestamp: '2025-08-21 19:57:48'
+}
+{
+  service: 'avto-salon',
+  url: '/assets/images/cars/electric.jpg',
+  method: 'GET',
+  ip: '::1',
+  level: 'warn',
+  message: '404 Not Found',
+  timestamp: '2025-08-21 19:57:48'
+}
+{
+  service: 'avto-salon',
+  method: 'GET',
+  url: '/assets/images/cars/electric.jpg',
+  statusCode: 404,
+  duration: '5ms',
+  userAgent: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36',
+  ip: '::1',
+  userId: new ObjectId('68a6f775affe2cc1550f913b'),
+  level: 'warn',
+  message: 'HTTP Request Warning',
+  timestamp: '2025-08-21 19:57:48'
+}
+{
+  service: 'avto-salon',
+  url: '/assets/images/cars/luxury-sedan.jpg',
+  method: 'GET',
+  ip: '::1',
+  level: 'warn',
+  message: '404 Not Found',
+  timestamp: '2025-08-21 19:57:48'
+}
+{
+  service: 'avto-salon',
+  method: 'GET',
+  url: '/assets/images/cars/luxury-sedan.jpg',
+  statusCode: 404,
+  duration: '3ms',
+  userAgent: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36',
+  ip: '::1',
+  userId: new ObjectId('68a6f775affe2cc1550f913b'),
+  level: 'warn',
+  message: 'HTTP Request Warning',
+  timestamp: '2025-08-21 19:57:48'
+}
+{
+  service: 'avto-salon',
+  url: '/assets/images/cars/suv.jpg',
+  method: 'GET',
+  ip: '::1',
+  level: 'warn',
+  message: '404 Not Found',
+  timestamp: '2025-08-21 19:57:48'
+}
+{
+  service: 'avto-salon',
+  method: 'GET',
+  url: '/assets/images/cars/suv.jpg',
+  statusCode: 404,
+  duration: '3ms',
+  userAgent: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36',
+  ip: '::1',
+  userId: new ObjectId('68a6f775affe2cc1550f913b'),
+  level: 'warn',
+  message: 'HTTP Request Warning',
+  timestamp: '2025-08-21 19:57:48'
+}
+{
+  service: 'avto-salon',
+  url: '/assets/images/cars/sports-car.jpg',
+  method: 'GET',
+  ip: '::1',
+  level: 'warn',
+  message: '404 Not Found',
+  timestamp: '2025-08-21 19:57:48'
+}
+{
+  service: 'avto-salon',
+  method: 'GET',
+  url: '/assets/images/cars/sports-car.jpg',
+  statusCode: 404,
+  duration: '4ms',
+  userAgent: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36',
+  ip: '::1',
+  userId: new ObjectId('68a6f775affe2cc1550f913b'),
+  level: 'warn',
+  message: 'HTTP Request Warning',
+  timestamp: '2025-08-21 19:57:48'
+}
+{
+  service: 'avto-salon',
+  url: '/assets/images/cars/classic.jpg',
+  method: 'GET',
+  ip: '::1',
+  level: 'warn',
+  message: '404 Not Found',
+  timestamp: '2025-08-21 19:58:08'
+}
+{
+  service: 'avto-salon',
+  method: 'GET',
+  url: '/assets/images/cars/classic.jpg',
+  statusCode: 404,
+  duration: '4ms',
+  userAgent: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36',
+  ip: '::1',
+  userId: new ObjectId('68a6f775affe2cc1550f913b'),
+  level: 'warn',
+  message: 'HTTP Request Warning',
+  timestamp: '2025-08-21 19:58:08'
+}
+{
+  service: 'avto-salon',
+  url: '/assets/images/cars/electric.jpg',
+  method: 'GET',
+  ip: '::1',
+  level: 'warn',
+  message: '404 Not Found',
+  timestamp: '2025-08-21 19:58:08'
+}
+{
+  service: 'avto-salon',
+  method: 'GET',
+  url: '/assets/images/cars/electric.jpg',
+  statusCode: 404,
+  duration: '5ms',
+  userAgent: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36',
+  ip: '::1',
+  userId: new ObjectId('68a6f775affe2cc1550f913b'),
+  level: 'warn',
+  message: 'HTTP Request Warning',
+  timestamp: '2025-08-21 19:58:08'
+}
+{
+  service: 'avto-salon',
+  url: '/assets/images/cars/luxury-sedan.jpg',
+  method: 'GET',
+  ip: '::1',
+  level: 'warn',
+  message: '404 Not Found',
+  timestamp: '2025-08-21 19:58:08'
+}
+{
+  service: 'avto-salon',
+  method: 'GET',
+  url: '/assets/images/cars/luxury-sedan.jpg',
+  statusCode: 404,
+  duration: '4ms',
+  userAgent: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36',
+  ip: '::1',
+  userId: new ObjectId('68a6f775affe2cc1550f913b'),
+  level: 'warn',
+  message: 'HTTP Request Warning',
+  timestamp: '2025-08-21 19:58:08'
+}
+{
+  service: 'avto-salon',
+  url: '/assets/images/cars/suv.jpg',
+  method: 'GET',
+  ip: '::1',
+  level: 'warn',
+  message: '404 Not Found',
+  timestamp: '2025-08-21 19:58:08'
+}
+{
+  service: 'avto-salon',
+  method: 'GET',
+  url: '/assets/images/cars/suv.jpg',
+  statusCode: 404,
+  duration: '5ms',
+  userAgent: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36',
+  ip: '::1',
+  userId: new ObjectId('68a6f775affe2cc1550f913b'),
+  level: 'warn',
+  message: 'HTTP Request Warning',
+  timestamp: '2025-08-21 19:58:08'
+}
+{
+  service: 'avto-salon',
+  url: '/assets/images/cars/sports-car.jpg',
+  method: 'GET',
+  ip: '::1',
+  level: 'warn',
+  message: '404 Not Found',
+  timestamp: '2025-08-21 19:58:08'
+}
+{
+  service: 'avto-salon',
+  method: 'GET',
+  url: '/assets/images/cars/sports-car.jpg',
+  statusCode: 404,
+  duration: '6ms',
+  userAgent: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36',
+  ip: '::1',
+  userId: new ObjectId('68a6f775affe2cc1550f913b'),
+  level: 'warn',
+  message: 'HTTP Request Warning',
+  timestamp: '2025-08-21 19:58:08'
+}
+{
+  service: 'avto-salon',
+  url: '/assets/images/cars/classic.jpg',
+  method: 'GET',
+  ip: '::1',
+  level: 'warn',
+  message: '404 Not Found',
+  timestamp: '2025-08-21 19:58:10'
+}
+{
+  service: 'avto-salon',
+  method: 'GET',
+  url: '/assets/images/cars/classic.jpg',
+  statusCode: 404,
+  duration: '3ms',
+  userAgent: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36',
+  ip: '::1',
+  userId: new ObjectId('68a6f775affe2cc1550f913b'),
+  level: 'warn',
+  message: 'HTTP Request Warning',
+  timestamp: '2025-08-21 19:58:10'
+}
+{
+  service: 'avto-salon',
+  url: '/assets/images/cars/electric.jpg',
+  method: 'GET',
+  ip: '::1',
+  level: 'warn',
+  message: '404 Not Found',
+  timestamp: '2025-08-21 19:58:10'
+}
+{
+  service: 'avto-salon',
+  method: 'GET',
+  url: '/assets/images/cars/electric.jpg',
+  statusCode: 404,
+  duration: '4ms',
+  userAgent: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36',
+  ip: '::1',
+  userId: new ObjectId('68a6f775affe2cc1550f913b'),
+  level: 'warn',
+  message: 'HTTP Request Warning',
+  timestamp: '2025-08-21 19:58:10'
+}
+{
+  service: 'avto-salon',
+  url: '/assets/images/cars/luxury-sedan.jpg',
+  method: 'GET',
+  ip: '::1',
+  level: 'warn',
+  message: '404 Not Found',
+  timestamp: '2025-08-21 19:58:10'
+}
+{
+  service: 'avto-salon',
+  method: 'GET',
+  url: '/assets/images/cars/luxury-sedan.jpg',
+  statusCode: 404,
+  duration: '3ms',
+  userAgent: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36',
+  ip: '::1',
+  userId: new ObjectId('68a6f775affe2cc1550f913b'),
+  level: 'warn',
+  message: 'HTTP Request Warning',
+  timestamp: '2025-08-21 19:58:10'
+}
+{
+  service: 'avto-salon',
+  url: '/assets/images/cars/suv.jpg',
+  method: 'GET',
+  ip: '::1',
+  level: 'warn',
+  message: '404 Not Found',
+  timestamp: '2025-08-21 19:58:10'
+}
+{
+  service: 'avto-salon',
+  method: 'GET',
+  url: '/assets/images/cars/suv.jpg',
+  statusCode: 404,
+  duration: '3ms',
+  userAgent: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36',
+  ip: '::1',
+  userId: new ObjectId('68a6f775affe2cc1550f913b'),
+  level: 'warn',
+  message: 'HTTP Request Warning',
+  timestamp: '2025-08-21 19:58:10'
+}
+{
+  service: 'avto-salon',
+  url: '/assets/images/cars/sports-car.jpg',
+  method: 'GET',
+  ip: '::1',
+  level: 'warn',
+  message: '404 Not Found',
+  timestamp: '2025-08-21 19:58:10'
+}
+{
+  service: 'avto-salon',
+  method: 'GET',
+  url: '/assets/images/cars/sports-car.jpg',
+  statusCode: 404,
+  duration: '5ms',
+  userAgent: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36',
+  ip: '::1',
+  userId: new ObjectId('68a6f775affe2cc1550f913b'),
+  level: 'warn',
+  message: 'HTTP Request Warning',
+  timestamp: '2025-08-21 19:58:10'
+}
